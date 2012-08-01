@@ -1,0 +1,731 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{97E107F8-C827-45C9-BF5D-4DAE8CCB43F0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Karaoke</RootNamespace>
+    <AssemblyName>Karaoke</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>1329705948_network_clock.ico</ApplicationIcon>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v8.1.Core, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
+    <Reference Include="DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
+    <Reference Include="DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Developer Express .NET v8.1\\Sources\DevExpress.DLL\DevExpress.XtraBars.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v8.1.UI, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
+    <Reference Include="DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
+    <Reference Include="DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Developer Express .NET v8.1\\Sources\DevExpress.DLL\DevExpress.XtraGrid.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
+    <Reference Include="DevExpress.XtraPivotGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v8.1.Core, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSets\DataSetDetailBill1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetDetailBill.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetDetailReport.cs">
+      <DependentUpon>DataSetDetailReport.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\DataSetDetailReport.designer.cs">
+      <DependentUpon>DataSetDetailReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetDetailReportDSBH.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetDetailReportDSBH.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetHoaDon.cs">
+      <DependentUpon>DataSetHoaDon.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\DataSetHoaDon.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetHoaDon.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dataSetNewDetailReport1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dataSetNewDetailReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetThongKeVanDe.cs">
+      <DependentUpon>DataSetThongKeVanDe.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\DataSetThongKeVanDe.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetThongKeVanDe.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetTienVon1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTienVon.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetTKHD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTKHD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetTonKho.cs">
+      <DependentUpon>DataSetTonKho.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\DataSetTonKho.designer.cs">
+      <DependentUpon>DataSetTonKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmAddHoaDonNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmAddHoaDonNhap.Designer.cs">
+      <DependentUpon>frmAddHoaDonNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmAddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmAddUser.Designer.cs">
+      <DependentUpon>frmAddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmChart.Designer.cs">
+      <DependentUpon>frmChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmChartView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmChartView.Designer.cs">
+      <DependentUpon>frmChartView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmDieuChinhTonKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmDieuChinhTonKho.Designer.cs">
+      <DependentUpon>frmDieuChinhTonKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmDivideRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmDivideRoom.designer.cs">
+      <DependentUpon>frmDivideRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmEmployee.Designer.cs">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmEmployeeManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmEmployeeManager.Designer.cs">
+      <DependentUpon>frmEmployeeManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmGhiChuXuLy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmGhiChuXuLy.Designer.cs">
+      <DependentUpon>frmGhiChuXuLy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmHoaDonNhapDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmHoaDonNhapDetail.Designer.cs">
+      <DependentUpon>frmHoaDonNhapDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmHoaDonXuatDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmHoaDonXuatDetail.Designer.cs">
+      <DependentUpon>frmHoaDonXuatDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmInvoice.Designer.cs">
+      <DependentUpon>frmInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmProduct.Designer.cs">
+      <DependentUpon>frmProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmQuanLyLoaiVanDe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmQuanLyLoaiVanDe.Designer.cs">
+      <DependentUpon>frmQuanLyLoaiVanDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmReceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmReceipt.Designer.cs">
+      <DependentUpon>frmReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmReceiptProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmReceiptProduct.Designer.cs">
+      <DependentUpon>frmReceiptProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmReport.designer.cs">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmReturnProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmReturnProduct.Designer.cs">
+      <DependentUpon>frmReturnProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmRoom.Designer.cs">
+      <DependentUpon>frmRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmSystemSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmSystemSettings.Designer.cs">
+      <DependentUpon>frmSystemSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmThongKeSuCo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmThongKeSuCo.Designer.cs">
+      <DependentUpon>frmThongKeSuCo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmTonKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmTonKho.Designer.cs">
+      <DependentUpon>frmTonKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmViewReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmViewReport.designer.cs">
+      <DependentUpon>frmViewReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForms\frmWarningRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmWarningRoom.Designer.cs">
+      <DependentUpon>frmWarningRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmAddHoaDonNhap.resx">
+      <DependentUpon>frmAddHoaDonNhap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmAddUser.resx">
+      <DependentUpon>frmAddUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmChart.resx">
+      <DependentUpon>frmChart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmChartView.resx">
+      <DependentUpon>frmChartView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmDieuChinhTonKho.resx">
+      <DependentUpon>frmDieuChinhTonKho.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmDivideRoom.resx">
+      <DependentUpon>frmDivideRoom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmEmployee.resx">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmEmployeeManager.resx">
+      <DependentUpon>frmEmployeeManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmGhiChuXuLy.resx">
+      <DependentUpon>frmGhiChuXuLy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmHoaDonNhapDetail.resx">
+      <DependentUpon>frmHoaDonNhapDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmHoaDonXuatDetail.resx">
+      <DependentUpon>frmHoaDonXuatDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmInvoice.resx">
+      <DependentUpon>frmInvoice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmProduct.resx">
+      <DependentUpon>frmProduct.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmQuanLyLoaiVanDe.resx">
+      <DependentUpon>frmQuanLyLoaiVanDe.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmReceipt.resx">
+      <DependentUpon>frmReceipt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmReceiptProduct.resx">
+      <DependentUpon>frmReceiptProduct.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmReport.resx">
+      <DependentUpon>frmReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmReturnProduct.resx">
+      <DependentUpon>frmReturnProduct.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmRoom.resx">
+      <DependentUpon>frmRoom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmSystemSettings.resx">
+      <DependentUpon>frmSystemSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmThongKeSuCo.resx">
+      <DependentUpon>frmThongKeSuCo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmTonKho.resx">
+      <DependentUpon>frmTonKho.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmViewReport.resx">
+      <DependentUpon>frmViewReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmWarningRoom.resx">
+      <DependentUpon>frmWarningRoom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ReportTemplate\XuatKho.resx">
+      <DependentUpon>XuatKho.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ReportTemplate\DetailThongKeVanDe.resx">
+      <DependentUpon>DetailThongKeVanDe.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ReportTemplate\Hoadonbep.resx">
+      <DependentUpon>Hoadonbep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ReportTemplate\DetailReport.resx">
+      <DependentUpon>DetailReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ReportTemplate\DetailReportDSBH.resx">
+      <DependentUpon>DetailReportDSBH.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ReportTemplate\Hoadon.resx">
+      <DependentUpon>Hoadon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ReportTemplate\ThongKeHoaDon.resx">
+      <DependentUpon>ThongKeHoaDon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ReportTemplate\TienVonReport.resx">
+      <DependentUpon>TienVonReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ReportTemplate\TonKhoReport.resx">
+      <DependentUpon>TonKhoReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\XuatKho.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\XuatKho.Designer.cs">
+      <DependentUpon>XuatKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\DetailThongKeVanDe.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\DetailThongKeVanDe.Designer.cs">
+      <DependentUpon>DetailThongKeVanDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\Hoadonbep.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\Hoadonbep.Designer.cs">
+      <DependentUpon>Hoadonbep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\DetailReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\DetailReport.designer.cs">
+      <DependentUpon>DetailReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\Hoadon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\Hoadon.Designer.cs">
+      <DependentUpon>Hoadon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\ThongKeHoaDon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\ThongKeHoaDon.Designer.cs">
+      <DependentUpon>ThongKeHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\TienVonReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\TienVonReport.designer.cs">
+      <DependentUpon>TienVonReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\TonKhoReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\TonKhoReport.designer.cs">
+      <DependentUpon>TonKhoReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\DetailReportDSBH.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Resources\ReportTemplate\DetailReportDSBH.Designer.cs">
+      <DependentUpon>DetailReportDSBH.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BKIT.Entities\BKIT.Entities.csproj">
+      <Project>{39C62DE2-7097-4F98-BD0D-FA79B6BE7592}</Project>
+      <Name>BKIT.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BKIT.Model\BKIT.Model.csproj">
+      <Project>{D974B687-E4D5-4E74-AC2B-CB097D1A28C0}</Project>
+      <Name>BKIT.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1325149282_button_ok.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1325149327_recycle_bin.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Status-user-busy-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blank.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1329705948_network_clock.ico" />
+    <None Include="DataSets\DataSetThongKeVanDe.xsc">
+      <DependentUpon>DataSetThongKeVanDe.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetThongKeVanDe.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetThongKeVanDe.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetThongKeVanDe.xss">
+      <DependentUpon>DataSetThongKeVanDe.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetTKHD.xsc">
+      <DependentUpon>DataSetTKHD.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetTKHD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTKHD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetTKHD.xss">
+      <DependentUpon>DataSetTKHD.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\1331543705_ColumnChart.png" />
+    <None Include="Resources\1331543836_column_chart.png" />
+    <None Include="Resources\1331543845_bar_chart.png" />
+    <None Include="Resources\1332301402_Login Manager.bmp" />
+    <None Include="Resources\1332301402_Login Manager.png" />
+    <None Include="Resources\1338111760_Modify.png" />
+    <None Include="Resources\1338111762_Modify.ico" />
+    <None Include="bin\Debug\Images\1338350841_audacity.png" />
+    <None Include="Resources\1338360894_jamendo.png" />
+    <None Include="Resources\1338361581_exit.png" />
+    <None Include="Resources\1338399937_activity_monitor_chart.png" />
+    <None Include="Resources\1336578130_gnome-mime-text-x-authors.png" />
+    <None Include="Resources\1336577240_User group.png" />
+    <None Include="Resources\1336577246_Accept-Male-User.png" />
+    <None Include="Resources\1336577978_preferences-contact-list.png" />
+    <None Include="Resources\1336578042_lock.png" />
+    <None Include="Resources\1343236606_file-roller.png" />
+    <None Include="Resources\1343236634_Hospital.png" />
+    <None Include="bin\Debug\Images\1343371929_001_05.png" />
+    <Content Include="Resources\2 Hot Printer.ico" />
+    <None Include="DataSets\DataSetDetailBill.xsc">
+      <DependentUpon>DataSetDetailBill.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetDetailBill.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetDetailBill1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\DataSetDetailBill.xss">
+      <DependentUpon>DataSetDetailBill.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetDetailReport.xsc">
+      <DependentUpon>DataSetDetailReport.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetDetailReport.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\DataSetDetailReport.xss">
+      <DependentUpon>DataSetDetailReport.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetDetailReportDSBH.xsc">
+      <DependentUpon>DataSetDetailReportDSBH.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetDetailReportDSBH.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetDetailReportDSBH.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetDetailReportDSBH.xss">
+      <DependentUpon>DataSetDetailReportDSBH.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetHoaDon.xsc">
+      <DependentUpon>DataSetHoaDon.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetHoaDon.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetHoaDon.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSetHoaDon.xss">
+      <DependentUpon>DataSetHoaDon.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dataSetNewDetailReport.xsc">
+      <DependentUpon>dataSetNewDetailReport.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dataSetNewDetailReport.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dataSetNewDetailReport1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\dataSetNewDetailReport.xss">
+      <DependentUpon>dataSetNewDetailReport.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetTienVon.xsc">
+      <DependentUpon>DataSetTienVon.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetTienVon.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTienVon1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\DataSetTienVon.xss">
+      <DependentUpon>DataSetTienVon.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetTonKho.xsc">
+      <DependentUpon>DataSetTonKho.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetTonKho.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\DataSetTonKho.xss">
+      <DependentUpon>DataSetTonKho.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\2 Hot Printer.png" />
+    <None Include="Resources\cabinet-icon %281%29.png" />
+    <None Include="Resources\Button-Fast-Forward-icon.png" />
+    <None Include="Resources\Button-First-icon.png" />
+    <None Include="Resources\Button-Last-icon.png" />
+    <None Include="Resources\Button-Rewind-icon.png" />
+    <None Include="Resources\Actions-arrow-down-double-icon.png" />
+    <None Include="Resources\Actions-arrow-down-double-icon_small.png" />
+    <None Include="Resources\Actions-arrow-up-double-icon.png" />
+    <None Include="Resources\Actions-arrow-up-double-icon_small.png" />
+    <None Include="Resources\Actions-go-next-icon.png" />
+    <None Include="Resources\Actions-list-add-icon.png" />
+    <Content Include="Resources\cabinet.ico" />
+    <None Include="Resources\chef.jpg" />
+    <None Include="Resources\chef-icon.png" />
+    <Content Include="Resources\Forward Arrow.ico" />
+    <None Include="Resources\rotate270anticlockwise3green.png" />
+    <None Include="Resources\rightleft2red.png" />
+    <None Include="Resources\open.jpg" />
+    <None Include="Resources\minus-icon.png" />
+    <None Include="Resources\Math-divide-icon.png" />
+    <None Include="Resources\ICO_1.jpg" />
+    <None Include="Resources\ICO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ChartDataSets\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,256 @@
+D:\_NewData\SoftwareProject\Karaoke\BKIT.Model\bin\Debug\BKIT.Model.dll
+D:\_NewData\SoftwareProject\Karaoke\BKIT.Model\bin\Debug\BKIT.Model.pdb
+D:\_NewData\SoftwareProject\Karaoke\BKIT.Model\bin\Debug\BKIT.Entities.dll
+D:\_NewData\SoftwareProject\Karaoke\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+D:\_NewData\SoftwareProject\Karaoke\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\_NewData\SoftwareProject\Karaoke\BKIT.Model\obj\Debug\BKIT.Model.dll
+D:\_NewData\SoftwareProject\Karaoke\BKIT.Model\obj\Debug\BKIT.Model.pdb
+F:\PROJECT\Karaoke\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\PROJECT\Karaoke\BKIT.Model\obj\Debug\BKIT.Model.dll
+F:\PROJECT\Karaoke\BKIT.Model\obj\Debug\BKIT.Model.pdb
+F:\PROJECT\Karaoke\BKIT.Model\bin\Debug\BKIT.Model.dll
+F:\PROJECT\Karaoke\BKIT.Model\bin\Debug\BKIT.Model.pdb
+F:\PROJECT\Karaoke\BKIT.Model\bin\Debug\BKIT.Entities.dll
+F:\PROJECT\Karaoke\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Users\Tuan Thanh\Desktop\Karaoke\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuan Thanh\Desktop\Karaoke\BKIT.Model\obj\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Karaoke\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Karaoke\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Karaoke\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Karaoke\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Users\Tuan Thanh\Desktop\Karaoke\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Model.dll
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Model.pdb
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Entities.dll
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\BKIT.Model\obj\Debug\BKIT.Model.dll
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\BKIT.Model\obj\Debug\BKIT.Model.pdb
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Model.dll
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Model.pdb
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Entities.dll
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\BKIT.Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\BKIT.Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\BKIT.Model\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\BKIT.Model\obj\Debug\BKIT.Model.dll
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\BKIT.Model\obj\Debug\BKIT.Model.dll
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Model.dll
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Model.pdb
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Entities.dll
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\BKIT.Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\BKIT.Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\BKIT.Model\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\BKIT.Model\obj\Debug\BKIT.Model.dll
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\BKIT.Model\obj\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\BKIT.Model\obj\Debug\BKIT.Model.dll
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Model.dll
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Model.pdb
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Entities.dll
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\BKIT.Model\obj\Debug\BKIT.Model.dll
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\BKIT.Model\obj\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\BKIT.Model\obj\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\BKIT.Model\obj\Debug\BKIT.Model.pdb
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Model.dll
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Model.pdb
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Entities.dll
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\BKIT.Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\BKIT.Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\BKIT.Model\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\BKIT.Model\obj\Debug\BKIT.Model.dll
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\BKIT.Model\obj\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\BKIT.Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\BKIT.Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\BKIT.Model\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\BKIT.Model\obj\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\BKIT.Model\obj\Debug\BKIT.Model.pdb
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Model.dll
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Model.pdb
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Entities.dll
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\BKIT.Model\obj\Debug\BKIT.Model.dll
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\BKIT.Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\BKIT.Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\BKIT.Model\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\BKIT.Model\obj\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\BKIT.Model\obj\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\BKIT.Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\BKIT.Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\BKIT.Model\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\BKIT.Model\obj\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\BKIT.Model\obj\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\BKIT.Model\obj\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\BKIT.Model\obj\Debug\BKIT.Model.dll
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\BKIT.Model\obj\Debug\BKIT.Model.dll
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\BKIT.Model\obj\Debug\BKIT.Model.dll
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\BKIT.Model\obj\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\BKIT.Model\obj\Debug\BKIT.Model.pdb
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\BKIT.Model\bin\Debug\BKIT.Model.dll
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\BKIT.Model\bin\Debug\BKIT.Model.pdb
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\BKIT.Model\bin\Debug\BKIT.Entities.dll
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\BKIT.Model\obj\Debug\BKIT.Model.dll
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\BKIT.Model\obj\Debug\BKIT.Model.pdb
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\BKIT.Model\bin\Debug\BKIT.Model.dll
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\BKIT.Model\bin\Debug\BKIT.Model.pdb
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\BKIT.Model\bin\Debug\BKIT.Entities.dll
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\BKIT.Model\obj\Debug\BKIT.Model.dll
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\BKIT.Model\obj\Debug\BKIT.Model.dll
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\BKIT.Model\obj\Debug\BKIT.Model.pdb
+E:\Karaoke\Thien_Source\Karaoke\BKIT.Model\bin\Debug\BKIT.Model.dll
+E:\Karaoke\Thien_Source\Karaoke\BKIT.Model\bin\Debug\BKIT.Model.pdb
+E:\Karaoke\Thien_Source\Karaoke\BKIT.Model\bin\Debug\BKIT.Entities.dll
+E:\Karaoke\Thien_Source\Karaoke\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+E:\Karaoke\Thien_Source\Karaoke\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\Karaoke\Thien_Source\Karaoke\BKIT.Model\obj\Debug\BKIT.Model.dll
+E:\Karaoke\Thien_Source\Karaoke\BKIT.Model\obj\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\BKIT.Model\bin\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\BKIT.Model\bin\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\BKIT.Model\bin\Debug\BKIT.Entities.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\BKIT.Model\obj\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\BKIT.Model\obj\Debug\BKIT.Model.pdb
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\BKIT.Model\bin\Debug\BKIT.Model.dll
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\BKIT.Model\bin\Debug\BKIT.Model.pdb
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\BKIT.Model\bin\Debug\BKIT.Entities.dll
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\BKIT.Model\obj\Debug\BKIT.Model.dll
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\BKIT.Model\obj\Debug\BKIT.Model.pdb
+F:\Karaoke\Karaoke_20120724\BKIT.Model\bin\Debug\BKIT.Model.dll
+F:\Karaoke\Karaoke_20120724\BKIT.Model\bin\Debug\BKIT.Model.pdb
+F:\Karaoke\Karaoke_20120724\BKIT.Model\bin\Debug\BKIT.Entities.dll
+F:\Karaoke\Karaoke_20120724\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+F:\Karaoke\Karaoke_20120724\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\Karaoke\Karaoke_20120724\BKIT.Model\obj\Debug\BKIT.Model.dll
+F:\Karaoke\Karaoke_20120724\BKIT.Model\obj\Debug\BKIT.Model.pdb
+F:\Karaoke\Karaoke_20120726\BKIT.Model\bin\Debug\BKIT.Model.dll
+F:\Karaoke\Karaoke_20120726\BKIT.Model\bin\Debug\BKIT.Model.pdb
+F:\Karaoke\Karaoke_20120726\BKIT.Model\bin\Debug\BKIT.Entities.dll
+F:\Karaoke\Karaoke_20120726\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+F:\Karaoke\Karaoke_20120726\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\Karaoke\Karaoke_20120726\BKIT.Model\obj\Debug\BKIT.Model.dll
+F:\Karaoke\Karaoke_20120726\BKIT.Model\obj\Debug\BKIT.Model.pdb
+E:\TrongThien\Karaoke\Karaoke_20120726\BKIT.Model\bin\Debug\BKIT.Model.dll
+E:\TrongThien\Karaoke\Karaoke_20120726\BKIT.Model\bin\Debug\BKIT.Model.pdb
+E:\TrongThien\Karaoke\Karaoke_20120726\BKIT.Model\bin\Debug\BKIT.Entities.dll
+E:\TrongThien\Karaoke\Karaoke_20120726\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+E:\TrongThien\Karaoke\Karaoke_20120726\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\TrongThien\Karaoke\Karaoke_20120726\BKIT.Model\obj\Debug\BKIT.Model.dll
+E:\TrongThien\Karaoke\Karaoke_20120726\BKIT.Model\obj\Debug\BKIT.Model.pdb

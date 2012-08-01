@@ -1,0 +1,158 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D974B687-E4D5-4E74-AC2B-CB097D1A28C0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BKIT.Model</RootNamespace>
+    <AssemblyName>BKIT.Model</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\CarParking\BKIT.Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\CarParking\BKIT.Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51206.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\CarParking\BKIT.Model\bin\Debug\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="DataService\ChitietHDXuatService.cs" />
+    <Compile Include="DataService\ChiTietHoaDonNhapService.cs" />
+    <Compile Include="DataService\GiaLoaiPhongService.cs" />
+    <Compile Include="DataService\GiaXuatSPService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataService\HoaDonNhapService.cs" />
+    <Compile Include="DataService\HoadonxuatService.cs" />
+    <Compile Include="DataService\KhachhangService.cs" />
+    <Compile Include="DataService\KhunggioService.cs" />
+    <Compile Include="DataService\KhuyenmaiPhongService.cs" />
+    <Compile Include="DataService\KhuyenmaiService.cs" />
+    <Compile Include="DataService\LoaiNhanvienService.cs" />
+    <Compile Include="DataService\LoaiphongSPBandauService.cs" />
+    <Compile Include="DataService\LoaiVDService.cs" />
+    <Compile Include="DataService\NhanvienService.cs" />
+    <Compile Include="DataService\PhieuDieuChinhTonKhoService.cs" />
+    <Compile Include="DataService\PhongService.cs" />
+    <Compile Include="DataService\QueryService.cs" />
+    <Compile Include="DataService\QuyentruycapService.cs" />
+    <Compile Include="DataService\SettingService.cs" />
+    <Compile Include="DataService\SPPhaCheService.cs" />
+    <Compile Include="DataService\TonKhoService.cs" />
+    <Compile Include="DataService\VanDeService.cs" />
+    <Compile Include="IDataService\IChitietHDXuat.cs" />
+    <Compile Include="IDataService\IChiTietHoaDonNhap.cs" />
+    <Compile Include="IDataService\IGiaLoaiPhong.cs" />
+    <Compile Include="DataService\NhomSPService.cs" />
+    <Compile Include="DataService\SanPhamService.cs" />
+    <Compile Include="DataService\UserService.cs" />
+    <Compile Include="IDataAccess.cs" />
+    <Compile Include="IDataService\IGiaXuatSP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IDataService\IHoaDonNhap.cs" />
+    <Compile Include="IDataService\IHoadonxuat.cs" />
+    <Compile Include="IDataService\IKhachhang.cs" />
+    <Compile Include="IDataService\IKhunggio.cs" />
+    <Compile Include="IDataService\IKhuyenmai.cs" />
+    <Compile Include="IDataService\IKhuyenmaiPhong.cs" />
+    <Compile Include="IDataService\ILoaiNhanvien.cs" />
+    <Compile Include="IDataService\ILoaiPhong.cs" />
+    <Compile Include="IDataService\ILoaiphongSPBandau.cs" />
+    <Compile Include="IDataService\ILoaiVD.cs" />
+    <Compile Include="IDataService\INhanvien.cs" />
+    <Compile Include="IDataService\INhomSP.cs" />
+    <Compile Include="IDataService\IPhieuDieuChinhTonKho.cs" />
+    <Compile Include="IDataService\IPhong.cs" />
+    <Compile Include="IDataService\IQuyentruycap.cs" />
+    <Compile Include="IDataService\ISanPham.cs" />
+    <Compile Include="IDataService\ISetting.cs" />
+    <Compile Include="IDataService\ISPPhaChe.cs" />
+    <Compile Include="IDataService\ITonKho.cs" />
+    <Compile Include="IDataService\IUsers.cs" />
+    <Compile Include="DataService\LoaiPhongService.cs" />
+    <Compile Include="IDataService\IVanDe.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BKIT.Entities\BKIT.Entities.csproj">
+      <Project>{39C62DE2-7097-4F98-BD0D-FA79B6BE7592}</Project>
+      <Name>BKIT.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

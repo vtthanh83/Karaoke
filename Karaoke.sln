@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karaoke", "Karaoke\Karaoke.csproj", "{97E107F8-C827-45C9-BF5D-4DAE8CCB43F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BKIT.Entities", "BKIT.Entities\BKIT.Entities.csproj", "{39C62DE2-7097-4F98-BD0D-FA79B6BE7592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BKIT.Model", "BKIT.Model\BKIT.Model.csproj", "{D974B687-E4D5-4E74-AC2B-CB097D1A28C0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_Karaoke", "Setup_Karaoke\Setup_Karaoke.vdproj", "{C2AD7138-6927-4C0D-9994-92662FDB982C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97E107F8-C827-45C9-BF5D-4DAE8CCB43F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E107F8-C827-45C9-BF5D-4DAE8CCB43F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E107F8-C827-45C9-BF5D-4DAE8CCB43F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E107F8-C827-45C9-BF5D-4DAE8CCB43F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C62DE2-7097-4F98-BD0D-FA79B6BE7592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C62DE2-7097-4F98-BD0D-FA79B6BE7592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C62DE2-7097-4F98-BD0D-FA79B6BE7592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C62DE2-7097-4F98-BD0D-FA79B6BE7592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D974B687-E4D5-4E74-AC2B-CB097D1A28C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D974B687-E4D5-4E74-AC2B-CB097D1A28C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D974B687-E4D5-4E74-AC2B-CB097D1A28C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D974B687-E4D5-4E74-AC2B-CB097D1A28C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2AD7138-6927-4C0D-9994-92662FDB982C}.Debug|Any CPU.ActiveCfg = Debug
+		{C2AD7138-6927-4C0D-9994-92662FDB982C}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

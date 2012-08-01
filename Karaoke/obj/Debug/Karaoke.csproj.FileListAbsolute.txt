@@ -1,0 +1,1302 @@
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\bin\Debug\Karaoke.exe
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\bin\Debug\Karaoke.pdb
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\obj\Debug\Karaoke.frmMain.resources
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\obj\Debug\Karaoke.exe
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\obj\Debug\Karaoke.pdb
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\bin\Debug\Karaoke.exe.config
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\bin\Debug\BKIT.Entities.dll
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\bin\Debug\BKIT.Model.dll
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\bin\Debug\BKIT.Model.pdb
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\bin\Debug\BKIT.Entities.pdb
+D:\_NewData\SoftwareProject\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+F:\PROJECT\Karaoke\Karaoke\bin\Debug\Karaoke.exe.config
+F:\PROJECT\Karaoke\Karaoke\obj\Debug\Karaoke.exe
+F:\PROJECT\Karaoke\Karaoke\obj\Debug\Karaoke.pdb
+F:\PROJECT\Karaoke\Karaoke\bin\Debug\Karaoke.exe
+F:\PROJECT\Karaoke\Karaoke\bin\Debug\Karaoke.pdb
+F:\PROJECT\Karaoke\Karaoke\bin\Debug\BKIT.Entities.dll
+F:\PROJECT\Karaoke\Karaoke\bin\Debug\BKIT.Model.dll
+F:\PROJECT\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\PROJECT\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\PROJECT\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\PROJECT\Karaoke\Karaoke\bin\Debug\BKIT.Model.pdb
+F:\PROJECT\Karaoke\Karaoke\bin\Debug\BKIT.Entities.pdb
+F:\PROJECT\Karaoke\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+F:\PROJECT\Karaoke\Karaoke\obj\Debug\Karaoke.frmMain.resources
+F:\PROJECT\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+F:\PROJECT\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+F:\PROJECT\Karaoke\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+F:\PROJECT\Karaoke\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+F:\PROJECT\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\obj\Debug\Karaoke.exe
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\obj\Debug\Karaoke.pdb
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\bin\Debug\Karaoke.exe
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\bin\Debug\Karaoke.pdb
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Karaoke\Karaoke\bin\Debug\BKIT.Entities.pdb
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.exe.config
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.exe
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.pdb
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.exe
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.pdb
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Entities.dll
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Model.dll
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Model.pdb
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Entities.pdb
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.frmMain.resources
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+F:\PROJECT\Karaoke_project\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.exe.config
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.exe
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.pdb
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.exe
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.pdb
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Entities.dll
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Model.dll
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Model.pdb
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Entities.pdb
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.frmMain.resources
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+D:\_NewData\SoftwareProject\Karaoke anh thanh\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.exe
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.exe
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Entities.pdb
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.exe.config
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.exe
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.pdb
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.exe
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.pdb
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Entities.dll
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Model.dll
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Model.pdb
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Entities.pdb
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.frmMain.resources
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+D:\_NewData\SoftwareProject\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.exe
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.exe
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_30_01\Karaoke_19_01\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.exe.config
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.exe
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.pdb
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.exe
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\bin\Debug\Karaoke.pdb
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Entities.dll
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Model.dll
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Model.pdb
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\bin\Debug\BKIT.Entities.pdb
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.frmMain.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+F:\PROJECT\Karaoke_project\Karaoke 16_2\Karaoke anh thanh\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\bin\Debug\Karaoke.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.exe
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\bin\Debug\Karaoke.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe.config
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.exe
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.pdb
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.frmMain.resources
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\bin\Debug\Karaoke.pdb
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.dll
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.dll
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.pdb
+D:\_NewData\SoftwareProject\Karaoke Final\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.exe
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_17_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_19_02_2012\Karaoke Final_19_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_20_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe.config
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.exe
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.pdb
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.pdb
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.dll
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.dll
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.pdb
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.pdb
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.frmMain.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+F:\PROJECT\PRESSURE_INDICATOR\Karaoke Final_21_02_2012\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.exe
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.exe
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Karaoke.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke Final_21_02_2012\Karaoke Final\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\bin\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\bin\Debug\Karaoke.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke Final_22_02_2012\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmDivideRoom.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmReturnProduct.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmSettings.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\bin\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\bin\Debug\Karaoke.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Merge Code\Karaoke\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.exe
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmDivideRoom.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmReturnProduct.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmSettings.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.MDIForms.frmWarningRoom.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\bin\Debug\Karaoke.exe
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\bin\Debug\Karaoke.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke_Hai_Nguyen_19_03\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\bin\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\bin\Debug\Karaoke.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmDivideRoom.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmReturnProduct.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmSettings.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmWarningRoom.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.ThongKeHoaDon.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadonbep.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.exe
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\bin\Debug\Karaoke.exe
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\bin\Debug\Karaoke.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmDivideRoom.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmReturnProduct.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmSettings.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.MDIForms.frmWarningRoom.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadonbep.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.ThongKeHoaDon.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.exe
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmDivideRoom.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmReturnProduct.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmSystemSettings.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.MDIForms.frmWarningRoom.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadonbep.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.ReportTemplate.ThongKeHoaDon.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\bin\Debug\Karaoke.exe
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\bin\Debug\Karaoke.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_A. Thanh - Copy\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.exe
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\bin\Debug\Karaoke.exe
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\bin\Debug\Karaoke.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmDivideRoom.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReturnProduct.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmSystemSettings.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmWarningRoom.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadonbep.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.ThongKeHoaDon.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\bin\Debug\Karaoke.exe
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\bin\Debug\Karaoke.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmDivideRoom.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReturnProduct.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmSystemSettings.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmWarningRoom.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadonbep.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.ThongKeHoaDon.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Documents and Settings\Administrator\Desktop\Current Projects\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\bin\Debug\Karaoke.exe.config
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.exe
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.pdb
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\bin\Debug\Karaoke.exe
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\bin\Debug\Karaoke.pdb
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Entities.dll
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Model.dll
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Model.pdb
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Entities.pdb
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.frmMain.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmDivideRoom.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReturnProduct.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmSystemSettings.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmWarningRoom.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadonbep.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.ThongKeHoaDon.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+E:\HeThongTuoiTieu\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\bin\Debug\Karaoke.exe.config
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.exe
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.pdb
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\bin\Debug\Karaoke.exe
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\bin\Debug\Karaoke.pdb
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Entities.dll
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Model.dll
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Model.pdb
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Entities.pdb
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.frmMain.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmDivideRoom.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReturnProduct.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmSystemSettings.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmWarningRoom.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadonbep.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.ThongKeHoaDon.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+E:\Karaoke\26032012\26032012\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\bin\Debug\Karaoke.exe.config
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.exe
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.pdb
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\bin\Debug\Karaoke.exe
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\bin\Debug\Karaoke.pdb
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Entities.dll
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Model.dll
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Model.pdb
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\bin\Debug\BKIT.Entities.pdb
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.frmMain.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmDivideRoom.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReturnProduct.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmSystemSettings.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.MDIForms.frmWarningRoom.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadonbep.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.ThongKeHoaDon.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+E:\Karaoke\Karaoke\Source_DBCuTrongsource\Karaoke_V1.0\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.exe
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\bin\Debug\Karaoke.exe
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\bin\Debug\Karaoke.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmDivideRoom.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmReturnProduct.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmSystemSettings.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmWarningRoom.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadonbep.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.ReportTemplate.ThongKeHoaDon.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmDieuChinhTonKho.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceiptProduct.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmThongKeSuCo.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.Resources.ReportTemplate.DetailThongKeVanDe.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmQuanLyLoaiVanDe.resources
+C:\Users\Trong Thien\Desktop\Karaoke_28052012\Karaoke\obj\Debug\Karaoke.MDIForms.frmGhiChuXuLy.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\bin\Debug\Karaoke.exe.config
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.exe
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.pdb
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\bin\Debug\Karaoke.exe
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\bin\Debug\Karaoke.pdb
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\bin\Debug\BKIT.Entities.dll
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\bin\Debug\BKIT.Model.dll
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\bin\Debug\BKIT.Model.pdb
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\bin\Debug\BKIT.Entities.pdb
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.frmMain.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmDieuChinhTonKho.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmDivideRoom.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmGhiChuXuLy.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmQuanLyLoaiVanDe.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceiptProduct.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmReturnProduct.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmSystemSettings.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmThongKeSuCo.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmWarningRoom.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.Resources.ReportTemplate.DetailThongKeVanDe.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadonbep.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.ThongKeHoaDon.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployeeManager.resources
+E:\Karaoke\Thien_Source\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddUser.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.exe
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\bin\Debug\Karaoke.exe
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\bin\Debug\Karaoke.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\bin\Debug\BKIT.Entities.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\bin\Debug\BKIT.Model.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\bin\Debug\BKIT.Model.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\bin\Debug\BKIT.Entities.pdb
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.frmMain.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddUser.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmDieuChinhTonKho.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmDivideRoom.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployeeManager.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmGhiChuXuLy.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmQuanLyLoaiVanDe.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceiptProduct.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmReturnProduct.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmSystemSettings.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmThongKeSuCo.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.MDIForms.frmWarningRoom.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.Resources.ReportTemplate.DetailThongKeVanDe.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadonbep.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.ThongKeHoaDon.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Users\Tuan Thanh\Desktop\Nhan\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.XuatKho.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\bin\Debug\Karaoke.exe.config
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.exe
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.pdb
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\bin\Debug\Karaoke.exe
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\bin\Debug\Karaoke.pdb
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\bin\Debug\BKIT.Entities.dll
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\bin\Debug\BKIT.Model.dll
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\bin\Debug\BKIT.Model.pdb
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\bin\Debug\BKIT.Entities.pdb
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.frmMain.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddUser.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmDieuChinhTonKho.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmDivideRoom.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployeeManager.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmGhiChuXuLy.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmQuanLyLoaiVanDe.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceiptProduct.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmReturnProduct.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmSystemSettings.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmThongKeSuCo.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.MDIForms.frmWarningRoom.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.ReportTemplate.XuatKho.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.Resources.ReportTemplate.DetailThongKeVanDe.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadonbep.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.ReportTemplate.ThongKeHoaDon.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_v2_0\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+F:\Karaoke\Karaoke_20120724\Karaoke\bin\Debug\Karaoke.exe.config
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.exe
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.pdb
+F:\Karaoke\Karaoke_20120724\Karaoke\bin\Debug\Karaoke.exe
+F:\Karaoke\Karaoke_20120724\Karaoke\bin\Debug\Karaoke.pdb
+F:\Karaoke\Karaoke_20120724\Karaoke\bin\Debug\BKIT.Entities.dll
+F:\Karaoke\Karaoke_20120724\Karaoke\bin\Debug\BKIT.Model.dll
+F:\Karaoke\Karaoke_20120724\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Karaoke\Karaoke_20120724\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\Karaoke\Karaoke_20120724\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Karaoke\Karaoke_20120724\Karaoke\bin\Debug\BKIT.Model.pdb
+F:\Karaoke\Karaoke_20120724\Karaoke\bin\Debug\BKIT.Entities.pdb
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.frmMain.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddUser.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmDieuChinhTonKho.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmDivideRoom.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployeeManager.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmGhiChuXuLy.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmQuanLyLoaiVanDe.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceiptProduct.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmReturnProduct.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmSystemSettings.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmThongKeSuCo.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.MDIForms.frmWarningRoom.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.ReportTemplate.XuatKho.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.Resources.ReportTemplate.DetailThongKeVanDe.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadonbep.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.ReportTemplate.ThongKeHoaDon.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+F:\Karaoke\Karaoke_20120724\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+F:\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\Karaoke.exe.config
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.exe
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.pdb
+F:\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\Karaoke.exe
+F:\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\Karaoke.pdb
+F:\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\BKIT.Entities.dll
+F:\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\BKIT.Model.dll
+F:\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\BKIT.Model.pdb
+F:\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\BKIT.Entities.pdb
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.frmMain.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddUser.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmDieuChinhTonKho.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmDivideRoom.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployeeManager.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmGhiChuXuLy.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmQuanLyLoaiVanDe.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceiptProduct.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmReturnProduct.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmSystemSettings.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmThongKeSuCo.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmWarningRoom.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.ReportTemplate.XuatKho.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.Resources.ReportTemplate.DetailThongKeVanDe.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadonbep.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.ReportTemplate.ThongKeHoaDon.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+F:\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\Karaoke.exe.config
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.exe
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.pdb
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\Karaoke.exe
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\Karaoke.pdb
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\BKIT.Entities.dll
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\BKIT.Model.dll
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\BKIT.Model.pdb
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\bin\Debug\BKIT.Entities.pdb
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\ResolveAssemblyReference.cache
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.frmMain.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddHoaDonNhap.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmAddUser.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmChart.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmChartView.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmDieuChinhTonKho.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmDivideRoom.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployee.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmEmployeeManager.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmGhiChuXuLy.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonNhapDetail.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmHoaDonXuatDetail.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmInvoice.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmLogin.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmProduct.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmQuanLyLoaiVanDe.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceipt.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmReceiptProduct.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmReport.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmReturnProduct.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmRoom.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmSystemSettings.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmThongKeSuCo.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmTonKho.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmViewReport.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.MDIForms.frmWarningRoom.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.Properties.Resources.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.ReportTemplate.XuatKho.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.Resources.ReportTemplate.DetailThongKeVanDe.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadonbep.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReport.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.ReportTemplate.DetailReportDSBH.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.ReportTemplate.Hoadon.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.ReportTemplate.ThongKeHoaDon.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
+E:\TrongThien\Karaoke\Karaoke_20120726\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache

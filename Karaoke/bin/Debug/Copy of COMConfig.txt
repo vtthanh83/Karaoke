@@ -1,0 +1,8 @@
+[COMPORT]=COM26
+[BAUDRATE]=9600
+[STOPBITS]=1
+[PARITY]=0
+[DATABITS]=8
+[CompanyName]=Karaoke Hoa H?ng
+[Address]=250 Võ Th? Sáu, P. 15, Q. 10, TP. HCM
+[Phone]=08 3456 7890
