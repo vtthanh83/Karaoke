@@ -2,6 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
+// testing github ne.....
+// 2012-08-02
+// thien testing...
+
 namespace BKIT.Entities
 {
     public class ChitietHDXuat
