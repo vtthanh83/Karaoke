@@ -1351,3 +1351,6 @@ E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Kar
 E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
 E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
 E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\Karaoke\bin\Debug\Karaoke.exe.config
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\Karaoke\obj\Debug\Karaoke.exe
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\Karaoke\obj\Debug\Karaoke.pdb
