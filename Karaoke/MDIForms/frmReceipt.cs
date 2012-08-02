@@ -95,7 +95,10 @@ namespace Karaoke.MDIForms
 
         private void txtSearchSanPham_KeyDown(object sender, KeyEventArgs e)
         {
-
+            if (e.KeyCode == Keys.Enter)
+            {
+                AddSP(0);
+            }
         }
 
         private void gridViewSanPham_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
@@ -127,12 +130,29 @@ namespace Karaoke.MDIForms
             //add a quantity of a product to current bill
             //check if the parameters are legal
 
-            if (gridViewSanPham.FocusedRowHandle >= 0)
+            
             {
                 //list all products by ID
-                int ID = Convert.ToInt32(gridViewSanPham.GetRowCellValue(gridViewSanPham.FocusedRowHandle, "IDSanPham"));
-                iCurrentProductID = ID;
-                int IDLoaiSP = Convert.ToInt32(gridViewSanPham.GetRowCellValue(gridViewSanPham.FocusedRowHandle, "IDNhomSP"));
+                int rowHandle;
+                if (num > 0)
+                {
+                    if (gridViewSanPham.FocusedRowHandle >= 0)
+                    {
+                        rowHandle = gridViewSanPham.FocusedRowHandle;
+                    }
+                    else
+                        return;
+                }
+                else
+                {
+                    if (gridViewBillProduct.RowCount > 0)
+                        rowHandle = 0;
+                    else
+                        return;
+                }
+                iCurrentProductID= Convert.ToInt32(gridViewSanPham.GetRowCellValue(rowHandle, "IDSanPham"));
+                
+                int IDLoaiSP = Convert.ToInt32(gridViewSanPham.GetRowCellValue(rowHandle, "IDNhomSP"));
                 //DataSet prdPrice = new DataAccess().getGiaXuatSPByIDSanPham(ID);
                 //if ((prdPrice != null) && (prdPrice.Tables[0].Rows.Count > 0))
                 //{
@@ -156,7 +176,7 @@ namespace Karaoke.MDIForms
                     //if (ds.Tables[0].Rows.Count == 0)
                     //{
                     //get the number of added product
-                    frmReturnProduct rt = new frmReturnProduct(true, 0, Convert.ToString(gridViewSanPham.GetRowCellValue(gridViewSanPham.FocusedRowHandle, "TenSanPham")));
+                    frmReturnProduct rt = new frmReturnProduct(true, 0, Convert.ToString(gridViewSanPham.GetRowCellValue(rowHandle, "TenSanPham")));
                     rt.ShowDialog();
                     int rtnum = rt.getReturnNum();
                     // bool directRet = rt.getDirectRet();
@@ -166,7 +186,7 @@ namespace Karaoke.MDIForms
                         ChitietHDXuat obj = new ChitietHDXuat();
                         obj.IDHoadonXuat = iCurrentReceiptID;
                         obj.IDSanpham = iCurrentProductID;
-                        obj.Gia = Convert.ToInt32(gridViewSanPham.GetRowCellValue(gridViewSanPham.FocusedRowHandle, "Gia"));
+                        obj.Gia = Convert.ToInt32(gridViewSanPham.GetRowCellValue(rowHandle, "Gia"));
                         obj.Soluong = rtnum;
                         if (ds != null)
                         {
@@ -185,7 +205,7 @@ namespace Karaoke.MDIForms
                         int res = new DataAccess().insertChitietHDXuat(obj);
                         if (res < 0)
                         {
-                            MessageBox.Show("Không thêm sản phẩm " + gridViewSanPham.GetRowCellValue(gridViewSanPham.FocusedRowHandle, "TenSanPham") + " vào hóa đơn hiện tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            MessageBox.Show("Không thêm sản phẩm " + gridViewSanPham.GetRowCellValue(rowHandle, "TenSanPham") + " vào hóa đơn hiện tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                             return;
                         }
                     //}
@@ -195,14 +215,14 @@ namespace Karaoke.MDIForms
                     //    obj.IDChitietHDXuat = Convert.ToInt32(ds.Tables[0].Rows[0]["IDChitietHDXuat"]);
                     //    obj.IDHoadonXuat = iCurrentReceiptID;
                     //    obj.IDSanpham = iCurrentProductID;
-                    //    obj.IDGiaxuat = Convert.ToInt32(gridViewSanPham.GetRowCellValue(gridViewSanPham.FocusedRowHandle, "IDGiaXuatSP"));
+                    //    obj.IDGiaxuat = Convert.ToInt32(gridViewSanPham.GetRowCellValue(rowHandle, "IDGiaXuatSP"));
                     //    obj.Soluong = Convert.ToInt32(ds.Tables[0].Rows[0]["Soluong"]) + 1;
                     //    obj.Giam = 0;
                     //    obj.Bep = false;
                     //    bool res = new DataAccess().updateChitietHDXuat(obj);
                     //    if (!res)
                     //    {
-                    //        MessageBox.Show("Không thêm sản phẩm " + gridViewSanPham.GetRowCellValue(gridViewSanPham.FocusedRowHandle, "TenSanPham") + " vào hóa đơn hiện tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    //        MessageBox.Show("Không thêm sản phẩm " + gridViewSanPham.GetRowCellValue(rowHandle, "TenSanPham") + " vào hóa đơn hiện tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     //        return;
                     //    }
                     //}
@@ -213,14 +233,14 @@ namespace Karaoke.MDIForms
                         if (Convert.ToInt32(gridViewBillProduct.GetRowCellValue(i, "IDSanpham")) == iCurrentProductID)
                             break;
                     }
-                    gridViewBillProduct.Focus();
+                    //gridViewBillProduct.Focus();
                     gridViewBillProduct.FocusedRowHandle = i;
                     gridViewBillProduct.FocusedColumn = colBillNum;
 
                 }
                 //}
                 //else
-                //    MessageBox.Show("Sản phẩm " + gridViewSanPham.GetRowCellValue(gridViewSanPham.FocusedRowHandle, "TenSanPham") + " chưa có giá bán! \nVui lòng nhập giá bán bên cửa sổ quản trị", "Thông báo giá bán", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                //    MessageBox.Show("Sản phẩm " + gridViewSanPham.GetRowCellValue(rowHandle, "TenSanPham") + " chưa có giá bán! \nVui lòng nhập giá bán bên cửa sổ quản trị", "Thông báo giá bán", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -1303,7 +1323,7 @@ namespace Karaoke.MDIForms
                     int res = new DataAccess().insertChitietHDXuat(obj);
                     if (res < 0)
                     {
-                        MessageBox.Show("Không thêm sản phẩm " + gridViewSanPham.GetRowCellValue(gridViewSanPham.FocusedRowHandle, "TenSanPham") + " vào hóa đơn hiện tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("Không thêm sản phẩm " + TenSP + " vào hóa đơn hiện tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         return;
                     }
                                     
@@ -1313,6 +1333,18 @@ namespace Karaoke.MDIForms
         #endregion Room
 
         #region localfunction
+        private void OpenListRoom()
+        {
+            frmListRoom listRoom = new frmListRoom();
+            listRoom.ShowDialog();
+            if (listRoom.getEffectedRoomID() >= 0)
+            {
+                iCurrentRoomID = listRoom.getEffectedRoomID();
+                cboRoom.SelectedValue = iCurrentRoomID;
+            }
+            listRoom.Close();
+            displayLastRoomReceipt();
+        }
         private int getTotalValueOfBill(int IDHoadon)
         {
             //this function will get all infomation about the receipt by its ID
@@ -1988,7 +2020,7 @@ namespace Karaoke.MDIForms
             return true;
         }
         #endregion ComPort
-
+        #region MiscEvent
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             if (iCurrentReceiptID < 0)
@@ -2104,6 +2136,70 @@ namespace Karaoke.MDIForms
             frmGhiChuXuLy objGhiChuXuly = new frmGhiChuXuLy();
             objGhiChuXuly.ShowDialog();
         }
+        private void xtraTabControl1_Click(object sender, EventArgs e)
+        {
+            if (xtraTabControl1.SelectedTabPageIndex == 1)
+            {
+                if (groupControlSanPham.Visible == false)
+                {
+
+                    groupControlSanPham.Visible = true;
+
+                    groupControlSanPham.Width = 300;
+                    groupControlRoomAndProduct.Width += 300;
+                    //if (groupControlDanhSachPhong.Visible == true)
+                    //{
+                    //    groupControlSanPham.Location = new Point(xtraTabControl1.Width + groupControlDanhSachPhong.Width, xtraTabControl1.Location.Y);
+                    //}
+                    //else
+                    //{
+                    groupControlSanPham.Location = new Point(xtraTabControl1.Width, xtraTabControl1.Location.Y);
+                    //}
+
+                    groupControlSanPham.Height = groupControlRoomAndProduct.Height - 5;
+                    txtSearchSanPham.Focus();
+                }
+                else
+                {
+                    groupControlSanPham.Visible = false;
+
+                    groupControlRoomAndProduct.Width -= 300;
+
+                }
+
+            }
+            else if (xtraTabControl1.SelectedTabPageIndex == 0) //Room
+            {
+                OpenListRoom();
+
+            }
+            else
+            {
+                // do nothing
+                // dong tat danh sach phong va san pham
+                groupControlSanPham.Visible = false;
+                groupControlRoomAndProduct.Width = 52;
+            }
+            redrawGroupControlRoomAndProduct();
+        }
+
+        private void txtSearchSanPham_EditValueChanged(object sender, EventArgs e)
+        {
+            // search
+            getAllSPBySearchTenTemplate();
+        }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            txtSearchSanPham.Text = "";
+            //getAllSPBySearchTenTemplate();
+        }
+
+        private void bntOpenCloseRoom_Click(object sender, EventArgs e)
+        {
+            Start(0);
+        }
+        #endregion
         #region HOT_KEY
         private void frmReceipt_KeyDown(object sender, KeyEventArgs e)
         {
@@ -2114,6 +2210,7 @@ namespace Karaoke.MDIForms
             }
             else if (e.KeyCode == Keys.F3) // choose room by code
             {
+                OpenListRoom();
                 /*
                 if (groupControlDanhSachPhong.Visible == false)
                 {
@@ -2201,77 +2298,7 @@ namespace Karaoke.MDIForms
         
         #endregion HOT_KEY
 
-        private void xtraTabControl1_Click(object sender, EventArgs e)
-        {
-            if (xtraTabControl1.SelectedTabPageIndex == 1)
-            {
-                if (groupControlSanPham.Visible == false)
-                {
-                    
-                    groupControlSanPham.Visible = true;
-
-                    groupControlSanPham.Width = 300;
-                    groupControlRoomAndProduct.Width += 300;
-                    //if (groupControlDanhSachPhong.Visible == true)
-                    //{
-                    //    groupControlSanPham.Location = new Point(xtraTabControl1.Width + groupControlDanhSachPhong.Width, xtraTabControl1.Location.Y);
-                    //}
-                    //else
-                    //{
-                        groupControlSanPham.Location = new Point(xtraTabControl1.Width, xtraTabControl1.Location.Y);
-                    //}
-
-                    groupControlSanPham.Height = groupControlRoomAndProduct.Height - 5;
-                    txtSearchSanPham.Focus();
-                }
-                else
-                {
-                    groupControlSanPham.Visible = false;
-
-                    groupControlRoomAndProduct.Width -= 300;
-
-                }
-                
-            }
-            else if (xtraTabControl1.SelectedTabPageIndex == 0) //Room
-            {
-                frmListRoom listRoom = new frmListRoom();
-                listRoom.ShowDialog();
-                if (listRoom.getEffectedRoomID() >= 0)
-                {
-                    iCurrentRoomID = listRoom.getEffectedRoomID();
-                    cboRoom.SelectedValue = iCurrentRoomID;
-                }
-                listRoom.Close();
-                displayLastRoomReceipt();
-                
-            }
-            else
-            {
-                // do nothing
-                // dong tat danh sach phong va san pham
-                groupControlSanPham.Visible = false;
-                groupControlRoomAndProduct.Width = 52;
-            }
-            redrawGroupControlRoomAndProduct();
-        }
-
-        private void txtSearchSanPham_EditValueChanged(object sender, EventArgs e)
-        {
-            // search
-            getAllSPBySearchTenTemplate();
-        }
-
-        private void simpleButton1_Click(object sender, EventArgs e)
-        {
-            txtSearchSanPham.Text = "";
-            //getAllSPBySearchTenTemplate();
-        }
-
-        private void bntOpenCloseRoom_Click(object sender, EventArgs e)
-        {
-            Start(0);
-        }
+        
 
         
 
