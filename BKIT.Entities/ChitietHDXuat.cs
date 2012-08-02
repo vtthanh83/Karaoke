@@ -2,10 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
+<<<<<<< HEAD
 // testing github ne.....
 // 2012-08-02
 // thien testing...
 
+=======
+>>>>>>> parent of 93c9d5a... Thien Test commit
 namespace BKIT.Entities
 {
     public class ChitietHDXuat

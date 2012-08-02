@@ -1402,3 +1402,6 @@ E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Kar
 E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.TienVonReport.resources
 E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\Karaoke\obj\Debug\Karaoke.ReportTemplate.TonKhoReport.resources
 E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\Karaoke\obj\Debug\Karaoke.csproj.GenerateResource.Cache
+C:\Users\HT\Documents\GitHub\Karaoke\Karaoke\bin\Debug\Karaoke.exe.config
+C:\Users\HT\Documents\GitHub\Karaoke\Karaoke\obj\Debug\Karaoke.exe
+C:\Users\HT\Documents\GitHub\Karaoke\Karaoke\obj\Debug\Karaoke.pdb
