@@ -221,6 +221,12 @@
     <Compile Include="MDIForms\frmInvoice.Designer.cs">
       <DependentUpon>frmInvoice.cs</DependentUpon>
     </Compile>
+    <Compile Include="MDIForms\frmListRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForms\frmListRoom.Designer.cs">
+      <DependentUpon>frmListRoom.cs</DependentUpon>
+    </Compile>
     <Compile Include="MDIForms\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -351,6 +357,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MDIForms\frmInvoice.resx">
       <DependentUpon>frmInvoice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForms\frmListRoom.resx">
+      <DependentUpon>frmListRoom.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="MDIForms\frmLogin.resx">
@@ -587,6 +597,7 @@
     <None Include="Resources\1343236606_file-roller.png" />
     <None Include="Resources\1343236634_Hospital.png" />
     <None Include="bin\Debug\Images\1343371929_001_05.png" />
+    <None Include="Resources\1338361581_exit_Layer 1.png" />
     <Content Include="Resources\2 Hot Printer.ico" />
     <None Include="DataSets\DataSetDetailBill.xsc">
       <DependentUpon>DataSetDetailBill.xsd</DependentUpon>

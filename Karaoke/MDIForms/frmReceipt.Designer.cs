@@ -43,20 +43,7 @@
             this.repositoryItemCheckEdit3 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.chkDeleteSanPham = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
-            this.gridRoom = new DevExpress.XtraGrid.GridControl();
-            this.gridViewRoom = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.colTT = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn22 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colRoomStatus = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.checkRoomStatus = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
-            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn23 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
-            this.repositoryItemImageEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemImageEdit();
-            this.repositoryItemImageEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemImageEdit();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.repositoryItemPictureEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
             this.btnIssueProcessing = new DevExpress.XtraEditors.SimpleButton();
             this.txtReduce = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -118,13 +105,13 @@
             this.repositoryItemSpinEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
             this.repositoryItemCheckEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.txtRoomPrice = new System.Windows.Forms.TextBox();
-            this.txtRoom = new System.Windows.Forms.TextBox();
             this.numExtra = new System.Windows.Forms.NumericUpDown();
             this.cboEmployee = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.bntOpenCloseRoom = new DevExpress.XtraEditors.SimpleButton();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupControlRoomAndProduct = new DevExpress.XtraEditors.GroupControl();
             this.groupControlSanPham = new DevExpress.XtraEditors.GroupControl();
@@ -137,22 +124,15 @@
             this.xtraTabPageProduct = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPageRoomList = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
-            this.groupControlDanhSachPhong = new DevExpress.XtraEditors.GroupControl();
             this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
             this.groupControl6 = new DevExpress.XtraEditors.GroupControl();
+            this.cboRoom = new System.Windows.Forms.ComboBox();
             this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
             this.xtraTabPageRoom = new DevExpress.XtraTab.XtraTabPage();
             ((System.ComponentModel.ISupportInitialize)(this.gridControlSanPham)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewSanPham)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chkDeleteSanPham)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridRoom)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridViewRoom)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkRoomStatus)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageEdit1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageEdit2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numDeposit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numTax)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridBillProduct)).BeginInit();
@@ -174,8 +154,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtSearchSanPham.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControlDanhSachPhong)).BeginInit();
-            this.groupControlDanhSachPhong.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).BeginInit();
             this.groupControl4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).BeginInit();
@@ -363,179 +341,6 @@
             this.chkDeleteSanPham.PictureGrayed = global::Karaoke.Properties.Resources._1325149327_recycle_bin;
             this.chkDeleteSanPham.PictureUnchecked = global::Karaoke.Properties.Resources._1325149282_button_ok;
             // 
-            // gridRoom
-            // 
-            this.gridRoom.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridRoom.EmbeddedNavigator.Name = "";
-            this.gridRoom.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridRoom.FormsUseDefaultLookAndFeel = false;
-            this.gridRoom.Location = new System.Drawing.Point(2, 20);
-            this.gridRoom.MainView = this.gridViewRoom;
-            this.gridRoom.Name = "gridRoom";
-            this.gridRoom.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
-            this.repositoryItemCheckEdit1,
-            this.repositoryItemImageEdit1,
-            this.checkRoomStatus,
-            this.repositoryItemImageEdit2,
-            this.repositoryItemPictureEdit1});
-            this.gridRoom.Size = new System.Drawing.Size(146, 443);
-            this.gridRoom.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.gridRoom, "Click để xem hóa đơn của phòng");
-            this.gridRoom.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridViewRoom});
-            // 
-            // gridViewRoom
-            // 
-            this.gridViewRoom.Appearance.FocusedCell.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.gridViewRoom.Appearance.FocusedCell.Options.UseFont = true;
-            this.gridViewRoom.Appearance.FocusedRow.BackColor = System.Drawing.Color.Blue;
-            this.gridViewRoom.Appearance.FocusedRow.BackColor2 = System.Drawing.Color.Blue;
-            this.gridViewRoom.Appearance.FocusedRow.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.gridViewRoom.Appearance.FocusedRow.ForeColor = System.Drawing.Color.White;
-            this.gridViewRoom.Appearance.FocusedRow.Options.UseBackColor = true;
-            this.gridViewRoom.Appearance.FocusedRow.Options.UseFont = true;
-            this.gridViewRoom.Appearance.FocusedRow.Options.UseForeColor = true;
-            this.gridViewRoom.Appearance.GroupFooter.Font = new System.Drawing.Font("Tahoma", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.gridViewRoom.Appearance.GroupFooter.ForeColor = System.Drawing.Color.Green;
-            this.gridViewRoom.Appearance.GroupFooter.Image = ((System.Drawing.Image)(resources.GetObject("gridViewRoom.Appearance.GroupFooter.Image")));
-            this.gridViewRoom.Appearance.GroupFooter.Options.UseFont = true;
-            this.gridViewRoom.Appearance.GroupFooter.Options.UseForeColor = true;
-            this.gridViewRoom.Appearance.GroupRow.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.gridViewRoom.Appearance.GroupRow.ForeColor = System.Drawing.Color.Red;
-            this.gridViewRoom.Appearance.GroupRow.Options.UseFont = true;
-            this.gridViewRoom.Appearance.GroupRow.Options.UseForeColor = true;
-            this.gridViewRoom.Appearance.HeaderPanel.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.gridViewRoom.Appearance.HeaderPanel.Options.UseFont = true;
-            this.gridViewRoom.Appearance.SelectedRow.BackColor = System.Drawing.Color.Blue;
-            this.gridViewRoom.Appearance.SelectedRow.BackColor2 = System.Drawing.Color.Blue;
-            this.gridViewRoom.Appearance.SelectedRow.ForeColor = System.Drawing.Color.White;
-            this.gridViewRoom.Appearance.SelectedRow.Options.UseBackColor = true;
-            this.gridViewRoom.Appearance.SelectedRow.Options.UseForeColor = true;
-            this.gridViewRoom.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.colTT,
-            this.gridColumn22,
-            this.gridColumn3,
-            this.colRoomStatus,
-            this.gridColumn6,
-            this.gridColumn23});
-            this.gridViewRoom.GridControl = this.gridRoom;
-            this.gridViewRoom.GroupCount = 1;
-            this.gridViewRoom.GroupFooterShowMode = DevExpress.XtraGrid.Views.Grid.GroupFooterShowMode.VisibleAlways;
-            this.gridViewRoom.GroupFormat = "{0} [#image]{1} {2} ";
-            this.gridViewRoom.GroupSummary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
-            new DevExpress.XtraGrid.GridGroupSummaryItem(DevExpress.Data.SummaryItemType.Sum, "TT", this.colRoomStatus, "")});
-            this.gridViewRoom.Name = "gridViewRoom";
-            this.gridViewRoom.NewItemRowText = "Click vào đây để thêm mới";
-            this.gridViewRoom.OptionsMenu.EnableFooterMenu = false;
-            this.gridViewRoom.OptionsView.ShowGroupPanel = false;
-            this.gridViewRoom.SortInfo.AddRange(new DevExpress.XtraGrid.Columns.GridColumnSortInfo[] {
-            new DevExpress.XtraGrid.Columns.GridColumnSortInfo(this.gridColumn22, DevExpress.Data.ColumnSortOrder.Ascending)});
-            this.gridViewRoom.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gridViewRoom_FocusedRowChanged);
-            this.gridViewRoom.DoubleClick += new System.EventHandler(this.gridViewRoom_DoubleClick);
-            this.gridViewRoom.CellValueChanging += new DevExpress.XtraGrid.Views.Base.CellValueChangedEventHandler(this.gridViewRoom_CellValueChanging);
-            // 
-            // colTT
-            // 
-            this.colTT.Caption = "TT";
-            this.colTT.FieldName = "TT";
-            this.colTT.Name = "colTT";
-            this.colTT.OptionsColumn.FixedWidth = true;
-            // 
-            // gridColumn22
-            // 
-            this.gridColumn22.FieldName = "TenLoaiPhong";
-            this.gridColumn22.Name = "gridColumn22";
-            // 
-            // gridColumn3
-            // 
-            this.gridColumn3.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.gridColumn3.AppearanceCell.Options.UseFont = true;
-            this.gridColumn3.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.gridColumn3.AppearanceHeader.Options.UseFont = true;
-            this.gridColumn3.Caption = "IDPhong";
-            this.gridColumn3.FieldName = "IDPhong";
-            this.gridColumn3.Name = "gridColumn3";
-            this.gridColumn3.OptionsColumn.AllowEdit = false;
-            this.gridColumn3.OptionsColumn.ReadOnly = true;
-            // 
-            // colRoomStatus
-            // 
-            this.colRoomStatus.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.colRoomStatus.AppearanceCell.Options.UseFont = true;
-            this.colRoomStatus.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.colRoomStatus.AppearanceHeader.Options.UseFont = true;
-            this.colRoomStatus.ColumnEdit = this.checkRoomStatus;
-            this.colRoomStatus.FieldName = "Trangthai";
-            this.colRoomStatus.Name = "colRoomStatus";
-            this.colRoomStatus.OptionsColumn.AllowEdit = false;
-            this.colRoomStatus.OptionsColumn.AllowMove = false;
-            this.colRoomStatus.OptionsColumn.AllowSize = false;
-            this.colRoomStatus.OptionsColumn.FixedWidth = true;
-            this.colRoomStatus.OptionsColumn.ReadOnly = true;
-            this.colRoomStatus.ShowButtonMode = DevExpress.XtraGrid.Views.Base.ShowButtonModeEnum.ShowAlways;
-            this.colRoomStatus.Visible = true;
-            this.colRoomStatus.VisibleIndex = 1;
-            this.colRoomStatus.Width = 86;
-            // 
-            // checkRoomStatus
-            // 
-            this.checkRoomStatus.AllowFocused = false;
-            this.checkRoomStatus.AutoHeight = false;
-            this.checkRoomStatus.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.UserDefined;
-            this.checkRoomStatus.FullFocusRect = true;
-            this.checkRoomStatus.Name = "checkRoomStatus";
-            this.checkRoomStatus.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Inactive;
-            this.checkRoomStatus.PictureChecked = global::Karaoke.Properties.Resources.Status_user_busy_icon1;
-            this.checkRoomStatus.PictureGrayed = global::Karaoke.Properties.Resources.user1;
-            this.checkRoomStatus.PictureUnchecked = global::Karaoke.Properties.Resources.blank;
-            // 
-            // gridColumn6
-            // 
-            this.gridColumn6.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.gridColumn6.AppearanceCell.Options.UseFont = true;
-            this.gridColumn6.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.gridColumn6.AppearanceHeader.Options.UseFont = true;
-            this.gridColumn6.Caption = "Phòng";
-            this.gridColumn6.FieldName = "TenPhong";
-            this.gridColumn6.Name = "gridColumn6";
-            this.gridColumn6.OptionsColumn.AllowEdit = false;
-            this.gridColumn6.OptionsColumn.FixedWidth = true;
-            this.gridColumn6.OptionsColumn.ReadOnly = true;
-            this.gridColumn6.Visible = true;
-            this.gridColumn6.VisibleIndex = 0;
-            this.gridColumn6.Width = 69;
-            // 
-            // gridColumn23
-            // 
-            this.gridColumn23.Caption = "IDLoaiPhong";
-            this.gridColumn23.FieldName = "IDLoaiPhong";
-            this.gridColumn23.Name = "gridColumn23";
-            // 
-            // repositoryItemCheckEdit1
-            // 
-            this.repositoryItemCheckEdit1.AutoHeight = false;
-            this.repositoryItemCheckEdit1.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.UserDefined;
-            this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
-            this.repositoryItemCheckEdit1.PictureChecked = global::Karaoke.Properties.Resources._1325149327_recycle_bin;
-            this.repositoryItemCheckEdit1.PictureGrayed = global::Karaoke.Properties.Resources._1325149327_recycle_bin;
-            this.repositoryItemCheckEdit1.PictureUnchecked = global::Karaoke.Properties.Resources._1325149282_button_ok;
-            // 
-            // repositoryItemImageEdit1
-            // 
-            this.repositoryItemImageEdit1.AutoHeight = false;
-            this.repositoryItemImageEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.repositoryItemImageEdit1.Name = "repositoryItemImageEdit1";
-            // 
-            // repositoryItemImageEdit2
-            // 
-            this.repositoryItemImageEdit2.AutoHeight = false;
-            this.repositoryItemImageEdit2.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.repositoryItemImageEdit2.Images = this.imageList1;
-            this.repositoryItemImageEdit2.Name = "repositoryItemImageEdit2";
-            this.repositoryItemImageEdit2.ShowDropDown = DevExpress.XtraEditors.Controls.ShowDropDown.Never;
-            // 
             // imageList1
             // 
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
@@ -544,12 +349,6 @@
             this.imageList1.Images.SetKeyName(1, "Status-user-busy-icon.png");
             this.imageList1.Images.SetKeyName(2, "blank.bmp");
             this.imageList1.Images.SetKeyName(3, "user.bmp");
-            // 
-            // repositoryItemPictureEdit1
-            // 
-            this.repositoryItemPictureEdit1.Appearance.Image = global::Karaoke.Properties.Resources.user;
-            this.repositoryItemPictureEdit1.Appearance.Options.UseImage = true;
-            this.repositoryItemPictureEdit1.Name = "repositoryItemPictureEdit1";
             // 
             // btnIssueProcessing
             // 
@@ -607,7 +406,7 @@
             this.timeDeposit.Enabled = false;
             this.timeDeposit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timeDeposit.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.timeDeposit.Location = new System.Drawing.Point(461, 38);
+            this.timeDeposit.Location = new System.Drawing.Point(457, 64);
             this.timeDeposit.Name = "timeDeposit";
             this.timeDeposit.ShowUpDown = true;
             this.timeDeposit.Size = new System.Drawing.Size(111, 29);
@@ -618,7 +417,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(510, 72);
+            this.label18.Location = new System.Drawing.Point(506, 98);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(62, 16);
             this.label18.TabIndex = 74;
@@ -628,7 +427,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(383, 47);
+            this.label9.Location = new System.Drawing.Point(379, 73);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(81, 16);
             this.label9.TabIndex = 72;
@@ -639,7 +438,7 @@
             this.lbGioMP.AutoSize = true;
             this.lbGioMP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.lbGioMP.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbGioMP.Location = new System.Drawing.Point(314, 43);
+            this.lbGioMP.Location = new System.Drawing.Point(310, 69);
             this.lbGioMP.Name = "lbGioMP";
             this.lbGioMP.Size = new System.Drawing.Size(60, 24);
             this.lbGioMP.TabIndex = 71;
@@ -649,7 +448,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(222, 47);
+            this.label17.Location = new System.Drawing.Point(218, 73);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(91, 16);
             this.label17.TabIndex = 70;
@@ -668,7 +467,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(488, 74);
+            this.checkBox1.Location = new System.Drawing.Point(484, 100);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 67;
@@ -723,7 +522,7 @@
             this.btnJoinRoom.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
             this.btnJoinRoom.Image = global::Karaoke.Properties.Resources.rotate270anticlockwise3green;
             this.btnJoinRoom.ImageLocation = DevExpress.XtraEditors.ImageLocation.TopCenter;
-            this.btnJoinRoom.Location = new System.Drawing.Point(6, 173);
+            this.btnJoinRoom.Location = new System.Drawing.Point(631, 421);
             this.btnJoinRoom.Name = "btnJoinRoom";
             this.btnJoinRoom.Size = new System.Drawing.Size(88, 85);
             this.btnJoinRoom.TabIndex = 64;
@@ -737,7 +536,7 @@
             this.btnDivideRoom.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
             this.btnDivideRoom.Image = global::Karaoke.Properties.Resources.rightleft2red;
             this.btnDivideRoom.ImageLocation = DevExpress.XtraEditors.ImageLocation.TopCenter;
-            this.btnDivideRoom.Location = new System.Drawing.Point(6, 88);
+            this.btnDivideRoom.Location = new System.Drawing.Point(5, 171);
             this.btnDivideRoom.Name = "btnDivideRoom";
             this.btnDivideRoom.Size = new System.Drawing.Size(88, 85);
             this.btnDivideRoom.TabIndex = 63;
@@ -999,7 +798,7 @@
             this.btnCloseBill.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
             this.btnCloseBill.Image = global::Karaoke.Properties.Resources.cabinet_icon__1_;
             this.btnCloseBill.ImageLocation = DevExpress.XtraEditors.ImageLocation.TopCenter;
-            this.btnCloseBill.Location = new System.Drawing.Point(6, 3);
+            this.btnCloseBill.Location = new System.Drawing.Point(6, 85);
             this.btnCloseBill.Name = "btnCloseBill";
             this.btnCloseBill.Size = new System.Drawing.Size(88, 85);
             this.btnCloseBill.TabIndex = 46;
@@ -1023,12 +822,10 @@
             // 
             // gridBillProduct
             // 
-            this.gridBillProduct.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
             this.gridBillProduct.EmbeddedNavigator.Name = "";
             this.gridBillProduct.Font = new System.Drawing.Font("Tahoma", 11F);
             this.gridBillProduct.FormsUseDefaultLookAndFeel = false;
-            this.gridBillProduct.Location = new System.Drawing.Point(15, 129);
+            this.gridBillProduct.Location = new System.Drawing.Point(4, 129);
             this.gridBillProduct.MainView = this.gridViewBillProduct;
             this.gridBillProduct.Name = "gridBillProduct";
             this.gridBillProduct.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
@@ -1037,7 +834,7 @@
             this.repositoryItemSpinEdit1,
             this.repositoryItemSpinEdit2,
             this.repositoryItemCheckEdit2});
-            this.gridBillProduct.Size = new System.Drawing.Size(551, 153);
+            this.gridBillProduct.Size = new System.Drawing.Size(723, 143);
             this.gridBillProduct.TabIndex = 44;
             this.gridBillProduct.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridViewBillProduct});
@@ -1316,18 +1113,6 @@
             this.txtRoomPrice.Text = "0";
             this.txtRoomPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txtRoom
-            // 
-            this.txtRoom.BackColor = System.Drawing.Color.White;
-            this.txtRoom.Enabled = false;
-            this.txtRoom.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRoom.Location = new System.Drawing.Point(104, 40);
-            this.txtRoom.Name = "txtRoom";
-            this.txtRoom.ReadOnly = true;
-            this.txtRoom.Size = new System.Drawing.Size(108, 23);
-            this.txtRoom.TabIndex = 42;
-            this.txtRoom.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // numExtra
             // 
             this.numExtra.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1389,6 +1174,20 @@
             this.label8.TabIndex = 24;
             this.label8.Text = "Phụ thu";
             // 
+            // bntOpenCloseRoom
+            // 
+            this.bntOpenCloseRoom.Appearance.Options.UseTextOptions = true;
+            this.bntOpenCloseRoom.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
+            this.bntOpenCloseRoom.Image = global::Karaoke.Properties.Resources._1338361581_exit_Layer_1;
+            this.bntOpenCloseRoom.ImageLocation = DevExpress.XtraEditors.ImageLocation.TopCenter;
+            this.bntOpenCloseRoom.Location = new System.Drawing.Point(7, 0);
+            this.bntOpenCloseRoom.Name = "bntOpenCloseRoom";
+            this.bntOpenCloseRoom.Size = new System.Drawing.Size(88, 85);
+            this.bntOpenCloseRoom.TabIndex = 78;
+            this.bntOpenCloseRoom.Text = "Mở/Đóng Phòng";
+            this.toolTip1.SetToolTip(this.bntOpenCloseRoom, "Kết thúc thay đổi hóa đơn");
+            this.bntOpenCloseRoom.Click += new System.EventHandler(this.bntOpenCloseRoom_Click);
+            // 
             // timer1
             // 
             this.timer1.Enabled = true;
@@ -1400,11 +1199,10 @@
             this.groupControlRoomAndProduct.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
             this.groupControlRoomAndProduct.Controls.Add(this.groupControlSanPham);
             this.groupControlRoomAndProduct.Controls.Add(this.xtraTabControl1);
-            this.groupControlRoomAndProduct.Controls.Add(this.groupControlDanhSachPhong);
             this.groupControlRoomAndProduct.Dock = System.Windows.Forms.DockStyle.Left;
             this.groupControlRoomAndProduct.Location = new System.Drawing.Point(0, 0);
             this.groupControlRoomAndProduct.Name = "groupControlRoomAndProduct";
-            this.groupControlRoomAndProduct.Size = new System.Drawing.Size(500, 562);
+            this.groupControlRoomAndProduct.Size = new System.Drawing.Size(336, 562);
             this.groupControlRoomAndProduct.TabIndex = 7;
             // 
             // groupControlSanPham
@@ -1418,7 +1216,7 @@
             this.groupControlSanPham.Controls.Add(this.btnFirstBill);
             this.groupControlSanPham.Controls.Add(this.btnLastBill);
             this.groupControlSanPham.Controls.Add(this.checkDateReceipt);
-            this.groupControlSanPham.Location = new System.Drawing.Point(218, 25);
+            this.groupControlSanPham.Location = new System.Drawing.Point(50, 20);
             this.groupControlSanPham.Name = "groupControlSanPham";
             this.groupControlSanPham.Size = new System.Drawing.Size(282, 465);
             this.groupControlSanPham.TabIndex = 1;
@@ -1463,6 +1261,7 @@
             this.txtSearchSanPham.Size = new System.Drawing.Size(159, 20);
             this.txtSearchSanPham.TabIndex = 54;
             this.txtSearchSanPham.EditValueChanged += new System.EventHandler(this.txtSearchSanPham_EditValueChanged);
+            this.txtSearchSanPham.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSearchSanPham_KeyDown);
             // 
             // labelControl1
             // 
@@ -1515,32 +1314,25 @@
             this.xtraTabPage1.Size = new System.Drawing.Size(0, 527);
             this.xtraTabPage1.Text = "Đóng (F5)";
             // 
-            // groupControlDanhSachPhong
-            // 
-            this.groupControlDanhSachPhong.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
-            this.groupControlDanhSachPhong.Controls.Add(this.gridRoom);
-            this.groupControlDanhSachPhong.Location = new System.Drawing.Point(50, 20);
-            this.groupControlDanhSachPhong.Name = "groupControlDanhSachPhong";
-            this.groupControlDanhSachPhong.Size = new System.Drawing.Size(150, 465);
-            this.groupControlDanhSachPhong.TabIndex = 0;
-            this.groupControlDanhSachPhong.Text = "Danh sách phòng";
-            this.groupControlDanhSachPhong.Visible = false;
-            // 
             // groupControl4
             // 
             this.groupControl4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
             this.groupControl4.Controls.Add(this.groupControl6);
             this.groupControl4.Controls.Add(this.groupControl5);
             this.groupControl4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl4.Location = new System.Drawing.Point(500, 0);
+            this.groupControl4.Location = new System.Drawing.Point(336, 0);
             this.groupControl4.Name = "groupControl4";
-            this.groupControl4.Size = new System.Drawing.Size(684, 562);
+            this.groupControl4.Size = new System.Drawing.Size(848, 562);
             this.groupControl4.TabIndex = 8;
             // 
             // groupControl6
             // 
             this.groupControl6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
             this.groupControl6.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.groupControl6.Controls.Add(this.txtHourMoney);
+            this.groupControl6.Controls.Add(this.txtProductMoney);
+            this.groupControl6.Controls.Add(this.cboRoom);
+            this.groupControl6.Controls.Add(this.btnJoinRoom);
             this.groupControl6.Controls.Add(this.timeDeposit);
             this.groupControl6.Controls.Add(this.label16);
             this.groupControl6.Controls.Add(this.txtReturnMoney);
@@ -1559,7 +1351,6 @@
             this.groupControl6.Controls.Add(this.numTax);
             this.groupControl6.Controls.Add(this.label9);
             this.groupControl6.Controls.Add(this.gridBillProduct);
-            this.groupControl6.Controls.Add(this.txtHourMoney);
             this.groupControl6.Controls.Add(this.checkBox1);
             this.groupControl6.Controls.Add(this.label2);
             this.groupControl6.Controls.Add(this.label5);
@@ -1570,18 +1361,25 @@
             this.groupControl6.Controls.Add(this.label11);
             this.groupControl6.Controls.Add(this.label14);
             this.groupControl6.Controls.Add(this.numExtra);
-            this.groupControl6.Controls.Add(this.txtRoom);
             this.groupControl6.Controls.Add(this.lbGioMP);
             this.groupControl6.Controls.Add(this.label17);
             this.groupControl6.Controls.Add(this.label10);
             this.groupControl6.Controls.Add(this.cboEmployee);
             this.groupControl6.Controls.Add(this.label1);
-            this.groupControl6.Controls.Add(this.txtProductMoney);
             this.groupControl6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl6.Location = new System.Drawing.Point(2, 20);
             this.groupControl6.Name = "groupControl6";
-            this.groupControl6.Size = new System.Drawing.Size(580, 540);
+            this.groupControl6.Size = new System.Drawing.Size(744, 540);
             this.groupControl6.TabIndex = 1;
+            // 
+            // cboRoom
+            // 
+            this.cboRoom.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboRoom.FormattingEnabled = true;
+            this.cboRoom.Location = new System.Drawing.Point(104, 39);
+            this.cboRoom.Name = "cboRoom";
+            this.cboRoom.Size = new System.Drawing.Size(108, 24);
+            this.cboRoom.TabIndex = 77;
             // 
             // groupControl5
             // 
@@ -1589,14 +1387,14 @@
             this.groupControl5.Appearance.Options.UseBackColor = true;
             this.groupControl5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
             this.groupControl5.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
+            this.groupControl5.Controls.Add(this.bntOpenCloseRoom);
             this.groupControl5.Controls.Add(this.btnIssueProcessing);
-            this.groupControl5.Controls.Add(this.btnJoinRoom);
             this.groupControl5.Controls.Add(this.btnPrintBill);
             this.groupControl5.Controls.Add(this.btnCloseBill);
             this.groupControl5.Controls.Add(this.btnPrintCooking);
             this.groupControl5.Controls.Add(this.btnDivideRoom);
             this.groupControl5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.groupControl5.Location = new System.Drawing.Point(582, 20);
+            this.groupControl5.Location = new System.Drawing.Point(746, 20);
             this.groupControl5.Name = "groupControl5";
             this.groupControl5.ShowCaption = false;
             this.groupControl5.Size = new System.Drawing.Size(100, 540);
@@ -1629,13 +1427,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridViewSanPham)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chkDeleteSanPham)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridRoom)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridViewRoom)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkRoomStatus)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageEdit1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageEdit2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numDeposit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numTax)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridBillProduct)).EndInit();
@@ -1659,8 +1450,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtSearchSanPham.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControlDanhSachPhong)).EndInit();
-            this.groupControlDanhSachPhong.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).EndInit();
             this.groupControl4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).EndInit();
@@ -1681,17 +1470,7 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn9;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit chkDeleteSanPham;
-        private DevExpress.XtraGrid.GridControl gridRoom;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridViewRoom;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
-        private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
-        private DevExpress.XtraGrid.Columns.GridColumn colRoomStatus;
-        private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit checkRoomStatus;
-        private DevExpress.XtraEditors.Repository.RepositoryItemImageEdit repositoryItemImageEdit1;
-        private DevExpress.XtraEditors.Repository.RepositoryItemImageEdit repositoryItemImageEdit2;
         private System.Windows.Forms.ImageList imageList1;
-        private DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit repositoryItemPictureEdit1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label10;
@@ -1705,7 +1484,6 @@
         private System.Windows.Forms.TextBox txtHourMoney;
         private System.Windows.Forms.TextBox txtBilltotal;
         private System.Windows.Forms.TextBox txtRoomPrice;
-        private System.Windows.Forms.TextBox txtRoom;
         private DevExpress.XtraGrid.GridControl gridBillProduct;
         private DevExpress.XtraGrid.Views.Grid.GridView gridViewBillProduct;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
@@ -1729,9 +1507,6 @@
         private DevExpress.XtraEditors.SimpleButton btnFirstBill;
         private DevExpress.XtraEditors.SimpleButton btnPreviousBill;
         private DevExpress.XtraEditors.SimpleButton btnLastBill;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn22;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn23;
-        private DevExpress.XtraGrid.Columns.GridColumn colTT;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn10;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn11;
@@ -1771,7 +1546,6 @@
         private DevExpress.XtraEditors.SimpleButton btnIssueProcessing;
         private DevExpress.XtraEditors.GroupControl groupControlRoomAndProduct;
         private DevExpress.XtraEditors.GroupControl groupControlSanPham;
-        private DevExpress.XtraEditors.GroupControl groupControlDanhSachPhong;
         private DevExpress.XtraEditors.GroupControl groupControl4;
         private DevExpress.XtraEditors.GroupControl groupControl5;
         private DevExpress.XtraEditors.GroupControl groupControl6;
@@ -1786,5 +1560,7 @@
         private DevExpress.XtraEditors.PanelControl panelControl2;
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private System.Windows.Forms.ComboBox cboRoom;
+        private DevExpress.XtraEditors.SimpleButton bntOpenCloseRoom;
     }
 }

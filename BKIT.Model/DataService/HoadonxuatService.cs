@@ -163,12 +163,43 @@ namespace BKIT.Model.DataService
         public System.Data.DataSet getLastHoadonxuatByIDPhong(int ID)
         {
             Database db = DatabaseFactory.CreateDatabase();
-            string sqlCommand = "SELECT * FROM Hoadonxuat WHERE IDPhong = @id "+
+            string sqlCommand;
+        
+                sqlCommand = "SELECT * FROM Hoadonxuat WHERE IDPhong = @id "+
                 "ORDER BY Ngayxuat AND GioBD DESC";
+            
             try
             {
                 DbCommand dbCommand = db.GetSqlStringCommand(sqlCommand);
                 db.AddInParameter(dbCommand, "id", DbType.Int32, ID);
+                DataSet ds = db.ExecuteDataSet(dbCommand);
+                dbCommand.Connection.Close();
+                return ds;
+            }
+            catch
+            {
+                return null;
+            }
+        }
+        public System.Data.DataSet getLastOpeningHoadonxuatByIDPhong(int ID)
+        {
+            Database db = DatabaseFactory.CreateDatabase();
+            string sqlCommand;
+            try
+            {
+                if (ID >= 0)
+                {
+                    sqlCommand = "SELECT * FROM Hoadonxuat WHERE (IDPhong = @id) AND (Trangthai = 0) " +
+                    "ORDER BY Ngayxuat AND GioBD DESC";
+                    
+                }
+                else
+                    sqlCommand = "SELECT * FROM Hoadonxuat WHERE Trangthai = 0 " +
+                    "ORDER BY Ngayxuat AND GioBD DESC";
+            
+                DbCommand dbCommand = db.GetSqlStringCommand(sqlCommand);
+                if(ID>=0)
+                    db.AddInParameter(dbCommand, "id", DbType.Int32, ID);
                 DataSet ds = db.ExecuteDataSet(dbCommand);
                 dbCommand.Connection.Close();
                 return ds;

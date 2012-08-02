@@ -158,3 +158,8 @@ E:\TrongThien\Karaoke\Karaoke_20120726\BKIT.Entities\bin\Debug\BKIT.Entities.pdb
 E:\TrongThien\Karaoke\Karaoke_20120726\BKIT.Entities\obj\Debug\ResolveAssemblyReference.cache
 E:\TrongThien\Karaoke\Karaoke_20120726\BKIT.Entities\obj\Debug\BKIT.Entities.dll
 E:\TrongThien\Karaoke\Karaoke_20120726\BKIT.Entities\obj\Debug\BKIT.Entities.pdb
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\BKIT.Entities\bin\Debug\BKIT.Entities.dll
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\BKIT.Entities\bin\Debug\BKIT.Entities.pdb
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\BKIT.Entities\obj\Debug\ResolveAssemblyReference.cache
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\BKIT.Entities\obj\Debug\BKIT.Entities.dll
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\BKIT.Entities\obj\Debug\BKIT.Entities.pdb

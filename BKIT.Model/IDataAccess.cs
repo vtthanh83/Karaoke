@@ -67,6 +67,7 @@ namespace BKIT.Model
         System.Data.DataSet getHoadonxuatByIDHoadonXuat(int ID);
         System.Data.DataSet getLastHoadonxuatByIDPhong(int ID);
         System.Data.DataSet getLastHoadonxuatByIDPhongAndDate(int ID, DateTime Date);
+        System.Data.DataSet getLastOpeningHoadonxuatByIDPhong(int ID);
 		System.Data.DataSet getAllOpenningHoadonxuatWithDeposit();
         System.Data.DataSet getAllNotClosedHDXOfProductID(int ProductID);
         System.Data.DataSet getSoLuongSPBanRa();

@@ -132,9 +132,19 @@ namespace BKIT.Model.DataService
         public System.Data.DataSet getAllFreePhongAndLoaiPhong(int diffID)
         {
             Database db = DatabaseFactory.CreateDatabase();
-            string sqlCommand = "SELECT LoaiPhong.IDLoaiPhong as IDLoaiPhong, LoaiPhong.TenLoaiPhong as TenLoaiPhong, Phong.IDPhong as IDPhong, Phong.TenPhong as TenPhong, Phong.Trangthai as Trangthai, Phong.Congtac as Congtac, Phong.Ghichu as Ghichu, " +
+            string sqlCommand;
+            if (diffID >= 0)
+            {
+                sqlCommand = "SELECT LoaiPhong.IDLoaiPhong as IDLoaiPhong, LoaiPhong.TenLoaiPhong as TenLoaiPhong, Phong.IDPhong as IDPhong, Phong.TenPhong as TenPhong, Phong.Trangthai as Trangthai, Phong.Congtac as Congtac, Phong.Ghichu as Ghichu, " +
                                 "IIf([Phong].[Trangthai]=Yes,0,1) AS TT FROM LoaiPhong INNER JOIN Phong ON LoaiPhong.IDLoaiPhong = Phong.IDLoaiPhong " +
                                 "WHERE (((Phong.IDPhong)<>@idphong) AND (Phong.IDPhong >= 0)  AND ((Phong.Trangthai)=False));";
+            }
+            else
+            {
+                sqlCommand = "SELECT LoaiPhong.IDLoaiPhong as IDLoaiPhong, LoaiPhong.TenLoaiPhong as TenLoaiPhong, Phong.IDPhong as IDPhong, Phong.TenPhong as TenPhong, Phong.Trangthai as Trangthai, Phong.Congtac as Congtac, Phong.Ghichu as Ghichu, " +
+                                "IIf([Phong].[Trangthai]=Yes,0,1) AS TT FROM LoaiPhong INNER JOIN Phong ON LoaiPhong.IDLoaiPhong = Phong.IDLoaiPhong " +
+                                "WHERE ((Phong.IDPhong >= 0)  AND ((Phong.Trangthai)=False));";
+            }
             try
             {
                 DbCommand dbCommand = db.GetSqlStringCommand(sqlCommand);
@@ -151,9 +161,19 @@ namespace BKIT.Model.DataService
         public System.Data.DataSet getAllBusyPhongAndLoaiPhong(int diffID)
         {
             Database db = DatabaseFactory.CreateDatabase();
-            string sqlCommand = "SELECT LoaiPhong.IDLoaiPhong as IDLoaiPhong, LoaiPhong.TenLoaiPhong as TenLoaiPhong, Phong.IDPhong as IDPhong, Phong.TenPhong as TenPhong, Phong.Trangthai as Trangthai, Phong.Congtac as Congtac, Phong.Ghichu as Ghichu, " +
+            string sqlCommand;
+            if (diffID >= 0)
+            {
+                sqlCommand = "SELECT LoaiPhong.IDLoaiPhong as IDLoaiPhong, LoaiPhong.TenLoaiPhong as TenLoaiPhong, Phong.IDPhong as IDPhong, Phong.TenPhong as TenPhong, Phong.Trangthai as Trangthai, Phong.Congtac as Congtac, Phong.Ghichu as Ghichu, " +
                                 "IIf([Phong].[Trangthai]=Yes,0,1) AS TT FROM LoaiPhong INNER JOIN Phong ON LoaiPhong.IDLoaiPhong = Phong.IDLoaiPhong " +
                                 "WHERE (((Phong.IDPhong)<>@idphong) AND (Phong.IDPhong >= 0) AND ((Phong.Trangthai)=True));";
+            }
+            else
+            {
+                sqlCommand = "SELECT LoaiPhong.IDLoaiPhong as IDLoaiPhong, LoaiPhong.TenLoaiPhong as TenLoaiPhong, Phong.IDPhong as IDPhong, Phong.TenPhong as TenPhong, Phong.Trangthai as Trangthai, Phong.Congtac as Congtac, Phong.Ghichu as Ghichu, " +
+                                "IIf([Phong].[Trangthai]=Yes,0,1) AS TT FROM LoaiPhong INNER JOIN Phong ON LoaiPhong.IDLoaiPhong = Phong.IDLoaiPhong " +
+                                "WHERE ((Phong.IDPhong >= 0) AND ((Phong.Trangthai)=True));";
+            }
             try
             {
                 DbCommand dbCommand = db.GetSqlStringCommand(sqlCommand);

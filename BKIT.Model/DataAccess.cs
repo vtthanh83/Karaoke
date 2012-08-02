@@ -269,6 +269,10 @@ namespace BKIT.Model
         {
             return new HoadonxuatService().getLastHoadonxuatByIDPhong(ID);
         }
+        public System.Data.DataSet getLastOpeningHoadonxuatByIDPhong(int ID)
+        {
+            return new HoadonxuatService().getLastOpeningHoadonxuatByIDPhong(ID);
+        }
         public System.Data.DataSet getLastHoadonxuatByIDPhongAndDate(int ID, DateTime Date)
         {
             return new HoadonxuatService().getLastHoadonxuatByIDPhongAndDate(ID, Date);
