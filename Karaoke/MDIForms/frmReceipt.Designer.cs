@@ -129,6 +129,7 @@
             this.cboRoom = new System.Windows.Forms.ComboBox();
             this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
             this.xtraTabPageRoom = new DevExpress.XtraTab.XtraTabPage();
+            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gridControlSanPham)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewSanPham)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).BeginInit();
@@ -369,7 +370,7 @@
             this.txtReduce.BackColor = System.Drawing.Color.White;
             this.txtReduce.Enabled = false;
             this.txtReduce.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtReduce.Location = new System.Drawing.Point(205, 353);
+            this.txtReduce.Location = new System.Drawing.Point(249, 373);
             this.txtReduce.Name = "txtReduce";
             this.txtReduce.ReadOnly = true;
             this.txtReduce.Size = new System.Drawing.Size(72, 23);
@@ -380,7 +381,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(202, 329);
+            this.label19.Location = new System.Drawing.Point(246, 349);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(66, 17);
             this.label19.TabIndex = 75;
@@ -458,7 +459,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label16.Location = new System.Drawing.Point(308, 457);
+            this.label16.Location = new System.Drawing.Point(352, 477);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(54, 17);
             this.label16.TabIndex = 69;
@@ -481,7 +482,7 @@
             this.txtReturnMoney.Enabled = false;
             this.txtReturnMoney.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtReturnMoney.ForeColor = System.Drawing.Color.Black;
-            this.txtReturnMoney.Location = new System.Drawing.Point(368, 450);
+            this.txtReturnMoney.Location = new System.Drawing.Point(412, 470);
             this.txtReturnMoney.Name = "txtReturnMoney";
             this.txtReturnMoney.ReadOnly = true;
             this.txtReturnMoney.Size = new System.Drawing.Size(125, 24);
@@ -492,7 +493,7 @@
             // 
             this.numDeposit.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numDeposit.ForeColor = System.Drawing.Color.Blue;
-            this.numDeposit.Location = new System.Drawing.Point(139, 397);
+            this.numDeposit.Location = new System.Drawing.Point(183, 417);
             this.numDeposit.Maximum = new decimal(new int[] {
             10000000,
             0,
@@ -510,7 +511,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label15.ForeColor = System.Drawing.Color.Blue;
-            this.label15.Location = new System.Drawing.Point(63, 399);
+            this.label15.Location = new System.Drawing.Point(107, 419);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(73, 17);
             this.label15.TabIndex = 66;
@@ -562,7 +563,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(123, 329);
+            this.label14.Location = new System.Drawing.Point(167, 349);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(27, 17);
             this.label14.TabIndex = 61;
@@ -572,7 +573,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(18, 329);
+            this.label13.Location = new System.Drawing.Point(62, 349);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(70, 17);
             this.label13.TabIndex = 60;
@@ -602,7 +603,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(280, 354);
+            this.label4.Location = new System.Drawing.Point(324, 374);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(18, 17);
             this.label4.TabIndex = 57;
@@ -613,7 +614,7 @@
             this.txtTotalHour.BackColor = System.Drawing.Color.White;
             this.txtTotalHour.Enabled = false;
             this.txtTotalHour.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTotalHour.Location = new System.Drawing.Point(126, 354);
+            this.txtTotalHour.Location = new System.Drawing.Point(170, 374);
             this.txtTotalHour.Name = "txtTotalHour";
             this.txtTotalHour.ReadOnly = true;
             this.txtTotalHour.Size = new System.Drawing.Size(72, 23);
@@ -624,7 +625,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(104, 356);
+            this.label3.Location = new System.Drawing.Point(148, 376);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(16, 17);
             this.label3.TabIndex = 55;
@@ -634,7 +635,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(307, 335);
+            this.label2.Location = new System.Drawing.Point(351, 355);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 17);
             this.label2.TabIndex = 54;
@@ -644,7 +645,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(294, 307);
+            this.label1.Location = new System.Drawing.Point(338, 327);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 17);
             this.label1.TabIndex = 53;
@@ -680,7 +681,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label11.ForeColor = System.Drawing.Color.Red;
-            this.label11.Location = new System.Drawing.Point(317, 424);
+            this.label11.Location = new System.Drawing.Point(361, 444);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(45, 17);
             this.label11.TabIndex = 29;
@@ -690,7 +691,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label6.Location = new System.Drawing.Point(330, 393);
+            this.label6.Location = new System.Drawing.Point(374, 413);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(32, 17);
             this.label6.TabIndex = 20;
@@ -702,7 +703,7 @@
             this.txtBilltotal.Enabled = false;
             this.txtBilltotal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBilltotal.ForeColor = System.Drawing.Color.Red;
-            this.txtBilltotal.Location = new System.Drawing.Point(370, 421);
+            this.txtBilltotal.Location = new System.Drawing.Point(414, 441);
             this.txtBilltotal.Name = "txtBilltotal";
             this.txtBilltotal.ReadOnly = true;
             this.txtBilltotal.Size = new System.Drawing.Size(125, 23);
@@ -712,7 +713,7 @@
             // numTax
             // 
             this.numTax.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numTax.Location = new System.Drawing.Point(368, 389);
+            this.numTax.Location = new System.Drawing.Point(412, 409);
             this.numTax.Name = "numTax";
             this.numTax.Size = new System.Drawing.Size(138, 23);
             this.numTax.TabIndex = 34;
@@ -723,7 +724,7 @@
             // 
             this.txtHourMoney.BackColor = System.Drawing.Color.White;
             this.txtHourMoney.Enabled = false;
-            this.txtHourMoney.Location = new System.Drawing.Point(370, 334);
+            this.txtHourMoney.Location = new System.Drawing.Point(414, 354);
             this.txtHourMoney.Name = "txtHourMoney";
             this.txtHourMoney.ReadOnly = true;
             this.txtHourMoney.Size = new System.Drawing.Size(125, 20);
@@ -770,7 +771,7 @@
             this.txtProductMoney.BackColor = System.Drawing.Color.White;
             this.txtProductMoney.Enabled = false;
             this.txtProductMoney.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtProductMoney.Location = new System.Drawing.Point(368, 304);
+            this.txtProductMoney.Location = new System.Drawing.Point(412, 324);
             this.txtProductMoney.Name = "txtProductMoney";
             this.txtProductMoney.ReadOnly = true;
             this.txtProductMoney.Size = new System.Drawing.Size(125, 23);
@@ -834,7 +835,7 @@
             this.repositoryItemSpinEdit1,
             this.repositoryItemSpinEdit2,
             this.repositoryItemCheckEdit2});
-            this.gridBillProduct.Size = new System.Drawing.Size(723, 143);
+            this.gridBillProduct.Size = new System.Drawing.Size(723, 189);
             this.gridBillProduct.TabIndex = 44;
             this.gridBillProduct.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridViewBillProduct});
@@ -876,6 +877,7 @@
             this.gridColumn17,
             this.gridColumn18,
             this.colBillReduce,
+            this.gridColumn3,
             this.colDeleteCTHD,
             this.colPrintCook,
             this.colProductBillTrangthai,
@@ -922,7 +924,7 @@
             this.gridColumn2.OptionsColumn.ReadOnly = true;
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 0;
-            this.gridColumn2.Width = 85;
+            this.gridColumn2.Width = 161;
             // 
             // colBillNum
             // 
@@ -939,7 +941,7 @@
             this.colBillNum.OptionsColumn.ReadOnly = true;
             this.colBillNum.Visible = true;
             this.colBillNum.VisibleIndex = 4;
-            this.colBillNum.Width = 71;
+            this.colBillNum.Width = 72;
             // 
             // repositoryItemSpinEdit1
             // 
@@ -965,7 +967,7 @@
             this.gridColumn12.OptionsColumn.ReadOnly = true;
             this.gridColumn12.Visible = true;
             this.gridColumn12.VisibleIndex = 1;
-            this.gridColumn12.Width = 49;
+            this.gridColumn12.Width = 85;
             // 
             // gridColumn17
             // 
@@ -980,7 +982,7 @@
             this.gridColumn17.OptionsColumn.ReadOnly = true;
             this.gridColumn17.Visible = true;
             this.gridColumn17.VisibleIndex = 2;
-            this.gridColumn17.Width = 74;
+            this.gridColumn17.Width = 179;
             // 
             // gridColumn18
             // 
@@ -1014,7 +1016,7 @@
             this.colBillReduce.OptionsColumn.ReadOnly = true;
             this.colBillReduce.Visible = true;
             this.colBillReduce.VisibleIndex = 3;
-            this.colBillReduce.Width = 71;
+            this.colBillReduce.Width = 69;
             // 
             // colDeleteCTHD
             // 
@@ -1027,7 +1029,7 @@
             this.colDeleteCTHD.OptionsColumn.AllowSize = false;
             this.colDeleteCTHD.OptionsColumn.FixedWidth = true;
             this.colDeleteCTHD.Visible = true;
-            this.colDeleteCTHD.VisibleIndex = 6;
+            this.colDeleteCTHD.VisibleIndex = 7;
             this.colDeleteCTHD.Width = 47;
             // 
             // deleteChitietHD
@@ -1105,7 +1107,7 @@
             this.txtRoomPrice.BackColor = System.Drawing.Color.White;
             this.txtRoomPrice.Enabled = false;
             this.txtRoomPrice.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRoomPrice.Location = new System.Drawing.Point(19, 354);
+            this.txtRoomPrice.Location = new System.Drawing.Point(63, 374);
             this.txtRoomPrice.Name = "txtRoomPrice";
             this.txtRoomPrice.ReadOnly = true;
             this.txtRoomPrice.Size = new System.Drawing.Size(86, 23);
@@ -1121,7 +1123,7 @@
             0,
             0,
             0});
-            this.numExtra.Location = new System.Drawing.Point(370, 360);
+            this.numExtra.Location = new System.Drawing.Point(414, 380);
             this.numExtra.Maximum = new decimal(new int[] {
             1000000,
             0,
@@ -1168,7 +1170,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label8.Location = new System.Drawing.Point(305, 363);
+            this.label8.Location = new System.Drawing.Point(349, 383);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(57, 17);
             this.label8.TabIndex = 24;
@@ -1406,6 +1408,15 @@
             this.xtraTabPageRoom.Name = "xtraTabPageRoom";
             this.xtraTabPageRoom.Size = new System.Drawing.Size(0, 452);
             // 
+            // gridColumn3
+            // 
+            this.gridColumn3.Caption = "Ghi chú";
+            this.gridColumn3.FieldName = "Ghichu";
+            this.gridColumn3.Name = "gridColumn3";
+            this.gridColumn3.Visible = true;
+            this.gridColumn3.VisibleIndex = 6;
+            this.gridColumn3.Width = 140;
+            // 
             // frmReceipt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1562,5 +1573,6 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private System.Windows.Forms.ComboBox cboRoom;
         private DevExpress.XtraEditors.SimpleButton bntOpenCloseRoom;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
     }
 }

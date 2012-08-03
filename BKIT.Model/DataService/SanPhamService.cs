@@ -92,7 +92,7 @@ namespace BKIT.Model.DataService
         {
             Database db = DatabaseFactory.CreateDatabase();
             string sqlCommand = "SELECT SanPham.IDSanPham, SanPham.TenSanPham, SanPham.TonKho, SanPham.DVT, SanPham.IDNhomSP, SanPham.Ghichu,SanPham.Noixuat,SanPham.Tukhoa, SanPham.SLCanhbao, 1 as [DeleteSanPham] " +
-                                "FROM SanPham ";
+                                "FROM SanPham WHERE IDSanPham >= 0";
             try
             {
                 DbCommand dbCommand = db.GetSqlStringCommand(sqlCommand);
@@ -112,7 +112,7 @@ namespace BKIT.Model.DataService
                                 "FROM GiaXuatSP INNER JOIN (SELECT Last(GiaXuatSP.IDGiaXuatSP) AS LastOfIDGiaXuatSP, GiaXuatSP.IDSanPham, SanPham.TenSanPham, SanPham.DVT, SanPham.IDNhomSP,SanPham.Tukhoa, NhomSP.TenNhomSP " +
                                  "FROM NhomSP INNER JOIN (SanPham INNER JOIN GiaXuatSP ON SanPham.IDSanPham = GiaXuatSP.IDSanPham) ON NhomSP.IDNhomSP = SanPham.IDNhomSP " +
                                 "GROUP BY GiaXuatSP.IDSanPham, SanPham.TenSanPham, SanPham.DVT, SanPham.IDNhomSP, NhomSP.TenNhomSP,SanPham.Tukhoa) AS Query4 ON GiaXuatSP.IDGiaXuatSP = Query4.LastOfIDGiaXuatSP;";
-
+            sqlCommand = "SELECT * FROM (" + sqlCommand + ") WHERE IDSanPham >= 0";
             try
             {
                 DbCommand dbCommand = db.GetSqlStringCommand(sqlCommand);
@@ -136,7 +136,7 @@ namespace BKIT.Model.DataService
 
             sqlCommand = "SELECT * FROM (" + sqlCommand + ")";
             //sqlCommand += " WHERE TenSanPham IS NOT NULL";
-            sqlCommand += " WHERE Left(TenSanPham,"+searchTemplate.Length.ToString()+") = '" + searchTemplate +"'" ;
+            sqlCommand += " WHERE (Left(TenSanPham,"+searchTemplate.Length.ToString()+") = '" + searchTemplate +"' AND IDSanPham >= 0)" ;
 
             //////////////////////////////
             //sqlCommand = " SELECT * FROM SanPham WHERE TenSanPham LIKE '**' ";

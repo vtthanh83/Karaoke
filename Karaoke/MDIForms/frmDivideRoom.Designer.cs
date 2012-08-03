@@ -82,11 +82,12 @@
             this.btnUpdate = new DevExpress.XtraEditors.SimpleButton();
             this.btnExit = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
-            this.gcOldRoomproduct = new DevExpress.XtraEditors.GroupControl();
             this.gcNewRoomProduct = new DevExpress.XtraEditors.GroupControl();
+            this.gcOldRoomproduct = new DevExpress.XtraEditors.GroupControl();
+            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.groupControl6 = new DevExpress.XtraEditors.GroupControl();
+            this.btnTransferRoom = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.gridRoom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewRoom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkRoomStatus)).BeginInit();
@@ -116,14 +117,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
-            this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
             this.groupControl3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gcOldRoomproduct)).BeginInit();
-            this.gcOldRoomproduct.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gcNewRoomProduct)).BeginInit();
             this.gcNewRoomProduct.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gcOldRoomproduct)).BeginInit();
+            this.gcOldRoomproduct.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
+            this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).BeginInit();
             this.groupControl6.SuspendLayout();
             this.SuspendLayout();
@@ -789,19 +790,19 @@
             // 
             this.btnUpdate.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnUpdate.Appearance.Options.UseFont = true;
-            this.btnUpdate.Location = new System.Drawing.Point(329, 24);
+            this.btnUpdate.Location = new System.Drawing.Point(420, 24);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(100, 30);
             this.btnUpdate.TabIndex = 65;
-            this.btnUpdate.Text = "Đồng ý";
+            this.btnUpdate.Text = "Tách Phòng";
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnExit
             // 
             this.btnExit.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnExit.Appearance.Options.UseFont = true;
-            this.btnExit.Location = new System.Drawing.Point(461, 24);
+            this.btnExit.Location = new System.Drawing.Point(570, 24);
             this.btnExit.Margin = new System.Windows.Forms.Padding(4);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(100, 30);
@@ -821,17 +822,6 @@
             this.groupControl1.TabIndex = 67;
             this.groupControl1.Text = "Bảng chuyển đổi";
             // 
-            // groupControl2
-            // 
-            this.groupControl2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
-            this.groupControl2.Controls.Add(this.gridRoom);
-            this.groupControl2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.groupControl2.Location = new System.Drawing.Point(2, 20);
-            this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(270, 566);
-            this.groupControl2.TabIndex = 0;
-            this.groupControl2.Text = "Chọn phòng";
-            // 
             // groupControl3
             // 
             this.groupControl3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
@@ -844,17 +834,6 @@
             this.groupControl3.TabIndex = 1;
             this.groupControl3.Text = "Chuyển sản phẩm";
             // 
-            // gcOldRoomproduct
-            // 
-            this.gcOldRoomproduct.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
-            this.gcOldRoomproduct.Controls.Add(this.gridBillProduct);
-            this.gcOldRoomproduct.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gcOldRoomproduct.Location = new System.Drawing.Point(2, 20);
-            this.gcOldRoomproduct.Name = "gcOldRoomproduct";
-            this.gcOldRoomproduct.Size = new System.Drawing.Size(405, 226);
-            this.gcOldRoomproduct.TabIndex = 0;
-            this.gcOldRoomproduct.Text = "Sản phẩm phòng cũ";
-            // 
             // gcNewRoomProduct
             // 
             this.gcNewRoomProduct.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
@@ -866,9 +845,32 @@
             this.gcNewRoomProduct.TabIndex = 1;
             this.gcNewRoomProduct.Text = "Sản phẩm phòng mới";
             // 
+            // gcOldRoomproduct
+            // 
+            this.gcOldRoomproduct.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
+            this.gcOldRoomproduct.Controls.Add(this.gridBillProduct);
+            this.gcOldRoomproduct.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gcOldRoomproduct.Location = new System.Drawing.Point(2, 20);
+            this.gcOldRoomproduct.Name = "gcOldRoomproduct";
+            this.gcOldRoomproduct.Size = new System.Drawing.Size(405, 226);
+            this.gcOldRoomproduct.TabIndex = 0;
+            this.gcOldRoomproduct.Text = "Sản phẩm phòng cũ";
+            // 
+            // groupControl2
+            // 
+            this.groupControl2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
+            this.groupControl2.Controls.Add(this.gridRoom);
+            this.groupControl2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.groupControl2.Location = new System.Drawing.Point(2, 20);
+            this.groupControl2.Name = "groupControl2";
+            this.groupControl2.Size = new System.Drawing.Size(270, 566);
+            this.groupControl2.TabIndex = 0;
+            this.groupControl2.Text = "Chọn phòng";
+            // 
             // groupControl6
             // 
             this.groupControl6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
+            this.groupControl6.Controls.Add(this.btnTransferRoom);
             this.groupControl6.Controls.Add(this.btnRefresh);
             this.groupControl6.Controls.Add(this.btnUpdate);
             this.groupControl6.Controls.Add(this.btnExit);
@@ -877,6 +879,18 @@
             this.groupControl6.Name = "groupControl6";
             this.groupControl6.Size = new System.Drawing.Size(683, 80);
             this.groupControl6.TabIndex = 68;
+            // 
+            // btnTransferRoom
+            // 
+            this.btnTransferRoom.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnTransferRoom.Appearance.Options.UseFont = true;
+            this.btnTransferRoom.Location = new System.Drawing.Point(246, 24);
+            this.btnTransferRoom.Margin = new System.Windows.Forms.Padding(4);
+            this.btnTransferRoom.Name = "btnTransferRoom";
+            this.btnTransferRoom.Size = new System.Drawing.Size(132, 30);
+            this.btnTransferRoom.TabIndex = 67;
+            this.btnTransferRoom.Text = "Chuyển/Hợp Phòng";
+            this.btnTransferRoom.Click += new System.EventHandler(this.btnTransferRoom_Click);
             // 
             // frmDivideRoom
             // 
@@ -922,14 +936,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
-            this.groupControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
             this.groupControl3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gcOldRoomproduct)).EndInit();
-            this.gcOldRoomproduct.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gcNewRoomProduct)).EndInit();
             this.gcNewRoomProduct.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gcOldRoomproduct)).EndInit();
+            this.gcOldRoomproduct.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
+            this.groupControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).EndInit();
             this.groupControl6.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -996,5 +1010,6 @@
         private DevExpress.XtraEditors.GroupControl gcNewRoomProduct;
         private DevExpress.XtraEditors.GroupControl gcOldRoomproduct;
         private DevExpress.XtraEditors.GroupControl groupControl2;
+        private DevExpress.XtraEditors.SimpleButton btnTransferRoom;
     }
 }

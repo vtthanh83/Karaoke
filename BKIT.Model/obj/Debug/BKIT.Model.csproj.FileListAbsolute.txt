@@ -261,3 +261,10 @@ E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\BKI
 E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
 E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\BKIT.Model\obj\Debug\BKIT.Model.dll
 E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\BKIT.Model\obj\Debug\BKIT.Model.pdb
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\BKIT.Model\bin\Debug\BKIT.Model.dll
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\BKIT.Model\bin\Debug\BKIT.Model.pdb
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\BKIT.Model\bin\Debug\BKIT.Entities.dll
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\BKIT.Model\bin\Debug\BKIT.Entities.pdb
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\BKIT.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\BKIT.Model\obj\Debug\BKIT.Model.dll
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\BKIT.Model\obj\Debug\BKIT.Model.pdb

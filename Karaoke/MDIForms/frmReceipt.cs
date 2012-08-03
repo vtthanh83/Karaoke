@@ -188,6 +188,7 @@ namespace Karaoke.MDIForms
                         obj.IDSanpham = iCurrentProductID;
                         obj.Gia = Convert.ToInt32(gridViewSanPham.GetRowCellValue(rowHandle, "Gia"));
                         obj.Soluong = rtnum;
+                        obj.Ghichu = text;
                         if (ds != null)
                         {
                             try

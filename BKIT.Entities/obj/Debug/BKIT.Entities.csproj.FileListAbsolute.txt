@@ -163,3 +163,8 @@ E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\BKI
 E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\BKIT.Entities\obj\Debug\ResolveAssemblyReference.cache
 E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\BKIT.Entities\obj\Debug\BKIT.Entities.dll
 E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\BKIT.Entities\obj\Debug\BKIT.Entities.pdb
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\BKIT.Entities\bin\Debug\BKIT.Entities.dll
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\BKIT.Entities\bin\Debug\BKIT.Entities.pdb
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\BKIT.Entities\obj\Debug\ResolveAssemblyReference.cache
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\BKIT.Entities\obj\Debug\BKIT.Entities.dll
+E:\OX_Doc\KCNTT_2011\SunID\Dropbox\Working\Karaoke_20120801\Karaoke_20120801\Karaoke\BKIT.Entities\obj\Debug\BKIT.Entities.pdb
