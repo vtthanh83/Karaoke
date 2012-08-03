@@ -88,6 +88,10 @@
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.groupControl6 = new DevExpress.XtraEditors.GroupControl();
             this.btnTransferRoom = new DevExpress.XtraEditors.SimpleButton();
+            this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gridRoom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewRoom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkRoomStatus)).BeginInit();
@@ -363,6 +367,8 @@
             this.gridColumn1,
             this.gridColumn2,
             this.colBillNum,
+            this.gridColumn12,
+            this.gridColumn10,
             this.gridColumn19,
             this.colTransfer,
             this.colBillReduce,
@@ -434,7 +440,7 @@
             // gridColumn19
             // 
             this.gridColumn19.Caption = "IDGiaXuatSP";
-            this.gridColumn19.FieldName = "IDGiaXuatSP";
+            this.gridColumn19.FieldName = "Gia";
             this.gridColumn19.Name = "gridColumn19";
             this.gridColumn19.OptionsColumn.ReadOnly = true;
             // 
@@ -597,6 +603,8 @@
             this.gridColumn5,
             this.gridColumn7,
             this.gridColumn8,
+            this.gridColumn14,
+            this.gridColumn13,
             this.gridColumn9,
             this.colTransferUp,
             this.gridColumn11,
@@ -667,8 +675,8 @@
             // 
             // gridColumn9
             // 
-            this.gridColumn9.Caption = "IDGiaXuatSP";
-            this.gridColumn9.FieldName = "IDGiaXuatSP";
+            this.gridColumn9.Caption = "Gia";
+            this.gridColumn9.FieldName = "Gia";
             this.gridColumn9.Name = "gridColumn9";
             this.gridColumn9.OptionsColumn.ReadOnly = true;
             // 
@@ -892,6 +900,34 @@
             this.btnTransferRoom.Text = "Chuyển/Hợp Phòng";
             this.btnTransferRoom.Click += new System.EventHandler(this.btnTransferRoom_Click);
             // 
+            // gridColumn10
+            // 
+            this.gridColumn10.Caption = "Ghichu";
+            this.gridColumn10.FieldName = "Ghichu";
+            this.gridColumn10.Name = "gridColumn10";
+            // 
+            // gridColumn12
+            // 
+            this.gridColumn12.Caption = "Trangthai";
+            this.gridColumn12.FieldName = "Trangthai";
+            this.gridColumn12.Name = "gridColumn12";
+            // 
+            // gridColumn13
+            // 
+            this.gridColumn13.Caption = "Trangthai";
+            this.gridColumn13.FieldName = "Trangthai";
+            this.gridColumn13.Name = "gridColumn13";
+            this.gridColumn13.Visible = true;
+            this.gridColumn13.VisibleIndex = 5;
+            // 
+            // gridColumn14
+            // 
+            this.gridColumn14.Caption = "Ghichu";
+            this.gridColumn14.FieldName = "Ghichu";
+            this.gridColumn14.Name = "gridColumn14";
+            this.gridColumn14.Visible = true;
+            this.gridColumn14.VisibleIndex = 4;
+            // 
             // frmDivideRoom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -1011,5 +1047,9 @@
         private DevExpress.XtraEditors.GroupControl gcOldRoomproduct;
         private DevExpress.XtraEditors.GroupControl groupControl2;
         private DevExpress.XtraEditors.SimpleButton btnTransferRoom;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn12;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn10;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn14;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn13;
     }
 }
