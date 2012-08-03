@@ -745,23 +745,68 @@ namespace Karaoke.MDIForms
             //}
             frmDivideRoom a = new frmDivideRoom(iCurrentRoomID, iCurrentReceiptID);
             a.ShowDialog();
-
+            int i;
             //compare grid with DB to open electric CB
             //updateRoomGrid(a.TransferedRoomID());
-            if (a.TransferedReceipt() >= 0)
+            switch (a.DevideAction())
             {
-                updateBillDisplay(a.TransferedReceipt(), true);
-                int openedRoom;
-                while ((openedRoom = a.getNewOpenedRoom()) >= 0)
-                {
-                    DataSet ds = new DataAccess().getPhongByIDPhong(openedRoom);
+                case 1:
+                    //transfer room
+                    //turnoff CB
+                    DataSet ds = new DataAccess().getPhongByIDPhong(iCurrentRoomID);
+                    if (ds.Tables[0].Rows.Count > 0)
+                    {
+                        ContactAction(0xcf, Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]));
+                    }
+                    iCurrentRoomID = a.getNewOpenedRoom();
+                    //add san pham mac dinh vao hoa don moi
+                    //add starting product for the room
+                    DataSet dsSPBD = new DataAccess().getAllSPBandauIDLoaiPhong(a.getNewOpenedRoomGroup());
+                    for (i = 0; i < dsSPBD.Tables[0].Rows.Count; i++)
+                    {
+                        int IDSanPham = Convert.ToInt32(dsSPBD.Tables[0].Rows[i]["IDSanPham"]);
+                        int IDLoaiSP = Convert.ToInt32(dsSPBD.Tables[0].Rows[i]["IDNhomSP"]);
+                        string TenSanPham = Convert.ToString(dsSPBD.Tables[0].Rows[i]["TenSanPham"]);
+                        int num = Convert.ToInt32(dsSPBD.Tables[0].Rows[i]["Soluong"]);
+                        AddSPBD(a.TransferedReceipt(), IDLoaiSP, IDSanPham, TenSanPham, num);
+                    }
+                    updateBillDisplay(a.TransferedReceipt(), true);
+                    ds = new DataAccess().getPhongByIDPhong(iCurrentRoomID);
                     if (ds.Tables[0].Rows.Count > 0)
                     {
                         ContactAction(0xbf, Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]));
                     }
+                    break;
+                case 2:
+                    //jump to new room
                     iCurrentRoomID = a.getNewOpenedRoom();
-                }
+                    updateBillDisplay(a.TransferedReceipt(), true);
+                    break;
+                case 3:
+                    //transfer room
+                    //turnoff CB
+                    
+                    iCurrentRoomID = a.getNewOpenedRoom();
+                    DataSet dsSPBD1 = new DataAccess().getAllSPBandauIDLoaiPhong(a.getNewOpenedRoomGroup());
+                    for (i = 0; i < dsSPBD1.Tables[0].Rows.Count; i++)
+                    {
+                        int IDSanPham = Convert.ToInt32(dsSPBD1.Tables[0].Rows[i]["IDSanPham"]);
+                        int IDLoaiSP = Convert.ToInt32(dsSPBD1.Tables[0].Rows[i]["IDNhomSP"]);
+                        string TenSanPham = Convert.ToString(dsSPBD1.Tables[0].Rows[i]["TenSanPham"]);
+                        int num = Convert.ToInt32(dsSPBD1.Tables[0].Rows[i]["Soluong"]);
+                        AddSPBD(a.TransferedReceipt(), IDLoaiSP, IDSanPham, TenSanPham, num);
+                    }
+                    updateBillDisplay(a.TransferedReceipt(), true);
+                    ds = new DataAccess().getPhongByIDPhong(iCurrentRoomID);
+                    if (ds.Tables[0].Rows.Count > 0)
+                    {
+                        ContactAction(0xbf, Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]));
+                    }
+                    break;
+                default:
+                    break;
             }
+            
             a.Close();
 
 
@@ -1329,7 +1374,8 @@ namespace Karaoke.MDIForms
                     }
                     else
                         obj.Giam = 0;
-                    obj.Trangthai = false;
+                    obj.Trangthai = true;
+                    obj.Ghichu = "Sản phẩm mặc định";
                     int res = new DataAccess().insertChitietHDXuat(obj);
                     if (res < 0)
                     {
@@ -1555,6 +1601,7 @@ namespace Karaoke.MDIForms
             currentReceipt.Trangthai = Convert.ToInt32(dsBill.Tables[0].Rows[0]["Trangthai"]);
             currentReceipt.IDHoadonXuat = IDHoadon;
             currentReceipt.IDNhanvien = Convert.ToInt32(dsBill.Tables[0].Rows[0]["IDNhanvien"]);
+            currentReceipt.IDNhanvienXuatHD = Convert.ToInt32(dsBill.Tables[0].Rows[0]["IDNhanvienXuatHD"]);
             currentReceipt.Nhacnho = Convert.ToBoolean(dsBill.Tables[0].Rows[0]["Nhacnho"]);
             currentReceipt.IDKhachhang = Convert.ToInt32(dsBill.Tables[0].Rows[0]["IDKhachhang"]);
             dateReceipt.Value = Convert.ToDateTime(dsBill.Tables[0].Rows[0]["Ngayxuat"]);
@@ -1786,7 +1833,36 @@ namespace Karaoke.MDIForms
             }
             return false;
         }
-
+        bool updateReceiptSuco(int IDHoaDon)
+        {
+            DataSet dsBill = new DataAccess().getHoadonxuatByIDHoadonXuat(IDHoaDon);
+            if (dsBill == null)
+                return false;
+            if (dsBill.Tables[0].Rows.Count <= 0)
+                return false;
+            Hoadonxuat tmpReceipt = new Hoadonxuat();
+            tmpReceipt.Suco = 1;
+            tmpReceipt.IDNhanvien = Convert.ToInt32(dsBill.Tables[0].Rows[0]["IDNhanvien"]);
+            tmpReceipt.IDPhong = Convert.ToInt32(dsBill.Tables[0].Rows[0]["IDPhong"]);
+            tmpReceipt.Giam = Convert.ToInt32(dsBill.Tables[0].Rows[0]["Giam"]);
+            tmpReceipt.Thue = Convert.ToInt32(dsBill.Tables[0].Rows[0]["Thue"]);
+            tmpReceipt.Phuthu = Convert.ToInt32(dsBill.Tables[0].Rows[0]["Phuthu"]);
+            tmpReceipt.IDGiaLoaiphong = Convert.ToInt32(dsBill.Tables[0].Rows[0]["IDGiaLoaiphong"]);
+            tmpReceipt.Ngayxuat = Convert.ToDateTime(dsBill.Tables[0].Rows[0]["Ngayxuat"]);
+            tmpReceipt.GioBD = Convert.ToDateTime(dsBill.Tables[0].Rows[0]["GioBD"]);
+            tmpReceipt.GioKT = Convert.ToDateTime(dsBill.Tables[0].Rows[0]["GioKT"]);
+            tmpReceipt.Tratruoc = Convert.ToInt32(dsBill.Tables[0].Rows[0]["Tratruoc"]);
+            tmpReceipt.Ghichu = Convert.ToString(dsBill.Tables[0].Rows[0]["Ghichu"]);
+            tmpReceipt.Trangthai = Convert.ToInt32(dsBill.Tables[0].Rows[0]["Trangthai"]);
+            tmpReceipt.IDHoadonXuat = IDHoaDon;
+            tmpReceipt.IDNhanvienXuatHD = Convert.ToInt32(dsBill.Tables[0].Rows[0]["IDNhanvienXuatHD"]);
+            tmpReceipt.IDNhanvien = Convert.ToInt32(dsBill.Tables[0].Rows[0]["IDNhanvien"]);
+            tmpReceipt.Nhacnho = Convert.ToBoolean(dsBill.Tables[0].Rows[0]["Nhacnho"]);
+            tmpReceipt.IDKhachhang = Convert.ToInt32(dsBill.Tables[0].Rows[0]["IDKhachhang"]);
+            if (new DataAccess().updateHoadonxuat(tmpReceipt))
+                return true;
+            return false;
+        }
         #endregion
 
         #region ComPort

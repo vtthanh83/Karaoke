@@ -49,6 +49,8 @@
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colBillNum = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemSpinEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
+            this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn19 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTransfer = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemSpinEdit5 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
@@ -67,6 +69,8 @@
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemSpinEdit3 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
+            this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTransferUp = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemSpinEdit6 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
@@ -88,10 +92,6 @@
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.groupControl6 = new DevExpress.XtraEditors.GroupControl();
             this.btnTransferRoom = new DevExpress.XtraEditors.SimpleButton();
-            this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gridRoom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewRoom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkRoomStatus)).BeginInit();
@@ -437,6 +437,18 @@
             0});
             this.repositoryItemSpinEdit1.Name = "repositoryItemSpinEdit1";
             // 
+            // gridColumn12
+            // 
+            this.gridColumn12.Caption = "Trangthai";
+            this.gridColumn12.FieldName = "Trangthai";
+            this.gridColumn12.Name = "gridColumn12";
+            // 
+            // gridColumn10
+            // 
+            this.gridColumn10.Caption = "Ghichu";
+            this.gridColumn10.FieldName = "Ghichu";
+            this.gridColumn10.Name = "gridColumn10";
+            // 
             // gridColumn19
             // 
             this.gridColumn19.Caption = "IDGiaXuatSP";
@@ -673,6 +685,18 @@
             0});
             this.repositoryItemSpinEdit3.Name = "repositoryItemSpinEdit3";
             // 
+            // gridColumn14
+            // 
+            this.gridColumn14.Caption = "Ghichu";
+            this.gridColumn14.FieldName = "Ghichu";
+            this.gridColumn14.Name = "gridColumn14";
+            // 
+            // gridColumn13
+            // 
+            this.gridColumn13.Caption = "Trangthai";
+            this.gridColumn13.FieldName = "Trangthai";
+            this.gridColumn13.Name = "gridColumn13";
+            // 
             // gridColumn9
             // 
             this.gridColumn9.Caption = "Gia";
@@ -798,7 +822,7 @@
             // 
             this.btnUpdate.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnUpdate.Appearance.Options.UseFont = true;
-            this.btnUpdate.Location = new System.Drawing.Point(420, 24);
+            this.btnUpdate.Location = new System.Drawing.Point(321, 24);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(100, 30);
@@ -810,7 +834,7 @@
             // 
             this.btnExit.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnExit.Appearance.Options.UseFont = true;
-            this.btnExit.Location = new System.Drawing.Point(570, 24);
+            this.btnExit.Location = new System.Drawing.Point(429, 24);
             this.btnExit.Margin = new System.Windows.Forms.Padding(4);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(100, 30);
@@ -892,41 +916,13 @@
             // 
             this.btnTransferRoom.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnTransferRoom.Appearance.Options.UseFont = true;
-            this.btnTransferRoom.Location = new System.Drawing.Point(246, 24);
+            this.btnTransferRoom.Location = new System.Drawing.Point(181, 24);
             this.btnTransferRoom.Margin = new System.Windows.Forms.Padding(4);
             this.btnTransferRoom.Name = "btnTransferRoom";
             this.btnTransferRoom.Size = new System.Drawing.Size(132, 30);
             this.btnTransferRoom.TabIndex = 67;
             this.btnTransferRoom.Text = "Chuyển/Hợp Phòng";
             this.btnTransferRoom.Click += new System.EventHandler(this.btnTransferRoom_Click);
-            // 
-            // gridColumn10
-            // 
-            this.gridColumn10.Caption = "Ghichu";
-            this.gridColumn10.FieldName = "Ghichu";
-            this.gridColumn10.Name = "gridColumn10";
-            // 
-            // gridColumn12
-            // 
-            this.gridColumn12.Caption = "Trangthai";
-            this.gridColumn12.FieldName = "Trangthai";
-            this.gridColumn12.Name = "gridColumn12";
-            // 
-            // gridColumn13
-            // 
-            this.gridColumn13.Caption = "Trangthai";
-            this.gridColumn13.FieldName = "Trangthai";
-            this.gridColumn13.Name = "gridColumn13";
-            this.gridColumn13.Visible = true;
-            this.gridColumn13.VisibleIndex = 5;
-            // 
-            // gridColumn14
-            // 
-            this.gridColumn14.Caption = "Ghichu";
-            this.gridColumn14.FieldName = "Ghichu";
-            this.gridColumn14.Name = "gridColumn14";
-            this.gridColumn14.Visible = true;
-            this.gridColumn14.VisibleIndex = 4;
             // 
             // frmDivideRoom
             // 

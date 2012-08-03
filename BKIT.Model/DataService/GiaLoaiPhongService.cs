@@ -39,14 +39,15 @@ namespace BKIT.Model.DataService
         public bool updateGiaLoaiPhong(BKIT.Entities.GiaLoaiPhong objGiaLoaiPhong)
         {
             Database db = DatabaseFactory.CreateDatabase();
-            string sqlCommand = "UPDATE GiaLoaiPhong SET Gia = @gia, IDLoaiPhong = @idloaiphong, Ngay = @ngay, IDKhunggio = @idkhunggio  " +
+            string sqlCommand = "UPDATE GiaLoaiPhong SET Gia = @gia, Ngay = @ngay,IDLoaiPhong = @idloaiphong,  IDKhunggio = @idkhunggio  " +
                     "WHERE IDGiaLoaiPhong = @idgialoaiphong";
             DbCommand dbCommand = db.GetSqlStringCommand(sqlCommand);
             try
             {
                 db.AddInParameter(dbCommand, "gia", DbType.Decimal, objGiaLoaiPhong.Gia);
-                db.AddInParameter(dbCommand, "idloaiphong", DbType.Int32, objGiaLoaiPhong.IDLoaiPhong);
                 db.AddInParameter(dbCommand, "ngay", DbType.DateTime, objGiaLoaiPhong.Ngay);
+                db.AddInParameter(dbCommand, "idloaiphong", DbType.Int32, objGiaLoaiPhong.IDLoaiPhong);
+                
                 db.AddInParameter(dbCommand, "idgialoaiphong", DbType.Int32, objGiaLoaiPhong.IDGiaLoaiPhong);
                 db.AddInParameter(dbCommand, "idkhunggio", DbType.Int32, objGiaLoaiPhong.IDKhunggio);
                 db.ExecuteNonQuery(dbCommand);
