@@ -96,6 +96,7 @@
             this.gridColumn17 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn18 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colBillReduce = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDeleteCTHD = new DevExpress.XtraGrid.Columns.GridColumn();
             this.deleteChitietHD = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.colPrintCook = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -129,7 +130,7 @@
             this.cboRoom = new System.Windows.Forms.ComboBox();
             this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
             this.xtraTabPageRoom = new DevExpress.XtraTab.XtraTabPage();
-            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gridControlSanPham)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewSanPham)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).BeginInit();
@@ -214,6 +215,7 @@
             this.gridColumn8,
             this.gridColumn7,
             this.gridColumn10,
+            this.gridColumn6,
             this.gridColumn11,
             this.colAddSP,
             this.gridColumn13});
@@ -556,7 +558,7 @@
             this.btnPrintCooking.Size = new System.Drawing.Size(88, 85);
             this.btnPrintCooking.TabIndex = 62;
             this.btnPrintCooking.Text = "In thực đơn";
-            this.toolTip1.SetToolTip(this.btnPrintCooking, "In thực đơn cho nhà bếp");
+            this.toolTip1.SetToolTip(this.btnPrintCooking, "In thực đơn cho nhà bếp/Xuất kho");
             this.btnPrintCooking.Click += new System.EventHandler(this.btnPrintCooking_Click);
             // 
             // label14
@@ -674,7 +676,6 @@
             this.btnFirstBill.TabIndex = 51;
             this.toolTip1.SetToolTip(this.btnFirstBill, "Hóa đơn sớm nhất");
             this.btnFirstBill.Visible = false;
-            this.btnFirstBill.Click += new System.EventHandler(this.btnFirstBill_Click);
             // 
             // label11
             // 
@@ -741,7 +742,6 @@
             this.btnPreviousBill.TabIndex = 50;
             this.toolTip1.SetToolTip(this.btnPreviousBill, "Hóa đơn trước");
             this.btnPreviousBill.Visible = false;
-            this.btnPreviousBill.Click += new System.EventHandler(this.btnPreviousBill_Click);
             // 
             // btnNextBill
             // 
@@ -753,7 +753,6 @@
             this.btnNextBill.TabIndex = 49;
             this.toolTip1.SetToolTip(this.btnNextBill, "Hóa đơn kế tiếp");
             this.btnNextBill.Visible = false;
-            this.btnNextBill.Click += new System.EventHandler(this.btnNextBill_Click);
             // 
             // dateReceipt
             // 
@@ -764,7 +763,6 @@
             this.dateReceipt.Size = new System.Drawing.Size(109, 24);
             this.dateReceipt.TabIndex = 48;
             this.dateReceipt.Visible = false;
-            this.dateReceipt.ValueChanged += new System.EventHandler(this.dateReceipt_ValueChanged);
             // 
             // txtProductMoney
             // 
@@ -1017,6 +1015,15 @@
             this.colBillReduce.Visible = true;
             this.colBillReduce.VisibleIndex = 3;
             this.colBillReduce.Width = 69;
+            // 
+            // gridColumn3
+            // 
+            this.gridColumn3.Caption = "Ghi chú";
+            this.gridColumn3.FieldName = "Ghichu";
+            this.gridColumn3.Name = "gridColumn3";
+            this.gridColumn3.Visible = true;
+            this.gridColumn3.VisibleIndex = 6;
+            this.gridColumn3.Width = 140;
             // 
             // colDeleteCTHD
             // 
@@ -1408,14 +1415,11 @@
             this.xtraTabPageRoom.Name = "xtraTabPageRoom";
             this.xtraTabPageRoom.Size = new System.Drawing.Size(0, 452);
             // 
-            // gridColumn3
+            // gridColumn6
             // 
-            this.gridColumn3.Caption = "Ghi chú";
-            this.gridColumn3.FieldName = "Ghichu";
-            this.gridColumn3.Name = "gridColumn3";
-            this.gridColumn3.Visible = true;
-            this.gridColumn3.VisibleIndex = 6;
-            this.gridColumn3.Width = 140;
+            this.gridColumn6.Caption = "TK tối thiểu";
+            this.gridColumn6.FieldName = "SLCanhbao";
+            this.gridColumn6.Name = "gridColumn6";
             // 
             // frmReceipt
             // 
@@ -1574,5 +1578,6 @@
         private System.Windows.Forms.ComboBox cboRoom;
         private DevExpress.XtraEditors.SimpleButton bntOpenCloseRoom;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
     }
 }

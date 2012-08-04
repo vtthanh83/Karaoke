@@ -11,6 +11,7 @@ namespace Karaoke
         public static bool isLogin = false;
         public static Level userLevel = Level.Guest;
         public static string username = "Guest";
+        public static string userFullName = "Guest";
         public static string password = "123";
         public static int IDNhanvien = -1;
         /// The main entry point for the application.

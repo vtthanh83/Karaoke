@@ -141,6 +141,9 @@
   <metadata name="xrTableCell11.Name" xml:space="preserve">
     <value>xrTableCell11</value>
   </metadata>
+  <metadata name="xrTableCell12.Name" xml:space="preserve">
+    <value>xrTableCell12</value>
+  </metadata>
   <metadata name="PageHeader.Name" xml:space="preserve">
     <value>PageHeader</value>
   </metadata>
@@ -165,11 +168,20 @@
   <metadata name="xrTableCell5.Name" xml:space="preserve">
     <value>xrTableCell5</value>
   </metadata>
+  <metadata name="xrTableCell6.Name" xml:space="preserve">
+    <value>xrTableCell6</value>
+  </metadata>
   <metadata name="PageFooter.Name" xml:space="preserve">
     <value>PageFooter</value>
   </metadata>
   <metadata name="ReportHeader.Name" xml:space="preserve">
     <value>ReportHeader</value>
+  </metadata>
+  <metadata name="xrLabel11.Name" xml:space="preserve">
+    <value>xrLabel11</value>
+  </metadata>
+  <metadata name="xrLabel10.Name" xml:space="preserve">
+    <value>xrLabel10</value>
   </metadata>
   <metadata name="xrLabel9.Name" xml:space="preserve">
     <value>xrLabel9</value>

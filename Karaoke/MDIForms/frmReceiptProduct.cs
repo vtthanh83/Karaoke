@@ -707,7 +707,7 @@ namespace Karaoke.MDIForms
                 {
                     //load last setting
                     DataSet ds = new DataAccess().getSettingByDate("");
-                    string printer;
+                    string printer="";
                     try
                     {
                         printer = Convert.ToString(ds.Tables[0].Rows[0]["MayInKho"]);
@@ -717,7 +717,7 @@ namespace Karaoke.MDIForms
                     {
                         MessageBox.Show("Chưa cài đặt máy in!", "Thông báo");
                     }
-                    frmViewReport frmView = new frmViewReport(dsBill, false);
+                    frmViewReport frmView = new frmViewReport(dsBill, false, printer);
                     if (frmView.ShowDialog() == DialogResult.Yes)
                     {
                         for (i = 0; i < dsSP.Tables[0].Rows.Count; i++)
@@ -971,7 +971,7 @@ namespace Karaoke.MDIForms
                 {
                     //load last setting
                     DataSet ds = new DataAccess().getSettingByDate("");
-                    string printer;
+                    string printer="";
                     try
                     {
                         printer = Convert.ToString(ds.Tables[0].Rows[0]["MayInBep"]);
@@ -981,7 +981,7 @@ namespace Karaoke.MDIForms
                     {
                         MessageBox.Show("Chưa cài đặt máy in!", "Thông báo");
                     }
-                    frmViewReport frmView = new frmViewReport(dsBill, true);
+                    frmViewReport frmView = new frmViewReport(dsBill, true, printer);
                     if (frmView.ShowDialog() == DialogResult.Yes)
                     {
                         for (i = 0; i < dsSP.Tables[0].Rows.Count; i++)

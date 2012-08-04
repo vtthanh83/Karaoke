@@ -138,6 +138,9 @@
   <metadata name="xrTableCell11.Name" xml:space="preserve">
     <value>xrTableCell11</value>
   </metadata>
+  <metadata name="xrTableCell3.Name" xml:space="preserve">
+    <value>xrTableCell3</value>
+  </metadata>
   <metadata name="PageHeader.Name" xml:space="preserve">
     <value>PageHeader</value>
   </metadata>
@@ -159,20 +162,23 @@
   <metadata name="xrTableCell5.Name" xml:space="preserve">
     <value>xrTableCell5</value>
   </metadata>
+  <metadata name="xrTableCell6.Name" xml:space="preserve">
+    <value>xrTableCell6</value>
+  </metadata>
   <metadata name="PageFooter.Name" xml:space="preserve">
     <value>PageFooter</value>
   </metadata>
   <metadata name="ReportHeader.Name" xml:space="preserve">
     <value>ReportHeader</value>
   </metadata>
+  <metadata name="xrLabel11.Name" xml:space="preserve">
+    <value>xrLabel11</value>
+  </metadata>
+  <metadata name="xrLabel10.Name" xml:space="preserve">
+    <value>xrLabel10</value>
+  </metadata>
   <metadata name="xrLabel9.Name" xml:space="preserve">
     <value>xrLabel9</value>
-  </metadata>
-  <metadata name="dataSetDetailBill1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="dataSetDetailBill1.Name" xml:space="preserve">
-    <value>dataSetDetailBill1</value>
   </metadata>
   <metadata name="xrLabel8.Name" xml:space="preserve">
     <value>xrLabel8</value>
@@ -228,7 +234,13 @@
   <metadata name="dataSetHoaDon1.Name" xml:space="preserve">
     <value>dataSetHoaDon1</value>
   </metadata>
+  <metadata name="dataSetDetailBill1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="dataSetDetailBill1.Name" xml:space="preserve">
+    <value>dataSetDetailBill1</value>
+  </metadata>
   <metadata name="$this.Name" xml:space="preserve">
-    <value>Hoadonbep</value>
+    <value>XuatKho</value>
   </metadata>
 </root>

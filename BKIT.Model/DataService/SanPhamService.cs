@@ -128,10 +128,10 @@ namespace BKIT.Model.DataService
         public System.Data.DataSet getAllSanPhamAndIDGia(string searchTemplate)
         {
             Database db = DatabaseFactory.CreateDatabase();
-            string sqlCommand = " SELECT Query4.TenSanPham AS TenSanPham, Query4.IDSanPham as IDSanPham, Query4.DVT as DVT, Query4.IDNhomSP as IDNhomSP, Query4.TenNhomSP as TenNhomSP,Query4.Tukhoa as Tukhoa, GiaXuatSP.IDGiaXuatSP as IDGiaXuatSP, GiaXuatSP.Gia as Gia, 1 AS AddSP " +
-                                " FROM GiaXuatSP ,(SELECT Last(GiaXuatSP.IDGiaXuatSP) AS LastOfIDGiaXuatSP, GiaXuatSP.IDSanPham, SanPham.TenSanPham, SanPham.DVT, SanPham.IDNhomSP,SanPham.Tukhoa, NhomSP.TenNhomSP " +
+            string sqlCommand = " SELECT Query4.TenSanPham AS TenSanPham, Query4.IDSanPham as IDSanPham, Query4.DVT as DVT, Query4.IDNhomSP as IDNhomSP, Query4.TenNhomSP as TenNhomSP,Query4.Tukhoa as Tukhoa,Query4.SLCanhbao as SLCanhbao, GiaXuatSP.IDGiaXuatSP as IDGiaXuatSP, GiaXuatSP.Gia as Gia, 1 AS AddSP " +
+                                " FROM GiaXuatSP ,(SELECT Last(GiaXuatSP.IDGiaXuatSP) AS LastOfIDGiaXuatSP, GiaXuatSP.IDSanPham, SanPham.TenSanPham, SanPham.DVT, SanPham.IDNhomSP,SanPham.Tukhoa, SanPham.SLCanhbao, NhomSP.TenNhomSP " +
                                  " FROM NhomSP INNER JOIN (SanPham INNER JOIN GiaXuatSP ON SanPham.IDSanPham = GiaXuatSP.IDSanPham) ON NhomSP.IDNhomSP = SanPham.IDNhomSP " +
-                                " GROUP BY GiaXuatSP.IDSanPham, SanPham.TenSanPham, SanPham.DVT, SanPham.IDNhomSP, NhomSP.TenNhomSP,SanPham.Tukhoa) AS Query4 "+
+                                " GROUP BY GiaXuatSP.IDSanPham, SanPham.TenSanPham, SanPham.DVT, SanPham.IDNhomSP, NhomSP.TenNhomSP,SanPham.Tukhoa,SanPham.SLCanhbao) AS Query4 "+
                                 " Where GiaXuatSP.IDGiaXuatSP = Query4.LastOfIDGiaXuatSP ";
 
             sqlCommand = "SELECT * FROM (" + sqlCommand + ")";

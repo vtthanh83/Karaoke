@@ -14,10 +14,12 @@ namespace Karaoke.MDIForms
 {
     public partial class frmDivideRoom : Form
     {
+        public enum LoaiSuco { Binhthuong = 0, Tachphong = 1, Chuyenphong = 2, Trahang = 3, Giamgia = 4, Lechgio = 5};
         private int oldIDHoadonXuat = -1;
         private int newIDHoadonXuat = -1;
         private int oldRoom = -1;
         private string oldRoomName = "";
+        private string newRoomName = "";
         private int newRoom = -1;
         private int newRoomGroup = -1;
         private DataTable oldProduct = new DataTable();
@@ -284,6 +286,7 @@ namespace Karaoke.MDIForms
             if (e.FocusedRowHandle >= 0)
             {
                 newRoom = Convert.ToInt32(gridViewRoom.GetRowCellValue(e.FocusedRowHandle, "IDPhong"));
+                newRoomName = Convert.ToString(gridViewRoom.GetRowCellValue(e.FocusedRowHandle, "TenPhong"));
                 newRoomGroup = Convert.ToInt32(gridViewRoom.GetRowCellValue(e.FocusedRowHandle, "IDLoaiPhong"));
                 //lblNewRoom.Text = "Sản phẩm của phòng " + gridViewRoom.GetRowCellValue(e.FocusedRowHandle, "TenPhong").ToString() + "";
                 gcNewRoomProduct.Text = "Sản phẩm của phòng " + gridViewRoom.GetRowCellValue(e.FocusedRowHandle, "TenPhong").ToString() + "";
@@ -338,7 +341,7 @@ namespace Karaoke.MDIForms
         {
             refreshProduct();
         }
-        bool updateReceiptSuco(int IDHoaDon)
+        bool updateReceiptSuco(int IDHoaDon, LoaiSuco sc, string ghichu)
         {
             DataSet dsBill = new DataAccess().getHoadonxuatByIDHoadonXuat(IDHoaDon);
             if (dsBill == null)
@@ -346,7 +349,7 @@ namespace Karaoke.MDIForms
             if (dsBill.Tables[0].Rows.Count <= 0)
                 return false;
             Hoadonxuat currentReceipt = new Hoadonxuat();
-            currentReceipt.Suco = 1;
+            currentReceipt.Suco = Convert.ToInt32(sc);
             currentReceipt.IDNhanvien = Convert.ToInt32(dsBill.Tables[0].Rows[0]["IDNhanvien"]);
             currentReceipt.IDPhong = Convert.ToInt32(dsBill.Tables[0].Rows[0]["IDPhong"]);
             currentReceipt.Giam = Convert.ToInt32(dsBill.Tables[0].Rows[0]["Giam"]);
@@ -357,7 +360,8 @@ namespace Karaoke.MDIForms
             currentReceipt.GioBD = Convert.ToDateTime(dsBill.Tables[0].Rows[0]["GioBD"]);
             currentReceipt.GioKT = Convert.ToDateTime(dsBill.Tables[0].Rows[0]["GioKT"]);
             currentReceipt.Tratruoc = Convert.ToInt32(dsBill.Tables[0].Rows[0]["Tratruoc"]);
-            currentReceipt.Ghichu = Convert.ToString(dsBill.Tables[0].Rows[0]["Ghichu"]);
+            currentReceipt.Ghichu = Convert.ToString(dsBill.Tables[0].Rows[0]["Ghichu"]) +" - " + ghichu;
+            
             currentReceipt.Trangthai = Convert.ToInt32(dsBill.Tables[0].Rows[0]["Trangthai"]);
             currentReceipt.IDHoadonXuat = IDHoaDon;
             currentReceipt.IDNhanvienXuatHD = Convert.ToInt32(dsBill.Tables[0].Rows[0]["IDNhanvienXuatHD"]); 
@@ -475,6 +479,7 @@ namespace Karaoke.MDIForms
                 currentReceipt.IDPhong = newRoom;
                 currentReceipt.Ngayxuat = DateTime.Now.Date;
                 currentReceipt.Phuthu = 0;
+                currentReceipt.TenHoadon = newRoomName + " " + DateTime.Now.ToString("dd/MM/yy-hh:mm");
                 currentReceipt.Thue = 0;
                 currentReceipt.Trangthai = 0;
                 currentReceipt.Thue = 0;
@@ -622,8 +627,8 @@ namespace Karaoke.MDIForms
                 }
             }
             //update su co cho receipt cu
-            updateReceiptSuco(oldIDHoadonXuat);
-            updateReceiptSuco(newIDHoadonXuat);
+            updateReceiptSuco(oldIDHoadonXuat,LoaiSuco.Tachphong,"Tách sang phòng "+ newRoomName);
+            updateReceiptSuco(newIDHoadonXuat,LoaiSuco.Tachphong, "Tách từ phòng " + oldRoomName);
             MessageBox.Show("Chuyển sản phẩm thành công", "Thông báo", MessageBoxButtons.OK);
         }
         void TransferRoom()
@@ -751,6 +756,7 @@ namespace Karaoke.MDIForms
                 currentReceipt.Thue = 0;
                 currentReceipt.Trangthai = 0;
                 currentReceipt.Thue = 0;
+                currentReceipt.TenHoadon = newRoomName + " " + DateTime.Now.ToString("dd/MM/yy-hh:mm");
                 currentReceipt.Phuthu = 0;
                 currentReceipt.IDNhanvien = 0; 
                 currentReceipt.IDKhachhang = 0;
@@ -952,6 +958,7 @@ namespace Karaoke.MDIForms
             }
             oldIDHoadonXuat = -1;
             oldRoom = -1;
+            updateReceiptSuco(newIDHoadonXuat, LoaiSuco.Chuyenphong, "Chuyển từ phòng " + oldRoomName);
             refreshProduct();
             actionType = 1;
             MessageBox.Show("Chuyển sản phẩm thành công", "Thông báo", MessageBoxButtons.OK);

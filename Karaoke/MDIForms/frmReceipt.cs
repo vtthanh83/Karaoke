@@ -56,6 +56,7 @@ namespace Karaoke.MDIForms
                 return;
             }
             gridControlSanPham.DataSource = ds.Tables[0];
+           
             gridViewSanPham.ExpandAllGroups();
         }
 
@@ -514,70 +515,347 @@ namespace Karaoke.MDIForms
             displayLastRoomReceipt();
         }
 
-        private void btnPreviousBill_Click(object sender, EventArgs e)
+
+
+       
+        
+
+        private void btnDivideRoom_Click(object sender, EventArgs e)
         {
-            if (displayCurrentRoomReceipt(iReceiptIndex + 1))
-                iReceiptIndex++;
+            //get status of this room
+            if ((iCurrentRoomID < 0) || (iCurrentReceiptID < 0))
+            {
+                MessageBox.Show("Chọn phòng đang hoạt động để tách phòng/hợp phòng!", "Thông báo");
+                return;
+            }
+            //if (iCurrentReceiptID>0)
+            //{
+            //    MessageBox.Show("Chọn phòng đang hoạt động để tách phòng/hợp phòng!", "Thông báo");
+            //    return;
+            //}
+            frmDivideRoom a = new frmDivideRoom(iCurrentRoomID, iCurrentReceiptID);
+            a.ShowDialog();
+            int i;
+            //compare grid with DB to open electric CB
+            //updateRoomGrid(a.TransferedRoomID());
+            switch (a.DevideAction())
+            {
+                case 1:
+                    //transfer room
+                    //turnoff CB
+                    DataSet ds = new DataAccess().getPhongByIDPhong(iCurrentRoomID);
+                    if (ds.Tables[0].Rows.Count > 0)
+                    {
+                        ContactAction(0xcf, Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]));
+                    }
+                    iCurrentRoomID = a.getNewOpenedRoom();
+                    //add san pham mac dinh vao hoa don moi
+                    //add starting product for the room
+                    DataSet dsSPBD = new DataAccess().getAllSPBandauIDLoaiPhong(a.getNewOpenedRoomGroup());
+                    for (i = 0; i < dsSPBD.Tables[0].Rows.Count; i++)
+                    {
+                        int IDSanPham = Convert.ToInt32(dsSPBD.Tables[0].Rows[i]["IDSanPham"]);
+                        int IDLoaiSP = Convert.ToInt32(dsSPBD.Tables[0].Rows[i]["IDNhomSP"]);
+                        string TenSanPham = Convert.ToString(dsSPBD.Tables[0].Rows[i]["TenSanPham"]);
+                        int num = Convert.ToInt32(dsSPBD.Tables[0].Rows[i]["Soluong"]);
+                        AddSPBD(a.TransferedReceipt(), IDLoaiSP, IDSanPham, TenSanPham, num);
+                    }
+                    updateBillDisplay(a.TransferedReceipt(), true);
+                    ds = new DataAccess().getPhongByIDPhong(iCurrentRoomID);
+                    if (ds.Tables[0].Rows.Count > 0)
+                    {
+                        ContactAction(0xbf, Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]));
+                    }
+                    break;
+                case 2:
+                    //jump to new room
+                    iCurrentRoomID = a.getNewOpenedRoom();
+                    updateBillDisplay(a.TransferedReceipt(), true);
+                    break;
+                case 3:
+                    //transfer room
+                    //turnoff CB
+                    
+                    iCurrentRoomID = a.getNewOpenedRoom();
+                    DataSet dsSPBD1 = new DataAccess().getAllSPBandauIDLoaiPhong(a.getNewOpenedRoomGroup());
+                    for (i = 0; i < dsSPBD1.Tables[0].Rows.Count; i++)
+                    {
+                        int IDSanPham = Convert.ToInt32(dsSPBD1.Tables[0].Rows[i]["IDSanPham"]);
+                        int IDLoaiSP = Convert.ToInt32(dsSPBD1.Tables[0].Rows[i]["IDNhomSP"]);
+                        string TenSanPham = Convert.ToString(dsSPBD1.Tables[0].Rows[i]["TenSanPham"]);
+                        int num = Convert.ToInt32(dsSPBD1.Tables[0].Rows[i]["Soluong"]);
+                        AddSPBD(a.TransferedReceipt(), IDLoaiSP, IDSanPham, TenSanPham, num);
+                    }
+                    updateBillDisplay(a.TransferedReceipt(), true);
+                    ds = new DataAccess().getPhongByIDPhong(iCurrentRoomID);
+                    if (ds.Tables[0].Rows.Count > 0)
+                    {
+                        ContactAction(0xbf, Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]));
+                    }
+                    break;
+                default:
+                    break;
+            }
+            
+            a.Close();
+
+
         }
 
-        private void btnNextBill_Click(object sender, EventArgs e)
+        private void btnJoinRoom_Click(object sender, EventArgs e)
         {
-            if (iReceiptIndex > 0)
+            
+        }
+        private void printCookingInvoice()
+        {
+            if (iCurrentReceiptID >= 0)
             {
-                if (displayCurrentRoomReceipt(iReceiptIndex - 1))
-                    iReceiptIndex--;
+                int i;
+                DataSetHoaDon dsBill = new DataSetHoaDon();
+                DataSet dsSP = new DataAccess().getChitietHDXuatByID(iCurrentReceiptID);
+                DataSet dsHD = new DataAccess().getHoadonxuatByIDHoadonXuat(iCurrentReceiptID);
+                ChitietHDXuat obj = new ChitietHDXuat();
+
+                for (i = 0; i < dsSP.Tables[0].Rows.Count; i++)
+                {
+                    if ((Convert.ToBoolean(dsSP.Tables[0].Rows[i]["Trangthai"]) == false) &&
+                                (Convert.ToString(dsSP.Tables[0].Rows[i]["Noixuat"]) == "Bếp"))
+                    {
+                        DataRow dr1 = dsBill.Tables["RDatadetail"].NewRow();
+                        dr1["STT"] = (i + 1).ToString();
+                        dr1["TenSanPham"] = dsSP.Tables[0].Rows[i]["TenSanPham"].ToString();
+                        dr1["DVT"] = dsSP.Tables[0].Rows[i]["DVT"].ToString();
+                        dr1["DonGia"] = dsSP.Tables[0].Rows[i]["Gia"].ToString();
+                        dr1["Soluong"] = dsSP.Tables[0].Rows[i]["Soluong"].ToString();
+                        dr1["ThanhTien"] = Convert.ToDecimal(dsSP.Tables[0].Rows[i]["Thanhtien"]).ToString("###,###,###,###");
+
+                        dsBill.Tables["RDatadetail"].Rows.Add(dr1);
+
+                    }
+                }
+
+                //read Company Information 
+                string strCompanyName = "";
+                string strCompanyAddress = "";
+                string strCompanyPhone = "";
+                string strLoiChao1 = "";
+                string strLoiChao2 = "";
+                DataSet dsSetting = new DataAccess().getSettingByDate("");
+                if (dsSetting != null)
+                {
+                    if (dsSetting.Tables[0].Rows.Count > 0)
+                    {
+                        if (!(dsSetting.Tables[0].Rows[0]["TenCT"] is DBNull))
+                            strCompanyName = Convert.ToString(dsSetting.Tables[0].Rows[0]["TenCT"]);
+                        if (!(dsSetting.Tables[0].Rows[0]["Diachi"] is DBNull))
+                            strCompanyAddress = Convert.ToString(dsSetting.Tables[0].Rows[0]["Diachi"]);
+                        if (!(dsSetting.Tables[0].Rows[0]["Phone"] is DBNull))
+                            strCompanyPhone = Convert.ToString(dsSetting.Tables[0].Rows[0]["Phone"]);
+                        if (!(dsSetting.Tables[0].Rows[0]["Loichao1"] is DBNull))
+                            strLoiChao1 = Convert.ToString(dsSetting.Tables[0].Rows[0]["Loichao1"]);
+                        if (!(dsSetting.Tables[0].Rows[0]["Loichao2"] is DBNull))
+                            strLoiChao2 = Convert.ToString(dsSetting.Tables[0].Rows[0]["Loichao2"]);
+                    }
+                }
+
+
+                DataRow dr = dsBill.Tables["HeaderData"].NewRow();
+
+                dr["Ngayxuat"] = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
+                dr["Phong"] = cboRoom.Text;
+                dr["GiaPhong"] = txtRoomPrice.Text;
+                dr["HoadonID"] = iCurrentReceiptID.ToString();
+                dr["GioBD"] = Convert.ToDateTime(dsHD.Tables[0].Rows[0]["GioBD"]).ToShortTimeString();
+                dr["GioKT"] = Convert.ToDateTime(dsHD.Tables[0].Rows[0]["GioKT"]).ToShortTimeString();
+                dr["Nhanvien"] = cboEmployee.Text;
+                dr["NhanvienHD"] = Program.userFullName;
+                dr["TenHoaDon"] = currentReceipt.TenHoadon;
+                dr["Thue"] = numTax.Value.ToString();
+                dr["Tiengiam"] = numExtra.Value.ToString();
+                dr["Phuthu"] = numExtra.Value.ToString();
+                dr["Tiengio"] = txtHourMoney.Text;
+                dr["Tienhang"] = txtProductMoney.Text;
+                dr["Tongcong"] = txtBilltotal.Text;
+                dr["Tratruoc"] = numDeposit.Value.ToString("###,###,##0");
+                dr["Tralai"] = txtReturnMoney.Text;
+                dr["TenCongTy"] = strCompanyName;
+                dr["DiaChi"] = "ĐC: " + strCompanyAddress;
+                dr["SoDT"] = "ĐT: " + strCompanyPhone;
+                dr["Loichao1"] = strLoiChao1;
+                dr["Loichao2"] = strLoiChao2;
+                dsBill.Tables["HeaderData"].Rows.Add(dr);
+
+                if (dsBill != null)
+                {
+                    //load last setting
+                    DataSet ds = new DataAccess().getSettingByDate("");
+                    string printer;
+                    try
+                    {
+                        printer = Convert.ToString(ds.Tables[0].Rows[0]["MayInBep"]);
+                        myPrinters.SetDefaultPrinter(printer);
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Chưa cài đặt máy in!", "Thông báo");
+                        return;
+                    }
+                    frmViewReport frmView = new frmViewReport(dsBill, true,printer);
+                    if (frmView.ShowDialog() == DialogResult.Yes)
+                    {
+                        for (i = 0; i < dsSP.Tables[0].Rows.Count; i++)
+                        {
+                            if ((Convert.ToBoolean(dsSP.Tables[0].Rows[i]["Trangthai"]) == false) &&
+                                (Convert.ToString(dsSP.Tables[0].Rows[i]["Noixuat"]) == "Bếp"))
+                            {
+                                //update bep
+                                obj.IDChitietHDXuat = Convert.ToInt32(dsSP.Tables[0].Rows[i]["IDChitietHDXuat"]);
+                                obj.IDHoadonXuat = Convert.ToInt32(dsSP.Tables[0].Rows[i]["IDHoadonXuat"]);
+                                obj.IDSanpham = Convert.ToInt32(dsSP.Tables[0].Rows[i]["IDSanpham"]);
+                                obj.Gia = Convert.ToInt32(dsSP.Tables[0].Rows[i]["Gia"]);
+                                obj.Soluong = Convert.ToInt32(dsSP.Tables[0].Rows[i]["Soluong"]);
+                                obj.Trangthai = Convert.ToBoolean(dsSP.Tables[0].Rows[i]["Trangthai"]);
+                                obj.Giam = Convert.ToInt32(dsSP.Tables[0].Rows[i]["Giam"]);
+                                obj.Ghichu = Convert.ToString(dsSP.Tables[0].Rows[i]["Ghichu"]);
+                                obj.Trangthai = true;
+                                try
+                                {
+                                    if (new DataAccess().updateChitietHDXuat(obj) != true)
+                                        MessageBox.Show("Lỗi dữ liệu", "Thông báo");
+                                }
+                                catch { }
+                            }
+                        }
+                    }
+                }
             }
         }
-
-        private void btnFirstBill_Click(object sender, EventArgs e)
+        private void printWarehouseInvoice()
         {
-            displayFirstRoomReceipt();
+            if (iCurrentReceiptID >= 0)
+            {
+                int i;
+                DataSetHoaDon dsBill = new DataSetHoaDon();
+                DataSet dsSP = new DataAccess().getChitietHDXuatByID(iCurrentReceiptID);
+                DataSet dsHD = new DataAccess().getHoadonxuatByIDHoadonXuat(iCurrentReceiptID);
+                ChitietHDXuat obj = new ChitietHDXuat();
+
+                for (i = 0; i < dsSP.Tables[0].Rows.Count; i++)
+                {
+                    if ((Convert.ToBoolean(dsSP.Tables[0].Rows[i]["Trangthai"]) == false) &&
+                                (Convert.ToString(dsSP.Tables[0].Rows[i]["Noixuat"]) == "Kho"))
+                    {
+                        DataRow dr1 = dsBill.Tables["RDatadetail"].NewRow();
+                        dr1["STT"] = (i + 1).ToString();
+                        dr1["TenSanPham"] = dsSP.Tables[0].Rows[i]["TenSanPham"].ToString();
+                        dr1["DVT"] = dsSP.Tables[0].Rows[i]["DVT"].ToString();
+                        dr1["DonGia"] = dsSP.Tables[0].Rows[i]["Gia"].ToString();
+                        dr1["Soluong"] = dsSP.Tables[0].Rows[i]["Soluong"].ToString();
+                        dr1["Ghichu"] = dsSP.Tables[0].Rows[i]["Ghichu"].ToString();
+                        dr1["ThanhTien"] = Convert.ToDecimal(dsSP.Tables[0].Rows[i]["Thanhtien"]).ToString("###,###,###,###");
+
+                        dsBill.Tables["RDatadetail"].Rows.Add(dr1);
+
+                    }
+                }
+
+                //read Company Information 
+                string strCompanyName = "";
+                string strCompanyAddress = "";
+                string strCompanyPhone = "";
+                string strLoiChao1 = "";
+                string strLoiChao2 = "";
+                DataSet dsSetting = new DataAccess().getSettingByDate("");
+                if (dsSetting != null)
+                {
+                    if (dsSetting.Tables[0].Rows.Count > 0)
+                    {
+                        if (!(dsSetting.Tables[0].Rows[0]["TenCT"] is DBNull))
+                            strCompanyName = Convert.ToString(dsSetting.Tables[0].Rows[0]["TenCT"]);
+                        if (!(dsSetting.Tables[0].Rows[0]["Diachi"] is DBNull))
+                            strCompanyAddress = Convert.ToString(dsSetting.Tables[0].Rows[0]["Diachi"]);
+                        if (!(dsSetting.Tables[0].Rows[0]["Phone"] is DBNull))
+                            strCompanyPhone = Convert.ToString(dsSetting.Tables[0].Rows[0]["Phone"]);
+                        if (!(dsSetting.Tables[0].Rows[0]["Loichao1"] is DBNull))
+                            strLoiChao1 = Convert.ToString(dsSetting.Tables[0].Rows[0]["Loichao1"]);
+                        if (!(dsSetting.Tables[0].Rows[0]["Loichao2"] is DBNull))
+                            strLoiChao2 = Convert.ToString(dsSetting.Tables[0].Rows[0]["Loichao2"]);
+                    }
+                }
+
+
+                DataRow dr = dsBill.Tables["HeaderData"].NewRow();
+                dr["Ngayxuat"] = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
+                dr["Phong"] = cboRoom.Text;
+                dr["GiaPhong"] = txtRoomPrice.Text;
+                dr["HoadonID"] = iCurrentReceiptID.ToString();
+                dr["GioBD"] = Convert.ToDateTime(dsHD.Tables[0].Rows[0]["GioBD"]).ToShortTimeString();
+                dr["GioKT"] = Convert.ToDateTime(dsHD.Tables[0].Rows[0]["GioKT"]).ToShortTimeString();
+                dr["Nhanvien"] = cboEmployee.Text;
+                dr["NhanvienHD"] = Program.userFullName;
+                dr["TenHoaDon"] = currentReceipt.TenHoadon;
+                dr["Thue"] = numTax.Value.ToString();
+                dr["Tiengiam"] = numExtra.Value.ToString();
+                dr["Phuthu"] = numExtra.Value.ToString();
+                dr["Tiengio"] = txtHourMoney.Text;
+                dr["Tienhang"] = txtProductMoney.Text;
+                dr["Tongcong"] = txtBilltotal.Text;
+                dr["Tratruoc"] = numDeposit.Value.ToString("###,###,##0");
+                dr["Tralai"] = txtReturnMoney.Text;
+                dr["TenCongTy"] = strCompanyName;
+                dr["DiaChi"] = "ĐC: " + strCompanyAddress;
+                dr["SoDT"] = "ĐT: " + strCompanyPhone;
+                dr["Loichao1"] = strLoiChao1;
+                dr["Loichao2"] = strLoiChao2;
+                dsBill.Tables["HeaderData"].Rows.Add(dr);
+
+                if (dsBill != null)
+                {
+                    //set default printer
+                    //load last setting
+                    DataSet ds = new DataAccess().getSettingByDate("");
+                    string printer;
+                    try
+                    {
+                        printer = Convert.ToString(ds.Tables[0].Rows[0]["MayInKho"]);
+                        myPrinters.SetDefaultPrinter(printer);
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Chưa cài đặt máy in!", "Thông báo");
+                        return;
+                    }
+                    frmViewReport frmView = new frmViewReport(dsBill, false,printer);
+                    if (frmView.ShowDialog() == DialogResult.Yes)
+                    {
+                        for (i = 0; i < dsSP.Tables[0].Rows.Count; i++)
+                        {
+                            if ((Convert.ToBoolean(dsSP.Tables[0].Rows[i]["Trangthai"]) == false) &&
+                                (Convert.ToString(dsSP.Tables[0].Rows[i]["Noixuat"]) == "Kho"))
+                            {
+                                //update bep
+                                obj.IDChitietHDXuat = Convert.ToInt32(dsSP.Tables[0].Rows[i]["IDChitietHDXuat"]);
+                                obj.IDHoadonXuat = Convert.ToInt32(dsSP.Tables[0].Rows[i]["IDHoadonXuat"]);
+                                obj.IDSanpham = Convert.ToInt32(dsSP.Tables[0].Rows[i]["IDSanpham"]);
+                                obj.Gia = Convert.ToInt32(dsSP.Tables[0].Rows[i]["Gia"]);
+                                obj.Soluong = Convert.ToInt32(dsSP.Tables[0].Rows[i]["Soluong"]);
+                                obj.Trangthai = Convert.ToBoolean(dsSP.Tables[0].Rows[i]["Trangthai"]);
+                                obj.Giam = Convert.ToInt32(dsSP.Tables[0].Rows[i]["Giam"]);
+                                obj.Ghichu = Convert.ToString(dsSP.Tables[0].Rows[i]["Ghichu"]);
+                                obj.Trangthai = true;
+                                try
+                                {
+                                    if (new DataAccess().updateChitietHDXuat(obj) != true)
+                                        MessageBox.Show("Lỗi dữ liệu", "Thông báo");
+                                }
+                                catch { }
+                            }
+                        }
+                    }
+                }
+            }
         }
-        private void dateReceipt_ValueChanged(object sender, EventArgs e)
-        {
-            if (checkDateReceipt.Checked)
-                displayLastRoomReceipt();
-        }
-
-        //private void btnPrintBill_Click(object sender, EventArgs e)
-        //{
-        //    if (iCurrentReceiptID >= 0)
-        //    {
-        //        int i;
-        //        DataSetDetailBill dsBill = new DataSetDetailBill();
-        //        DataSet dsSP = new DataAccess().getChitietHDXuatByID(iCurrentReceiptID);
-        //        DataSet dsHD = new DataAccess().getHoadonxuatByIDHoadonXuat(iCurrentReceiptID);
-        //        for (i = 0; i < dsSP.Tables[0].Rows.Count; i++)
-        //        {
-        //            DataRow dr1 = dsBill.Tables["RDatadetail"].NewRow();
-        //            dr1["STT"] = (i + 1).ToString();
-        //            dr1["TenSanPham"] = dsSP.Tables[0].Rows[i]["TenSanPham"].ToString();
-        //            dr1["DVT"] = dsSP.Tables[0].Rows[i]["DVT"].ToString();
-        //            dr1["DonGia"] = dsSP.Tables[0].Rows[i]["Gia"].ToString();
-        //            dr1["Soluong"] = dsSP.Tables[0].Rows[i]["Soluong"].ToString();
-        //            dr1["ThanhTien"] = Convert.ToDecimal(dsSP.Tables[0].Rows[i]["Thanhtien"]).ToString("###,###,###,###.##");
-
-        //            dsBill.Tables["RDatadetail"].Rows.Add(dr1);
-        //        }
-        //        DataRow dr = dsBill.Tables["HeaderData"].NewRow();
-        //        dr["Ngayxuat"] = dateReceipt.Value.ToString("dd/MM/yyyy");
-        //        dr["Phong"] = txtRoom.Text;
-        //        dr["GiaPhong"] = txtRoomPrice.Text;
-        //        dr["HoadonID"] = iCurrentReceiptID.ToString();
-        //        dr["GioBD"] = Convert.ToDateTime(dsHD.Tables[0].Rows[0]["GioBD"]).ToShortTimeString();
-        //        dr["GioBD"] = Convert.ToDateTime(dsHD.Tables[0].Rows[0]["GioKT"]).ToShortTimeString();
-        //        dr["Nhanvien"] = cboEmployee.Text;
-        //        dr["Thue"] = numTax.Value.ToString();
-        //        dr["Tiengiam"] = numReduce.Value.ToString();
-        //        dr["Phuthu"] = numExtra.Value.ToString();
-        //        dr["Tiengio"] = txtHourMoney.Text;
-        //        dr["Tienhang"] = txtProductMoney.Text;
-        //        dr["Tongcong"] = txtBilltotal.Text;
-        //        dsBill.Tables["HeaderData"].Rows.Add(dr);
-
-        //    }
-        //}
-        private void btnPrintBill_Click_1(object sender, EventArgs e)
+        private void printReceipt()
         {
             if (iCurrentReceiptID >= 0)
             {
@@ -594,7 +872,7 @@ namespace Karaoke.MDIForms
                     dr1["TenSanPham"] = dsSP.Tables[0].Rows[i]["TenSanPham"].ToString();
                     dr1["DVT"] = dsSP.Tables[0].Rows[i]["DVT"].ToString();
                     dr1["DonGia"] = dsSP.Tables[0].Rows[i]["Gia"].ToString();
-                    dr1["Giam"] = dsSP.Tables[0].Rows[i]["Giam"].ToString()+"%";
+                    dr1["Giam"] = dsSP.Tables[0].Rows[i]["Giam"].ToString() + "%";
                     dr1["Soluong"] = dsSP.Tables[0].Rows[i]["Soluong"].ToString();
                     dr1["ThanhTien"] = Convert.ToDecimal(dsSP.Tables[0].Rows[i]["Thanhtien"]).ToString("###,###,###,###");
 
@@ -729,329 +1007,14 @@ namespace Karaoke.MDIForms
                 }
             }
         }
-
-        private void btnDivideRoom_Click(object sender, EventArgs e)
-        {
-            //get status of this room
-            if ((iCurrentRoomID < 0) || (iCurrentReceiptID < 0))
-            {
-                MessageBox.Show("Chọn phòng đang hoạt động để tách phòng/hợp phòng!", "Thông báo");
-                return;
-            }
-            //if (iCurrentReceiptID>0)
-            //{
-            //    MessageBox.Show("Chọn phòng đang hoạt động để tách phòng/hợp phòng!", "Thông báo");
-            //    return;
-            //}
-            frmDivideRoom a = new frmDivideRoom(iCurrentRoomID, iCurrentReceiptID);
-            a.ShowDialog();
-            int i;
-            //compare grid with DB to open electric CB
-            //updateRoomGrid(a.TransferedRoomID());
-            switch (a.DevideAction())
-            {
-                case 1:
-                    //transfer room
-                    //turnoff CB
-                    DataSet ds = new DataAccess().getPhongByIDPhong(iCurrentRoomID);
-                    if (ds.Tables[0].Rows.Count > 0)
-                    {
-                        ContactAction(0xcf, Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]));
-                    }
-                    iCurrentRoomID = a.getNewOpenedRoom();
-                    //add san pham mac dinh vao hoa don moi
-                    //add starting product for the room
-                    DataSet dsSPBD = new DataAccess().getAllSPBandauIDLoaiPhong(a.getNewOpenedRoomGroup());
-                    for (i = 0; i < dsSPBD.Tables[0].Rows.Count; i++)
-                    {
-                        int IDSanPham = Convert.ToInt32(dsSPBD.Tables[0].Rows[i]["IDSanPham"]);
-                        int IDLoaiSP = Convert.ToInt32(dsSPBD.Tables[0].Rows[i]["IDNhomSP"]);
-                        string TenSanPham = Convert.ToString(dsSPBD.Tables[0].Rows[i]["TenSanPham"]);
-                        int num = Convert.ToInt32(dsSPBD.Tables[0].Rows[i]["Soluong"]);
-                        AddSPBD(a.TransferedReceipt(), IDLoaiSP, IDSanPham, TenSanPham, num);
-                    }
-                    updateBillDisplay(a.TransferedReceipt(), true);
-                    ds = new DataAccess().getPhongByIDPhong(iCurrentRoomID);
-                    if (ds.Tables[0].Rows.Count > 0)
-                    {
-                        ContactAction(0xbf, Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]));
-                    }
-                    break;
-                case 2:
-                    //jump to new room
-                    iCurrentRoomID = a.getNewOpenedRoom();
-                    updateBillDisplay(a.TransferedReceipt(), true);
-                    break;
-                case 3:
-                    //transfer room
-                    //turnoff CB
-                    
-                    iCurrentRoomID = a.getNewOpenedRoom();
-                    DataSet dsSPBD1 = new DataAccess().getAllSPBandauIDLoaiPhong(a.getNewOpenedRoomGroup());
-                    for (i = 0; i < dsSPBD1.Tables[0].Rows.Count; i++)
-                    {
-                        int IDSanPham = Convert.ToInt32(dsSPBD1.Tables[0].Rows[i]["IDSanPham"]);
-                        int IDLoaiSP = Convert.ToInt32(dsSPBD1.Tables[0].Rows[i]["IDNhomSP"]);
-                        string TenSanPham = Convert.ToString(dsSPBD1.Tables[0].Rows[i]["TenSanPham"]);
-                        int num = Convert.ToInt32(dsSPBD1.Tables[0].Rows[i]["Soluong"]);
-                        AddSPBD(a.TransferedReceipt(), IDLoaiSP, IDSanPham, TenSanPham, num);
-                    }
-                    updateBillDisplay(a.TransferedReceipt(), true);
-                    ds = new DataAccess().getPhongByIDPhong(iCurrentRoomID);
-                    if (ds.Tables[0].Rows.Count > 0)
-                    {
-                        ContactAction(0xbf, Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]));
-                    }
-                    break;
-                default:
-                    break;
-            }
-            
-            a.Close();
-
-
-        }
-
-        private void btnJoinRoom_Click(object sender, EventArgs e)
-        {
-            if (iCurrentReceiptID >= 0)
-            {
-                int i;
-                DataSetHoaDon dsBill = new DataSetHoaDon();
-                DataSet dsSP = new DataAccess().getChitietHDXuatByID(iCurrentReceiptID);
-                DataSet dsHD = new DataAccess().getHoadonxuatByIDHoadonXuat(iCurrentReceiptID);
-                ChitietHDXuat obj = new ChitietHDXuat();
-
-                for (i = 0; i < dsSP.Tables[0].Rows.Count; i++)
-                {
-                    if ((Convert.ToBoolean(dsSP.Tables[0].Rows[i]["Trangthai"]) == false) &&
-                                (Convert.ToString(dsSP.Tables[0].Rows[i]["Noixuat"]) == "Kho"))
-                    {
-                        DataRow dr1 = dsBill.Tables["RDatadetail"].NewRow();
-                        dr1["STT"] = (i + 1).ToString();
-                        dr1["TenSanPham"] = dsSP.Tables[0].Rows[i]["TenSanPham"].ToString();
-                        dr1["DVT"] = dsSP.Tables[0].Rows[i]["DVT"].ToString();
-                        dr1["DonGia"] = dsSP.Tables[0].Rows[i]["Gia"].ToString();
-                        dr1["Soluong"] = dsSP.Tables[0].Rows[i]["Soluong"].ToString();
-                        dr1["ThanhTien"] = Convert.ToDecimal(dsSP.Tables[0].Rows[i]["Thanhtien"]).ToString("###,###,###,###");
-
-                        dsBill.Tables["RDatadetail"].Rows.Add(dr1);
-                        
-                    }
-                }
-
-                //read Company Information 
-                string strCompanyName = "";
-                string strCompanyAddress = "";
-                string strCompanyPhone = "";
-                string strLoiChao1 = "";
-                string strLoiChao2 = "";
-                DataSet dsSetting = new DataAccess().getSettingByDate("");
-                if (dsSetting != null)
-                {
-                    if (dsSetting.Tables[0].Rows.Count > 0)
-                    {
-                        if (!(dsSetting.Tables[0].Rows[0]["TenCT"] is DBNull))
-                            strCompanyName = Convert.ToString(dsSetting.Tables[0].Rows[0]["TenCT"]);
-                        if (!(dsSetting.Tables[0].Rows[0]["Diachi"] is DBNull))
-                            strCompanyAddress = Convert.ToString(dsSetting.Tables[0].Rows[0]["Diachi"]);
-                        if (!(dsSetting.Tables[0].Rows[0]["Phone"] is DBNull))
-                            strCompanyPhone = Convert.ToString(dsSetting.Tables[0].Rows[0]["Phone"]);
-                        if (!(dsSetting.Tables[0].Rows[0]["Loichao1"] is DBNull))
-                            strLoiChao1 = Convert.ToString(dsSetting.Tables[0].Rows[0]["Loichao1"]);
-                        if (!(dsSetting.Tables[0].Rows[0]["Loichao2"] is DBNull))
-                            strLoiChao2 = Convert.ToString(dsSetting.Tables[0].Rows[0]["Loichao2"]);
-                    }
-                }
-
-
-                DataRow dr = dsBill.Tables["HeaderData"].NewRow();
-                dr["Ngayxuat"] = dateReceipt.Value.ToString("dd/MM/yyyy HH:mm:ss tt");
-                dr["Phong"] = cboRoom.Text;
-                dr["GiaPhong"] = txtRoomPrice.Text;
-                dr["HoadonID"] = iCurrentReceiptID.ToString();
-                dr["GioBD"] = Convert.ToDateTime(dsHD.Tables[0].Rows[0]["GioBD"]).ToShortTimeString();
-                dr["GioKT"] = Convert.ToDateTime(dsHD.Tables[0].Rows[0]["GioKT"]).ToShortTimeString();
-                dr["Nhanvien"] = cboEmployee.Text;
-                dr["Thue"] = numTax.Value.ToString();
-                dr["Tiengiam"] = numExtra.Value.ToString();
-                dr["Phuthu"] = numExtra.Value.ToString();
-                dr["Tiengio"] = txtHourMoney.Text;
-                dr["Tienhang"] = txtProductMoney.Text;
-                dr["Tongcong"] = txtBilltotal.Text;
-                dr["Tratruoc"] = numDeposit.Value.ToString("###,###,##0");
-                dr["Tralai"] = txtReturnMoney.Text;
-                dr["TenCongTy"] = strCompanyName;
-                dr["DiaChi"] = "ĐC: " + strCompanyAddress;
-                dr["SoDT"] = "ĐT: " + strCompanyPhone;
-                dr["Loichao1"] = strLoiChao1;
-                dr["Loichao2"] = strLoiChao2;
-                dsBill.Tables["HeaderData"].Rows.Add(dr);
-
-                if (dsBill != null)
-                {
-                    //set default printer
-                    //load last setting
-                    DataSet ds = new DataAccess().getSettingByDate("");
-                    string printer;
-                    try
-                    {
-                        printer = Convert.ToString(ds.Tables[0].Rows[0]["MayInKho"]);
-                        myPrinters.SetDefaultPrinter(printer);
-                    }
-                    catch
-                    {
-                        MessageBox.Show("Chưa cài đặt máy in!", "Thông báo");
-                    }
-                    frmViewReport frmView = new frmViewReport(dsBill, false);
-                    if (frmView.ShowDialog() == DialogResult.Yes)
-                    {
-                        for (i = 0; i < dsSP.Tables[0].Rows.Count; i++)
-                        {
-                            if ((Convert.ToBoolean(dsSP.Tables[0].Rows[i]["Trangthai"]) == false)&&
-                                (Convert.ToString(dsSP.Tables[0].Rows[i]["Noixuat"]) == "Kho"))
-                            {
-                                //update bep
-                                obj.IDChitietHDXuat = Convert.ToInt32(dsSP.Tables[0].Rows[i]["IDChitietHDXuat"]);
-                                obj.IDHoadonXuat = Convert.ToInt32(dsSP.Tables[0].Rows[i]["IDHoadonXuat"]);
-                                obj.IDSanpham = Convert.ToInt32(dsSP.Tables[0].Rows[i]["IDSanpham"]);
-                                obj.Gia = Convert.ToInt32(dsSP.Tables[0].Rows[i]["Gia"]);
-                                obj.Soluong = Convert.ToInt32(dsSP.Tables[0].Rows[i]["Soluong"]);
-                                obj.Trangthai = Convert.ToBoolean(dsSP.Tables[0].Rows[i]["Trangthai"]);
-                                obj.Giam = Convert.ToInt32(dsSP.Tables[0].Rows[i]["Giam"]);
-                                obj.Ghichu = Convert.ToString(dsSP.Tables[0].Rows[i]["Ghichu"]);
-                                obj.Trangthai = true;
-                                try
-                                {
-                                    if (new DataAccess().updateChitietHDXuat(obj) != true)
-                                        MessageBox.Show("Lỗi dữ liệu", "Thông báo");
-                                }
-                                catch { }
-                            }
-                        }
-                    }
-                }
-            }
-        }
         private void btnPrintCooking_Click(object sender, EventArgs e)
         {
-            if (iCurrentReceiptID >= 0)
-            {
-                int i;
-                DataSetHoaDon dsBill = new DataSetHoaDon();
-                DataSet dsSP = new DataAccess().getChitietHDXuatByID(iCurrentReceiptID);
-                DataSet dsHD = new DataAccess().getHoadonxuatByIDHoadonXuat(iCurrentReceiptID);
-                ChitietHDXuat obj = new ChitietHDXuat();
-
-                for (i = 0; i < dsSP.Tables[0].Rows.Count; i++)
-                {
-                    if ((Convert.ToBoolean(dsSP.Tables[0].Rows[i]["Trangthai"]) == false) &&
-                                (Convert.ToString(dsSP.Tables[0].Rows[i]["Noixuat"]) == "Bếp"))
-                    {
-                        DataRow dr1 = dsBill.Tables["RDatadetail"].NewRow();
-                        dr1["STT"] = (i + 1).ToString();
-                        dr1["TenSanPham"] = dsSP.Tables[0].Rows[i]["TenSanPham"].ToString();
-                        dr1["DVT"] = dsSP.Tables[0].Rows[i]["DVT"].ToString();
-                        dr1["DonGia"] = dsSP.Tables[0].Rows[i]["Gia"].ToString();
-                        dr1["Soluong"] = dsSP.Tables[0].Rows[i]["Soluong"].ToString();
-                        dr1["ThanhTien"] = Convert.ToDecimal(dsSP.Tables[0].Rows[i]["Thanhtien"]).ToString("###,###,###,###");
-
-                        dsBill.Tables["RDatadetail"].Rows.Add(dr1);
-                        
-                    }
-                }
-
-                //read Company Information 
-                string strCompanyName = "";
-                string strCompanyAddress = "";
-                string strCompanyPhone = "";
-                string strLoiChao1 = "";
-                string strLoiChao2 = "";
-                DataSet dsSetting = new DataAccess().getSettingByDate("");
-                if (dsSetting != null)
-                {
-                    if (dsSetting.Tables[0].Rows.Count > 0)
-                    {
-                        if (!(dsSetting.Tables[0].Rows[0]["TenCT"] is DBNull))
-                            strCompanyName = Convert.ToString(dsSetting.Tables[0].Rows[0]["TenCT"]);
-                        if (!(dsSetting.Tables[0].Rows[0]["Diachi"] is DBNull))
-                            strCompanyAddress = Convert.ToString(dsSetting.Tables[0].Rows[0]["Diachi"]);
-                        if (!(dsSetting.Tables[0].Rows[0]["Phone"] is DBNull))
-                            strCompanyPhone = Convert.ToString(dsSetting.Tables[0].Rows[0]["Phone"]);
-                        if (!(dsSetting.Tables[0].Rows[0]["Loichao1"] is DBNull))
-                            strLoiChao1 = Convert.ToString(dsSetting.Tables[0].Rows[0]["Loichao1"]);
-                        if (!(dsSetting.Tables[0].Rows[0]["Loichao2"] is DBNull))
-                            strLoiChao2 = Convert.ToString(dsSetting.Tables[0].Rows[0]["Loichao2"]);
-                    }
-                }
-
-
-                DataRow dr = dsBill.Tables["HeaderData"].NewRow();
-                dr["Ngayxuat"] = dateReceipt.Value.ToString("dd/MM/yyyy HH:mm:ss tt");
-                dr["Phong"] = cboRoom.Text;
-                dr["GiaPhong"] = txtRoomPrice.Text;
-                dr["HoadonID"] = iCurrentReceiptID.ToString();
-                dr["GioBD"] = Convert.ToDateTime(dsHD.Tables[0].Rows[0]["GioBD"]).ToShortTimeString();
-                dr["GioKT"] = Convert.ToDateTime(dsHD.Tables[0].Rows[0]["GioKT"]).ToShortTimeString();
-                dr["Nhanvien"] = cboEmployee.Text;
-                dr["Thue"] = numTax.Value.ToString();
-                dr["Tiengiam"] = numExtra.Value.ToString();
-                dr["Phuthu"] = numExtra.Value.ToString();
-                dr["Tiengio"] = txtHourMoney.Text;
-                dr["Tienhang"] = txtProductMoney.Text;
-                dr["Tongcong"] = txtBilltotal.Text;
-                dr["Tratruoc"] = numDeposit.Value.ToString("###,###,##0");
-                dr["Tralai"] = txtReturnMoney.Text;
-                dr["TenCongTy"] = strCompanyName;
-                dr["DiaChi"] = "ĐC: " + strCompanyAddress;
-                dr["SoDT"] = "ĐT: " + strCompanyPhone;
-                dr["Loichao1"] = strLoiChao1;
-                dr["Loichao2"] = strLoiChao2;
-                dsBill.Tables["HeaderData"].Rows.Add(dr);
-
-                if (dsBill != null)
-                {
-                    //load last setting
-                    DataSet ds = new DataAccess().getSettingByDate("");
-                    string printer;
-                    try
-                    {
-                        printer = Convert.ToString(ds.Tables[0].Rows[0]["MayInBep"]);
-                        myPrinters.SetDefaultPrinter(printer);
-                    }
-                    catch
-                    {
-                        MessageBox.Show("Chưa cài đặt máy in!", "Thông báo");
-                    }
-                    frmViewReport frmView = new frmViewReport(dsBill, true);
-                    if (frmView.ShowDialog() == DialogResult.Yes)
-                    {
-                        for (i = 0; i < dsSP.Tables[0].Rows.Count; i++)
-                        {
-                            if ((Convert.ToBoolean(dsSP.Tables[0].Rows[i]["Trangthai"]) == false) &&
-                                (Convert.ToString(dsSP.Tables[0].Rows[i]["Noixuat"]) == "Bếp"))
-                            {
-                                //update bep
-                                obj.IDChitietHDXuat = Convert.ToInt32(dsSP.Tables[0].Rows[i]["IDChitietHDXuat"]);
-                                obj.IDHoadonXuat = Convert.ToInt32(dsSP.Tables[0].Rows[i]["IDHoadonXuat"]);
-                                obj.IDSanpham = Convert.ToInt32(dsSP.Tables[0].Rows[i]["IDSanpham"]);
-                                obj.Gia = Convert.ToInt32(dsSP.Tables[0].Rows[i]["Gia"]);
-                                obj.Soluong = Convert.ToInt32(dsSP.Tables[0].Rows[i]["Soluong"]);
-                                obj.Trangthai = Convert.ToBoolean(dsSP.Tables[0].Rows[i]["Trangthai"]);
-                                obj.Giam = Convert.ToInt32(dsSP.Tables[0].Rows[i]["Giam"]);
-                                obj.Ghichu = Convert.ToString(dsSP.Tables[0].Rows[i]["Ghichu"]);
-                                obj.Trangthai = true;
-                                try
-                                {
-                                    if (new DataAccess().updateChitietHDXuat(obj) != true)
-                                        MessageBox.Show("Lỗi dữ liệu", "Thông báo");
-                                }
-                                catch { }
-                            }
-                        }
-                    }
-                }
-            }
+            printCookingInvoice();
+            printWarehouseInvoice();
+        }
+        private void btnPrintBill_Click_1(object sender, EventArgs e)
+        {
+            printReceipt();
         }
         #endregion Receipt
 
@@ -2381,13 +2344,7 @@ namespace Karaoke.MDIForms
 
         
 
-        
-
-        
-
-
       
-        
     }
     public class CBReq
     {
