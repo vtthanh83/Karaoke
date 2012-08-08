@@ -154,7 +154,29 @@ namespace BKIT.Model.DataService
                 return null;
             }
         }
-       
+        //get all detail of a receipt with group on the same ID product to print customer receipt
+        public System.Data.DataSet getSumChitietHDXuatByID(int ID)
+        {
+            Database db = DatabaseFactory.CreateDatabase();
+            string sqlCommand = "SELECT ChitietHDXuat.IDHoadonXuat AS IDHoadonXuat, ChitietHDXuat.IDSanpham AS IDSanpham, SanPham.TenSanPham AS TenSanPham, SanPham.DVT AS DVT, ChitietHDXuat.Gia AS Gia, ChitietHDXuat.Giam AS Giam, Sum(ChitietHDXuat.Soluong) AS Soluong, ([Gia]*(100-[Giam])/100)*[Soluong] AS Thanhtien "+
+                                "FROM SanPham INNER JOIN ChitietHDXuat ON SanPham.IDSanPham = ChitietHDXuat.IDSanpham "+
+                                "GROUP BY ChitietHDXuat.IDHoadonXuat, ChitietHDXuat.IDSanpham, SanPham.TenSanPham, SanPham.DVT, ChitietHDXuat.Gia, ChitietHDXuat.Giam, ([Gia]*(100-[Giam])/100)*[Soluong] "+
+                                "HAVING (((ChitietHDXuat.IDHoadonXuat)=@idhoadonxuat));";
+
+
+            try
+            {
+                DbCommand dbCommand = db.GetSqlStringCommand(sqlCommand);
+                db.AddInParameter(dbCommand, "idhoadonxuat", DbType.Int32, ID);
+                DataSet ds = db.ExecuteDataSet(dbCommand);
+                dbCommand.Connection.Close();
+                return ds;
+            }
+            catch
+            {
+                return null;
+            }
+        }
 
         #region Helpers
         internal int GetNextAVailableID()

@@ -261,7 +261,22 @@ namespace BKIT.Model.DataService
                 return null;
             }
         }
-
+        public System.Data.DataSet getAllWarningOpenningHoadonxuat()
+        {
+            Database db = DatabaseFactory.CreateDatabase();
+            string sqlCommand = "SELECT * FROM Hoadonxuat WHERE ((Trangthai = 0 AND Nhacnho = true) OR Trangthai = 3)";
+            try
+            {
+                DbCommand dbCommand = db.GetSqlStringCommand(sqlCommand);
+                DataSet ds = db.ExecuteDataSet(dbCommand);
+                dbCommand.Connection.Close();
+                return ds;
+            }
+            catch
+            {
+                return null;
+            }
+        }
         public System.Data.DataSet getAllNotClosedHDXOfProductID(int ProductID)
         {
             Database db = DatabaseFactory.CreateDatabase();

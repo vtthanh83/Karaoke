@@ -13,6 +13,7 @@ namespace BKIT.Model.IDataService
         bool deleteChitietHDXuat(ChitietHDXuat objChitietHDXuat);
         System.Data.DataSet getAllChitietHDXuat();
         System.Data.DataSet getChitietHDXuatByID(int ID);
+        System.Data.DataSet getSumChitietHDXuatByID(int ID);
         System.Data.DataSet getChitietHDXuatByIDSanphamAndIDHoadon(int IDSanpham,int IDHoadon);
         bool deleteChitietHDXuatOfHDXuat(BKIT.Entities.Hoadonxuat objHDXuat);
     }

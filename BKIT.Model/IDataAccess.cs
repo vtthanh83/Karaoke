@@ -69,6 +69,7 @@ namespace BKIT.Model
         System.Data.DataSet getLastHoadonxuatByIDPhongAndDate(int ID, DateTime Date);
         System.Data.DataSet getLastOpeningHoadonxuatByIDPhong(int ID);
 		System.Data.DataSet getAllOpenningHoadonxuatWithDeposit();
+        System.Data.DataSet getAllWarningOpenningHoadonxuat();
         System.Data.DataSet getAllNotClosedHDXOfProductID(int ProductID);
         System.Data.DataSet getSoLuongSPBanRa();
 		System.Data.DataSet getAllHoadonxuatSanpham();
@@ -101,6 +102,7 @@ namespace BKIT.Model
         System.Data.DataSet getAllChitietHDXuat();
         System.Data.DataSet getChitietHDXuatByIDSanphamAndIDHoadon(int IDSanpham, int IDHoadon);
         System.Data.DataSet getChitietHDXuatByID(int ID);
+        System.Data.DataSet getSumChitietHDXuatByID(int ID);
         bool deleteChitietHDXuatOfHDXuat(BKIT.Entities.Hoadonxuat objHDXuat);
 
 

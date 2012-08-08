@@ -38,6 +38,7 @@
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colAddSP = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemCheckEdit3 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
@@ -130,7 +131,7 @@
             this.cboRoom = new System.Windows.Forms.ComboBox();
             this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
             this.xtraTabPageRoom = new DevExpress.XtraTab.XtraTabPage();
-            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.numReduce = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.gridControlSanPham)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewSanPham)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).BeginInit();
@@ -162,6 +163,7 @@
             this.groupControl6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).BeginInit();
             this.groupControl5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numReduce)).BeginInit();
             this.SuspendLayout();
             // 
             // gridControlSanPham
@@ -302,6 +304,12 @@
             this.gridColumn10.Visible = true;
             this.gridColumn10.VisibleIndex = 1;
             this.gridColumn10.Width = 79;
+            // 
+            // gridColumn6
+            // 
+            this.gridColumn6.Caption = "TK tối thiểu";
+            this.gridColumn6.FieldName = "SLCanhbao";
+            this.gridColumn6.Name = "gridColumn6";
             // 
             // gridColumn11
             // 
@@ -461,7 +469,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label16.Location = new System.Drawing.Point(352, 477);
+            this.label16.Location = new System.Drawing.Point(352, 510);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(54, 17);
             this.label16.TabIndex = 69;
@@ -484,7 +492,7 @@
             this.txtReturnMoney.Enabled = false;
             this.txtReturnMoney.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtReturnMoney.ForeColor = System.Drawing.Color.Black;
-            this.txtReturnMoney.Location = new System.Drawing.Point(412, 470);
+            this.txtReturnMoney.Location = new System.Drawing.Point(412, 503);
             this.txtReturnMoney.Name = "txtReturnMoney";
             this.txtReturnMoney.ReadOnly = true;
             this.txtReturnMoney.Size = new System.Drawing.Size(125, 24);
@@ -682,7 +690,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label11.ForeColor = System.Drawing.Color.Red;
-            this.label11.Location = new System.Drawing.Point(361, 444);
+            this.label11.Location = new System.Drawing.Point(361, 477);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(45, 17);
             this.label11.TabIndex = 29;
@@ -692,7 +700,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label6.Location = new System.Drawing.Point(374, 413);
+            this.label6.Location = new System.Drawing.Point(374, 446);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(32, 17);
             this.label6.TabIndex = 20;
@@ -704,7 +712,7 @@
             this.txtBilltotal.Enabled = false;
             this.txtBilltotal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBilltotal.ForeColor = System.Drawing.Color.Red;
-            this.txtBilltotal.Location = new System.Drawing.Point(414, 441);
+            this.txtBilltotal.Location = new System.Drawing.Point(414, 474);
             this.txtBilltotal.Name = "txtBilltotal";
             this.txtBilltotal.ReadOnly = true;
             this.txtBilltotal.Size = new System.Drawing.Size(125, 23);
@@ -714,7 +722,7 @@
             // numTax
             // 
             this.numTax.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numTax.Location = new System.Drawing.Point(412, 409);
+            this.numTax.Location = new System.Drawing.Point(412, 442);
             this.numTax.Name = "numTax";
             this.numTax.Size = new System.Drawing.Size(138, 23);
             this.numTax.TabIndex = 34;
@@ -1338,6 +1346,7 @@
             // 
             this.groupControl6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
             this.groupControl6.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.groupControl6.Controls.Add(this.numReduce);
             this.groupControl6.Controls.Add(this.txtHourMoney);
             this.groupControl6.Controls.Add(this.txtProductMoney);
             this.groupControl6.Controls.Add(this.cboRoom);
@@ -1415,11 +1424,30 @@
             this.xtraTabPageRoom.Name = "xtraTabPageRoom";
             this.xtraTabPageRoom.Size = new System.Drawing.Size(0, 452);
             // 
-            // gridColumn6
+            // numReduce
             // 
-            this.gridColumn6.Caption = "TK tối thiểu";
-            this.gridColumn6.FieldName = "SLCanhbao";
-            this.gridColumn6.Name = "gridColumn6";
+            this.numReduce.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numReduce.Increment = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numReduce.Location = new System.Drawing.Point(412, 409);
+            this.numReduce.Maximum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.numReduce.Minimum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            -2147483648});
+            this.numReduce.Name = "numReduce";
+            this.numReduce.Size = new System.Drawing.Size(138, 23);
+            this.numReduce.TabIndex = 78;
+            this.numReduce.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.numReduce.ThousandsSeparator = true;
             // 
             // frmReceipt
             // 
@@ -1472,6 +1500,7 @@
             this.groupControl6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).EndInit();
             this.groupControl5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.numReduce)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1579,5 +1608,6 @@
         private DevExpress.XtraEditors.SimpleButton bntOpenCloseRoom;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
+        private System.Windows.Forms.NumericUpDown numReduce;
     }
 }

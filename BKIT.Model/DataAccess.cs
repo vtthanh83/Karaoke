@@ -277,6 +277,10 @@ namespace BKIT.Model
         {
             return new HoadonxuatService().getLastHoadonxuatByIDPhongAndDate(ID, Date);
         }
+        public System.Data.DataSet getAllWarningOpenningHoadonxuat()
+        {
+            return new HoadonxuatService().getAllWarningOpenningHoadonxuat();
+        }
         public System.Data.DataSet getAllOpenningHoadonxuatWithDeposit()
         {
             return new HoadonxuatService().getAllOpenningHoadonxuatWithDeposit();
@@ -400,6 +404,10 @@ namespace BKIT.Model
         public System.Data.DataSet getChitietHDXuatByID(int ID)
         {
             return new ChitietHDXuatService().getChitietHDXuatByID(ID);
+        }
+        public System.Data.DataSet getSumChitietHDXuatByID(int ID)
+        {
+            return new ChitietHDXuatService().getSumChitietHDXuatByID(ID);
         }
         public System.Data.DataSet getChitietHDXuatByIDSanphamAndIDHoadon(int IDSanpham,int IDHoadon)
         {
