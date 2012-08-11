@@ -147,6 +147,10 @@ namespace BKIT.Model
         {
             return new PhongService().getAllPhong();
         }
+        public Phong getPhongByID(int ID)
+        {
+            return new PhongService().getPhongByID(ID);
+        }
         public System.Data.DataSet getPhongByIDLoaiPhong(int ID)
         {
             return new PhongService().getPhongByIDLoaiPhong(ID);
@@ -264,6 +268,10 @@ namespace BKIT.Model
         public System.Data.DataSet getHoadonxuatByIDHoadonXuat(int ID)
         {
             return new HoadonxuatService().getHoadonxuatByIDHoadonXuat(ID);
+        }
+        public Hoadonxuat getHoadonxuatByID(int ID)
+        {
+            return new HoadonxuatService().getHoadonxuatByID(ID);
         }
         public System.Data.DataSet getLastHoadonxuatByIDPhong(int ID)
         {

@@ -230,6 +230,34 @@ namespace BKIT.Model.DataService
                 return null;
             }
         }
+        public Phong getPhongByID(int ID)
+        {
+            Database db = DatabaseFactory.CreateDatabase();
+            string sqlCommand = "SELECT Phong.IDPhong, Phong.TenPhong,Phong.IDLoaiPhong, Phong.Congtac, Phong.Trangthai, Phong.Ghichu, 1 as [DeleteLoaiPhong] " +
+                                "FROM Phong " +
+                                "WHERE IDPhong = @id AND (Phong.IDPhong >= 0)";
+            Phong rs = new Phong();
+            try
+            {
+                DbCommand dbCommand = db.GetSqlStringCommand(sqlCommand);
+                db.AddInParameter(dbCommand, "id", DbType.Int32, ID);
+                DataSet ds = db.ExecuteDataSet(dbCommand);
+                dbCommand.Connection.Close();
+                if (ds.Tables[0].Rows.Count <= 0)
+                    return null;
+                rs.IDPhong = ID;
+                rs.IDLoaiPhong = Convert.ToInt32(ds.Tables[0].Rows[0]["IDLoaiPhong"]);
+                rs.TenPhong = Convert.ToString(ds.Tables[0].Rows[0]["TenPhong"]);
+                rs.Ghichu = Convert.ToString(ds.Tables[0].Rows[0]["Ghichu"]);
+                rs.Trangthai = false;
+                rs.Congtac = Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]);
+                return rs;
+            }
+            catch
+            {
+                return null;
+            }
+        }
         public bool IsCongtacExisted(int congtac)
         {
             Database db = DatabaseFactory.CreateDatabase();

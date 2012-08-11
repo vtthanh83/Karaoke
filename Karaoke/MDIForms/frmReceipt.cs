@@ -27,7 +27,7 @@ namespace Karaoke.MDIForms
         private bool isTimedepositChange = false;
         private Hoadonxuat currentReceipt;
         List<CBReq> listCBtoTurnOff;
-        public enum ReceiptStatus { Open = 0, Closing = 1, Closed = 2, Printed = 3};
+        public enum ReceiptStatus { Open = 0, Closing = 1, Closed = 2, Printed = 3, Paid = 4, ClosingNotPrint = 5, ClosingNotPaid = 6};
         #region formLoad
         public frmReceipt()
         {
@@ -417,7 +417,7 @@ namespace Karaoke.MDIForms
             //    updateBillDisplay(iCurrentReceiptID);
             //Check if there is request to turn off cb
             int i;
-            updateBillDisplay(iCurrentReceiptID, false);
+            
             //if (listCBtoTurnOff == null) return;
             //Queue<int> offCB = new Queue<int>();
             //for (i = 0; i < listCBtoTurnOff.Count; i++)
@@ -449,22 +449,107 @@ namespace Karaoke.MDIForms
             if (ds.Tables[0].Rows.Count <= 0) return;
             frmWarningRoom fa = new frmWarningRoom();
             fa.ShowDialog();
-            //string roomList = "";
-            //for (i = 0; i < ds.Tables[0].Rows.Count; i++)
-            //{
-            //    //int total = getTotalValueOfBill(Convert.ToInt32(ds.Tables[0].Rows[i]["IDHoadonXuat"]));
-            //    DateTime  deposittime = Convert.ToDateTime(ds.Tables[0].Rows[i]["GioKT"]);
-            //    if (deposittime <= (DateTime.Now.AddMinutes(10)))
-            //    {
-            //        DataSet room = new DataAccess().getPhongByIDPhong(Convert.ToInt32(ds.Tables[0].Rows[i]["IDPhong"]));
-            //        roomList = roomList + "\n" + room.Tables[0].Rows[0]["TenPhong"];
-            //    }
-            //}
-            //if (roomList != "")
-            //{
-            //    frmWarningRoom fa = new frmWarningRoom(roomList);
-            //    fa.ShowDialog();
-            //}
+            if (fa.closeReceipt.Count > 0) //close some receipt
+            {
+                
+                for (i = 0; i < fa.closeReceipt.Count; i++)
+                {
+                    Hoadonxuat cr = new DataAccess().getHoadonxuatByID(fa.closeReceipt.ElementAt(i));
+                    if (cr != null)
+                    {
+                        switch (cr.Trangthai)
+                        {
+                            case (int)ReceiptStatus.Paid:
+                                cr.Trangthai = (int)ReceiptStatus.Closing;
+                                break;
+                            case (int)ReceiptStatus.Printed:
+                                cr.Trangthai = (int)ReceiptStatus.ClosingNotPaid;
+                                cr.Suco = 1;
+                                cr.Ghichu = cr.Ghichu + " - Đóng hóa đơn khi chưa xác nhận thu tiền";
+                                break;
+                            case (int)ReceiptStatus.Open:
+                                cr.Trangthai = (int)ReceiptStatus.ClosingNotPrint;
+                                cr.Suco = 1;
+                                cr.Ghichu = cr.Ghichu + " - Đóng hóa đơn khi chưa in hóa đon";
+                                break;
+                            default:
+                                break;
+                        }
+                        //update Receipt status
+                        if (new DataAccess().updateHoadonxuat(cr))
+                        {
+                            //update Phong status
+                            Phong room = new DataAccess().getPhongByID(cr.IDPhong);
+                            if (room != null)
+                            {
+                                room.Trangthai = false;
+                                if (new DataAccess().updatePhong(room) != true)
+                                {
+                                    MessageBox.Show("Không thể đóng phòng " + room.TenPhong, "Lỗi dữ liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                }
+                                //tat CB
+                                ContactAction(0xfb, room.Congtac);
+                            }
+                        }
+                        else
+                            MessageBox.Show("Không thể đóng hóa đơn " + cr.TenHoadon, "Lỗi dữ liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+            if (fa.continueReceipt.Count > 0) //open new some receipt
+            {
+              
+                for (i = 0; i < fa.continueReceipt.Count; i++)
+                {
+                    Hoadonxuat cr = new DataAccess().getHoadonxuatByID(fa.continueReceipt.ElementAt(i));
+                    if (cr != null)
+                    {
+                        switch (cr.Trangthai)
+                        {
+                            case (int)ReceiptStatus.Paid:
+                                cr.Trangthai = (int)ReceiptStatus.Closing;
+                                break;
+                            case (int)ReceiptStatus.Printed:
+                                cr.Trangthai = (int)ReceiptStatus.ClosingNotPaid;
+                                cr.Suco = 1;
+                                cr.Ghichu = cr.Ghichu + " - Đóng hóa đơn khi chưa xác nhận thu tiền";
+                                break;
+                            case (int)ReceiptStatus.Open:
+                                cr.Trangthai = (int)ReceiptStatus.ClosingNotPrint;
+                                cr.Suco = 1;
+                                cr.Ghichu = cr.Ghichu + " - Đóng hóa đơn khi chưa in hóa đon";
+                                break;
+                            default:
+                                break;
+                        }
+                        //update Receipt status
+                        if (new DataAccess().updateHoadonxuat(cr))
+                        {
+                            //update Phong status
+                            Phong room = new DataAccess().getPhongByID(cr.IDPhong);
+                            if (room != null)
+                            {
+                                room.Trangthai = false;
+                                if (new DataAccess().updatePhong(room) != true)
+                                {
+                                    MessageBox.Show("Không thể đóng phòng " + room.TenPhong, "Lỗi dữ liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                }
+                                else //open new receipt
+                                {
+                                    iCurrentReceiptID = OpenNewReceipt(room.IDPhong);
+                                    if (iCurrentReceiptID < 0)
+                                        MessageBox.Show("Không thể mở hóa đơn với phòng " + cr.TenHoadon, "Lỗi dữ liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                }
+                            }
+                        }
+                        else
+                            MessageBox.Show("Không thể đóng hóa đơn " + cr.TenHoadon, "Lỗi dữ liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+            fa.Close();
+            updateBillDisplay(iCurrentReceiptID, false);
+            
         }
 
         private void btnCloseBill_Click(object sender, EventArgs e)
@@ -550,9 +635,9 @@ namespace Karaoke.MDIForms
                     DataSet ds = new DataAccess().getPhongByIDPhong(iCurrentRoomID);
                     if (ds.Tables[0].Rows.Count > 0)
                     {
-                        CBReq req = new CBReq(Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]), 10);
-                        listCBtoTurnOff.Add(req);
-                        //ContactAction(0xcf, Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]));
+                        //CBReq req = new CBReq(Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]), 10);
+                        //listCBtoTurnOff.Add(req);
+                        ContactAction(0xcf, Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]));
                     }
                     iCurrentRoomID = a.getNewOpenedRoom();
                     //add san pham mac dinh vao hoa don moi
@@ -1153,9 +1238,9 @@ namespace Karaoke.MDIForms
                     //ask to open room and create new receipt for this room
                     if (MessageBox.Show("Bạn có muốn đóng phòng " + Convert.ToString(ds.Tables[0].Rows[0]["TenPhong"]) + "?", "Thông báo mở phòng", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.Cancel)
                         return;
-                    //ContactAction(0xfb, Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]));
-                    CBReq req = new CBReq(Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]), 10);
-                    listCBtoTurnOff.Add(req);
+                    ContactAction(0xfb, Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]));
+                    //CBReq req = new CBReq(Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]), 10);
+                    //listCBtoTurnOff.Add(req);
                     //get the last opening receipt of this rom
                     DataSet lastBill = new DataAccess().getLastHoadonxuatByIDPhong(iCurrentRoomID);
                     //Hoadonxuat currentReceipt = new Hoadonxuat();
@@ -1393,6 +1478,114 @@ namespace Karaoke.MDIForms
         #endregion Room
 
         #region localfunction
+        int OpenNewReceipt(int IDPhong)
+        {
+
+            int i;
+            Phong room = new DataAccess().getPhongByID(IDPhong);
+            if (room.Trangthai)
+            {
+                MessageBox.Show("Phòng đang hoạt động. Đóng phòng để mở hóa đơn mới", "Thông báo");
+                return -1;
+            }
+            Hoadonxuat currentReceipt = new Hoadonxuat();
+            currentReceipt.Giam = 0;
+            currentReceipt.GioBD = DateTime.Now;
+            currentReceipt.GioKT = DateTime.Now;
+            currentReceipt.Nhacnho = false;
+            currentReceipt.Tratruoc = 0;
+            currentReceipt.IDPhong = IDPhong;
+            currentReceipt.Ngayxuat = DateTime.Now.Date;
+            currentReceipt.Phuthu = 0;
+            currentReceipt.TenHoadon = room.TenPhong + " " + DateTime.Now.ToString("dd/MM/yy-hh:mm");
+            currentReceipt.Thue = 0;
+            currentReceipt.Trangthai = 0;
+            currentReceipt.Thue = 0;
+            currentReceipt.Phuthu = 0;
+            currentReceipt.IDNhanvien = Program.IDNhanvien;
+            currentReceipt.IDNhanvienXuatHD = Program.IDNhanvien;
+            currentReceipt.IDKhachhang = 0;
+            currentReceipt.Ghichu = "";
+            currentReceipt.Suco = 0;
+            //get current hour class
+            TimeSpan ctime = DateTime.Now.TimeOfDay;
+
+            DataSet hourclass = new DataAccess().getAllKhunggio();
+            int idkhunggio = 0;
+            for (i = 0; i < hourclass.Tables[0].Rows.Count; i++)
+            {
+                string time = Convert.ToString(hourclass.Tables[0].Rows[i]["GioBD"]);
+                int sh = Convert.ToInt32(time.Substring(0, time.IndexOf(":")));
+                int sm = Convert.ToInt32(time.Substring(time.IndexOf(":") + 1));
+                string time1 = Convert.ToString(hourclass.Tables[0].Rows[i]["GioKT"]);
+                int eh = Convert.ToInt32(time1.Substring(0, time.IndexOf(":")));
+                int em = Convert.ToInt32(time1.Substring(time1.IndexOf(":") + 1));
+                if ((ctime.Hours < eh) || ((ctime.Hours == eh) && (ctime.Minutes <= em)))
+                {
+                    if ((ctime.Hours > sh) || ((ctime.Hours == sh) && (ctime.Minutes > sm)))
+                    {
+                        idkhunggio = Convert.ToInt32(hourclass.Tables[0].Rows[i]["IDKhunggio"]);
+                        break;
+                    }
+                }
+            }
+            //get Room price
+
+            DataSet ds1 = new DataAccess().getGiaLoaiPhongByIDLoaiPhongAndIDKhunggio(room.IDLoaiPhong, idkhunggio);
+            if (ds1.Tables[0].Rows.Count > 0)
+                currentReceipt.IDGiaLoaiphong = Convert.ToInt32(ds1.Tables[0].Rows[0]["Gia"]);
+            else
+            {
+                MessageBox.Show("Chưa có bảng giá cho phòng " + room.TenPhong +
+                    " vào khung giờ này. Mở phòng không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                return -1;
+            }
+            //KM
+            //get khuyen mai
+            //get khuyen mai tang gio cua phong
+            DataSet dsKM = new DataAccess().getKhuyenmaiByIDLoaiPhong(room.IDLoaiPhong, DateTime.Now.Date);
+            //Hoadonxuat currentReceipt = new Hoadonxuat();
+            try
+            {
+                currentReceipt.Giam = Convert.ToInt32(dsKM.Tables[0].Rows[0]["Giam"]);
+            }
+            catch (Exception ex)
+            {
+                currentReceipt.Giam = 0;
+            }
+            int newIDHoadonXuat = new DataAccess().insertHoadonxuat(currentReceipt);
+            if (newIDHoadonXuat > -1)
+            {
+                //wait for databa is update
+                //ContactAction(0xbf, Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]));
+                //open electric cb
+                //MessageBox.Show("Mở Phòng " + Convert.ToInt32(gridViewRoom.GetRowCellValue(gridViewRoom.FocusedRowHandle, "TenPhong")) +
+                //    " thành công", "Thông báo");
+                //turnOnRoom.Enqueue(newRoom);
+                //update status for this Room
+                room.Trangthai = true;
+                bool a = new DataAccess().updatePhong(room);
+                if (!a)
+                {
+                    MessageBox.Show("Không cập nhật được trạng thái cho phòng " + room.TenPhong, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    return newIDHoadonXuat;
+                }
+
+                //Add SPBD
+                DataSet dsSPBD = new DataAccess().getAllSPBandauIDLoaiPhong(room.IDLoaiPhong);
+                for (i = 0; i < dsSPBD.Tables[0].Rows.Count; i++)
+                {
+                    int IDSanPham = Convert.ToInt32(dsSPBD.Tables[0].Rows[i]["IDSanPham"]);
+                    int IDLoaiSP = Convert.ToInt32(dsSPBD.Tables[0].Rows[i]["IDNhomSP"]);
+                    string TenSanPham = Convert.ToString(dsSPBD.Tables[0].Rows[i]["TenSanPham"]);
+                    int num = Convert.ToInt32(dsSPBD.Tables[0].Rows[i]["Soluong"]);
+                    AddSPBD(newIDHoadonXuat, IDLoaiSP, IDSanPham, TenSanPham, num);
+                }
+                return newIDHoadonXuat;
+            }
+            else
+                return -1;
+        }
         private void OpenListRoom()
         {
             frmListRoom listRoom = new frmListRoom();
@@ -1610,7 +1803,7 @@ namespace Karaoke.MDIForms
             currentReceipt.IDKhachhang = Convert.ToInt32(dsBill.Tables[0].Rows[0]["IDKhachhang"]);
             dateReceipt.Value = Convert.ToDateTime(dsBill.Tables[0].Rows[0]["Ngayxuat"]);
             int roomMoney = 0;
-            if ((status == (int)ReceiptStatus.Open) ||(status == (int)ReceiptStatus.Printed))
+            if ((status == (int)ReceiptStatus.Open) || (status == (int)ReceiptStatus.Printed) || (status == (int)ReceiptStatus.Paid))
             {
                 //new bill
                 checkBox1.Enabled = true;

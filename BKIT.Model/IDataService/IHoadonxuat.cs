@@ -21,6 +21,7 @@ namespace BKIT.Model.DataService
         System.Data.DataSet getAllHoadonxuatPhong();
         System.Data.DataSet getLastOpeningHoadonxuatByIDPhong(int ID);
         System.Data.DataSet getAllWarningOpenningHoadonxuat();
+        Hoadonxuat getHoadonxuatByID(int ID);
     }
     
 }

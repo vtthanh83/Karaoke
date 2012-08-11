@@ -18,6 +18,7 @@ namespace Karaoke.MDIForms
         private int oldIDHoadonXuat = -1;
         private int newIDHoadonXuat = -1;
         private int oldRoom = -1;
+        private int oldRoomGroup = -1;
         private string oldRoomName = "";
         private string newRoomName = "";
         private int newRoom = -1;
@@ -524,7 +525,7 @@ namespace Karaoke.MDIForms
                 //KM
                 //get khuyen mai
                 //get khuyen mai tang gio cua phong
-                DataSet dsKM = new DataAccess().getKhuyenmaiByIDLoaiPhong(oldRoom, DateTime.Now.Date);
+                DataSet dsKM = new DataAccess().getKhuyenmaiByIDLoaiPhong(newRoomGroup, DateTime.Now.Date);
                 //Hoadonxuat currentReceipt = new Hoadonxuat();
                 try
                 {
@@ -550,6 +551,7 @@ namespace Karaoke.MDIForms
                         updateRoom.TenPhong = Convert.ToString(gridViewRoom.GetRowCellValue(gridViewRoom.FocusedRowHandle,"TenPhong"));
                         updateRoom.Ghichu = Convert.ToString(gridViewRoom.GetRowCellValue(gridViewRoom.FocusedRowHandle,"Ghichu"));
                         updateRoom.Trangthai = true;
+                        updateRoom.Congtac = Convert.ToInt32(gridViewRoom.GetRowCellValue(gridViewRoom.FocusedRowHandle, colCB));
                         bool a = new DataAccess().updatePhong(updateRoom);
                         if (!a)
                         {
@@ -797,7 +799,7 @@ namespace Karaoke.MDIForms
                 }
                 //get khuyen mai
                 //get khuyen mai tang gio cua phong
-                DataSet dsKM = new DataAccess().getKhuyenmaiByIDLoaiPhong(oldRoom, DateTime.Now.Date);
+                DataSet dsKM = new DataAccess().getKhuyenmaiByIDLoaiPhong(newRoomGroup, DateTime.Now.Date);
                 //Hoadonxuat currentReceipt = new Hoadonxuat();
                 try
                 {
@@ -950,6 +952,7 @@ namespace Karaoke.MDIForms
             updateNewRoom.TenPhong = Convert.ToString(dsRoom.Tables[0].Rows[0]["TenPhong"]);
             updateNewRoom.Ghichu = Convert.ToString(dsRoom.Tables[0].Rows[0]["Ghichu"]);
             updateNewRoom.Trangthai = false;
+            updateNewRoom.Congtac = Convert.ToInt32(dsRoom.Tables[0].Rows[0]["Congtac"]);
             bool b = new DataAccess().updatePhong(updateNewRoom);
             if (!b)
             {

@@ -29,6 +29,7 @@ namespace Karaoke.MDIForms
             warnReceipt.Columns.Add("IDHoadonXuat", typeof(int));
             warnReceipt.Columns.Add("TenPhong", typeof(string));
             warnReceipt.Columns.Add("Tinhtrang", typeof(string));
+            warnReceipt.Columns.Add("Trangthai", typeof(int));
             warnReceipt.Columns.Add("TgConlai", typeof(int));
             warnReceipt.Columns.Add("Hoadon", typeof(string));
             warnReceipt.Columns.Add("Dongphong", typeof(Boolean));
@@ -51,10 +52,13 @@ namespace Karaoke.MDIForms
                 aRow["IDHoadonXuat"] = ds.Tables[0].Rows[i]["IDHoadonXuat"];
                 aRow["TenPhong"] = ds.Tables[0].Rows[i]["TenPhong"];
                 aRow["Hoadon"] = ds.Tables[0].Rows[i]["TenHoadon"];
+                aRow["Trangthai"] = ds.Tables[0].Rows[i]["Trangthai"];
                 aRow["Dongphong"] = true;
                 aRow["Taomoi"] = true;
                 if (Convert.ToInt32(ds.Tables[0].Rows[i]["Trangthai"]) == 3) //printed receipt
                     aRow["Tinhtrang"] = "Đã in HĐ";
+                if (Convert.ToInt32(ds.Tables[0].Rows[i]["Trangthai"]) == 4) //paid receipt
+                    aRow["Tinhtrang"] = "Đã thanh toán";
                 else
                     aRow["Tinhtrang"] = "Chưa in HĐ";
                 if (Convert.ToDateTime(ds.Tables[0].Rows[i]["GioKT"]) <= DateTime.Now)
@@ -75,19 +79,35 @@ namespace Karaoke.MDIForms
             int i;
             for (i = 0; i < gridViewWarning.RowCount; i++)
             {
-                if (Convert.ToInt32(gridViewWarning.GetRowCellValue(e.RowHandle, "TgConlai")) == 0)
+                if (Convert.ToInt32(gridViewWarning.GetRowCellValue(i, "TgConlai")) == 0)
                     return true;
             }
             return false;
         }
         private void frmReturnProduct_KeyDown(object sender, KeyEventArgs e)
         {
-            this.Hide();
+            if (e.KeyCode == Keys.Escape)
+            {
+
+                if (isNeedAction())
+                {
+                    if (MessageBox.Show("Hiện tại còn phòng đã hết thời gian vẫn hoạt động. Bạn có muốn thoát khỏi cửa sổ cảnh báo này?", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                        this.Hide();
+                }
+                else
+                    this.Hide();
+            }
         }
 
         private void btnReturn_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            if (isNeedAction())
+            {
+                if (MessageBox.Show("Hiện tại còn phòng đã hết thời gian vẫn hoạt động. Bạn có muốn thoát khỏi cửa sổ cảnh báo này?", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                    this.Hide();
+            }
+            else
+                this.Hide();
         }
 
         private void gridViewWarning_CellValueChanging(object sender, DevExpress.XtraGrid.Views.Base.CellValueChangedEventArgs e)
@@ -96,15 +116,17 @@ namespace Karaoke.MDIForms
             {
                if (e.Column == colCloseRoom)
                 {
-                    if (MessageBox.Show("Bạn có muốn đóng phòng "+gridViewWarning.GetRowCellValue(e.RowHandle, "TenPhong").ToString()+"?", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.No)
-                        return;
+                    if(Convert.ToInt32(gridViewWarning.GetRowCellValue(e.RowHandle, colStatus))!=4)
+                        if (MessageBox.Show("Bạn có muốn đóng phòng "+gridViewWarning.GetRowCellValue(e.RowHandle, colRoomName).ToString()+" khi chưa xác nhận thanh toán?", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.No)
+                            return;
                     closeReceipt.Add(Convert.ToInt32(gridViewWarning.GetRowCellValue(e.RowHandle, "IDHoadonXuat")));
                     gridViewWarning.DeleteRow(e.RowHandle);
                 }
                else if (e.Column == colContinue)
                {
-                   if (MessageBox.Show("Bạn có muốn mở hóa đơn mới với phòng " + gridViewWarning.GetRowCellValue(e.RowHandle, "TenPhong").ToString() + "?", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.No)
-                       return;
+                   if (Convert.ToInt32(gridViewWarning.GetRowCellValue(e.RowHandle, colStatus)) != 4)
+                       if (MessageBox.Show("Bạn có muốn mở hóa đơn mới với phòng " + gridViewWarning.GetRowCellValue(e.RowHandle, colRoomName).ToString() + " khi chưa xác nhận thanh toán?", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.No)
+                            return;
                    continueReceipt.Add(Convert.ToInt32(gridViewWarning.GetRowCellValue(e.RowHandle, "IDHoadonXuat")));
                    gridViewWarning.DeleteRow(e.RowHandle);
                }

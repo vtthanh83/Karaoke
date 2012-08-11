@@ -41,6 +41,7 @@ namespace BKIT.Model
         bool updatePhong(Phong objPhong);
         bool deletePhong(Phong objPhong);
         System.Data.DataSet getAllPhong();
+        Phong getPhongByID(int ID);
         System.Data.DataSet getPhongByIDPhong(int ID);
         System.Data.DataSet getPhongByIDLoaiPhong(int ID);
         System.Data.DataSet getAllPhongAndLoaiPhong();
@@ -74,6 +75,7 @@ namespace BKIT.Model
         System.Data.DataSet getSoLuongSPBanRa();
 		System.Data.DataSet getAllHoadonxuatSanpham();
         System.Data.DataSet getAllHoadonxuatPhong();
+        Hoadonxuat getHoadonxuatByID(int ID);
 
         int insertNhanvien(Nhanvien objNhanvien);
         bool updateNhanvien(Nhanvien objNhanvien);

@@ -245,6 +245,46 @@ namespace BKIT.Model.DataService
                 return null;
             }
         }
+        public Hoadonxuat getHoadonxuatByID(int ID)
+        {
+            Database db = DatabaseFactory.CreateDatabase();
+            Hoadonxuat rs = new Hoadonxuat();
+            string sqlCommand = "SELECT * FROM Hoadonxuat WHERE IDHoadonXuat = @id ";
+            try
+            {
+                DbCommand dbCommand = db.GetSqlStringCommand(sqlCommand);
+                db.AddInParameter(dbCommand, "id", DbType.Int32, ID);
+                DataSet ds = db.ExecuteDataSet(dbCommand);
+                dbCommand.Connection.Close();
+                if (ds.Tables[0].Rows.Count <= 0)
+                    return null;
+                //get current Bill
+                rs.IDNhanvien = Convert.ToInt32(ds.Tables[0].Rows[0]["IDNhanvien"]);
+                rs.IDPhong = Convert.ToInt32(ds.Tables[0].Rows[0]["IDPhong"]);
+                rs.Giam = Convert.ToInt32(ds.Tables[0].Rows[0]["Giam"]);
+                rs.Thue = Convert.ToInt32(ds.Tables[0].Rows[0]["Thue"]);
+                rs.Phuthu = Convert.ToInt32(ds.Tables[0].Rows[0]["Phuthu"]);
+                rs.IDGiaLoaiphong = Convert.ToInt32(ds.Tables[0].Rows[0]["IDGiaLoaiphong"]);
+                rs.Ngayxuat = Convert.ToDateTime(ds.Tables[0].Rows[0]["Ngayxuat"]);
+                rs.GioBD = Convert.ToDateTime(ds.Tables[0].Rows[0]["GioBD"]);
+                rs.GioKT = Convert.ToDateTime(ds.Tables[0].Rows[0]["GioKT"]);
+                rs.Tratruoc = Convert.ToInt32(ds.Tables[0].Rows[0]["Tratruoc"]);
+                rs.Ghichu = Convert.ToString(ds.Tables[0].Rows[0]["Ghichu"]);
+                rs.Trangthai = Convert.ToInt32(ds.Tables[0].Rows[0]["Trangthai"]);
+                rs.IDHoadonXuat = ID;
+                rs.IDNhanvienXuatHD = Convert.ToInt32(ds.Tables[0].Rows[0]["IDNhanvienXuatHD"]);
+                rs.Nhacnho = Convert.ToBoolean(ds.Tables[0].Rows[0]["Nhacnho"]);
+                rs.IDKhachhang = Convert.ToInt32(ds.Tables[0].Rows[0]["IDKhachhang"]);
+                rs.Tanggio = Convert.ToInt32(ds.Tables[0].Rows[0]["Tanggio"]);
+                rs.Suco = Convert.ToInt32(ds.Tables[0].Rows[0]["Suco"]);
+                rs.TenHoadon = Convert.ToString(ds.Tables[0].Rows[0]["TenHoadon"]);
+                return rs;
+            }
+            catch
+            {
+                return null;
+            }
+        }
         public System.Data.DataSet getAllOpenningHoadonxuatWithDeposit()
         {
             Database db = DatabaseFactory.CreateDatabase();
@@ -266,7 +306,7 @@ namespace BKIT.Model.DataService
             Database db = DatabaseFactory.CreateDatabase();
             string sqlCommand = "SELECT Phong.IDPhong as IDPhong, Phong.TenPhong as TenPhong, Phong.Congtac as Congtac, Hoadonxuat.IDHoadonXuat as IDHoadonXuat, Hoadonxuat.TenHoadon as TenHoadon, Hoadonxuat.GioBD as GioBD, Hoadonxuat.GioKT as GioKT, Hoadonxuat.Trangthai as Trangthai, Hoadonxuat.Nhacnho as Nhacnho "+
                                 "FROM Phong INNER JOIN Hoadonxuat ON Phong.IDPhong = Hoadonxuat.IDPhong "+
-                                "WHERE (((Hoadonxuat.Trangthai)=3)) OR (((Hoadonxuat.Trangthai)=0) AND ((Hoadonxuat.Nhacnho)=True));";
+                                "WHERE (((Hoadonxuat.Trangthai)=4)) OR (((Hoadonxuat.Trangthai)=3)) OR (((Hoadonxuat.Trangthai)=0) AND ((Hoadonxuat.Nhacnho)=True));";
             try
             {
                 DbCommand dbCommand = db.GetSqlStringCommand(sqlCommand);

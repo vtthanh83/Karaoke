@@ -33,7 +33,7 @@
             this.gridWarning = new DevExpress.XtraGrid.GridControl();
             this.gridViewWarning = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colRoomName = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colBillNum = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn19 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -42,6 +42,7 @@
             this.colReceiptName = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colContinue = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemCheckEdit5 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.colCB = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemCheckEdit4 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.deleteChitietHD = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.repositoryItemSpinEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
@@ -50,7 +51,7 @@
             this.repositoryItemCheckEdit3 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.repositoryItemCheckEdit9 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.repositoryItemSpinEdit5 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
-            this.colCB = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colStatus = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gridWarning)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewWarning)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
@@ -143,8 +144,9 @@
             this.gridViewWarning.Appearance.SelectedRow.Options.UseFont = true;
             this.gridViewWarning.Appearance.SelectedRow.Options.UseForeColor = true;
             this.gridViewWarning.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colStatus,
             this.gridColumn1,
-            this.gridColumn2,
+            this.colRoomName,
             this.colBillNum,
             this.gridColumn12,
             this.gridColumn19,
@@ -169,19 +171,20 @@
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.OptionsColumn.ReadOnly = true;
             // 
-            // gridColumn2
+            // colRoomName
             // 
-            this.gridColumn2.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.gridColumn2.AppearanceCell.Options.UseFont = true;
-            this.gridColumn2.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.gridColumn2.AppearanceHeader.Options.UseFont = true;
-            this.gridColumn2.Caption = "Tên Phòng";
-            this.gridColumn2.FieldName = "TenPhong";
-            this.gridColumn2.Name = "gridColumn2";
-            this.gridColumn2.OptionsColumn.ReadOnly = true;
-            this.gridColumn2.Visible = true;
-            this.gridColumn2.VisibleIndex = 0;
-            this.gridColumn2.Width = 90;
+            this.colRoomName.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.colRoomName.AppearanceCell.Options.UseFont = true;
+            this.colRoomName.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.colRoomName.AppearanceHeader.Options.UseFont = true;
+            this.colRoomName.Caption = "Tên Phòng";
+            this.colRoomName.FieldName = "TenPhong";
+            this.colRoomName.GroupInterval = DevExpress.XtraGrid.ColumnGroupInterval.Value;
+            this.colRoomName.Name = "colRoomName";
+            this.colRoomName.OptionsColumn.ReadOnly = true;
+            this.colRoomName.Visible = true;
+            this.colRoomName.VisibleIndex = 0;
+            this.colRoomName.Width = 90;
             // 
             // colBillNum
             // 
@@ -258,6 +261,12 @@
             this.repositoryItemCheckEdit5.PictureChecked = global::Karaoke.Properties.Resources.user1;
             this.repositoryItemCheckEdit5.PictureGrayed = global::Karaoke.Properties.Resources.user1;
             this.repositoryItemCheckEdit5.PictureUnchecked = global::Karaoke.Properties.Resources.user1;
+            // 
+            // colCB
+            // 
+            this.colCB.Caption = "CB";
+            this.colCB.FieldName = "Congtac";
+            this.colCB.Name = "colCB";
             // 
             // repositoryItemCheckEdit4
             // 
@@ -343,11 +352,11 @@
             0});
             this.repositoryItemSpinEdit5.Name = "repositoryItemSpinEdit5";
             // 
-            // colCB
+            // colStatus
             // 
-            this.colCB.Caption = "CB";
-            this.colCB.FieldName = "Congtac";
-            this.colCB.Name = "colCB";
+            this.colStatus.Caption = "Trangthai";
+            this.colStatus.FieldName = "Trangthai";
+            this.colStatus.Name = "colStatus";
             // 
             // frmWarningRoom
             // 
@@ -386,7 +395,7 @@
         private DevExpress.XtraGrid.GridControl gridWarning;
         private DevExpress.XtraGrid.Views.Grid.GridView gridViewWarning;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
+        private DevExpress.XtraGrid.Columns.GridColumn colRoomName;
         private DevExpress.XtraGrid.Columns.GridColumn colBillNum;
         private DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit repositoryItemSpinEdit1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn12;
@@ -404,5 +413,6 @@
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit5;
         private DevExpress.XtraGrid.Columns.GridColumn colCB;
+        private DevExpress.XtraGrid.Columns.GridColumn colStatus;
     }
 }

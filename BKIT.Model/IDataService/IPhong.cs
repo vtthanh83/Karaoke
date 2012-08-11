@@ -17,5 +17,6 @@ namespace BKIT.Model.IDataService
         System.Data.DataSet getAllPhongAndLoaiPhong(int diffID);
         System.Data.DataSet getAllFreePhongAndLoaiPhong(int diffID);
         System.Data.DataSet getAllBusyPhongAndLoaiPhong(int diffID);
+        Phong getPhongByID(int ID);
     }
 }

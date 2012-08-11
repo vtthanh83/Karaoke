@@ -92,6 +92,7 @@
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.groupControl6 = new DevExpress.XtraEditors.GroupControl();
             this.btnTransferRoom = new DevExpress.XtraEditors.SimpleButton();
+            this.colCB = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gridRoom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewRoom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkRoomStatus)).BeginInit();
@@ -188,7 +189,8 @@
             this.gridColumn3,
             this.colRoomStatus,
             this.gridColumn6,
-            this.gridColumn23});
+            this.gridColumn23,
+            this.colCB});
             this.gridViewRoom.GridControl = this.gridRoom;
             this.gridViewRoom.GroupCount = 1;
             this.gridViewRoom.GroupFooterShowMode = DevExpress.XtraGrid.Views.Grid.GroupFooterShowMode.VisibleAlways;
@@ -924,6 +926,12 @@
             this.btnTransferRoom.Text = "Chuyển/Hợp Phòng";
             this.btnTransferRoom.Click += new System.EventHandler(this.btnTransferRoom_Click);
             // 
+            // colCB
+            // 
+            this.colCB.Caption = "gridColumn15";
+            this.colCB.FieldName = "Congtac";
+            this.colCB.Name = "colCB";
+            // 
             // frmDivideRoom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -1047,5 +1055,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn10;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn14;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn13;
+        private DevExpress.XtraGrid.Columns.GridColumn colCB;
     }
 }
