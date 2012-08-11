@@ -35,33 +35,34 @@
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colBillNum = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.repositoryItemSpinEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
             this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn19 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colCloseRoom = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.repositoryItemSpinEdit5 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
+            this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.colReceiptName = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.repositoryItemSpinEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
             this.colContinue = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.repositoryItemCheckEdit9 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.repositoryItemCheckEdit5 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.repositoryItemCheckEdit4 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.deleteChitietHD = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.repositoryItemSpinEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
+            this.repositoryItemSpinEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
             this.repositoryItemCheckEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.repositoryItemCheckEdit3 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
-            this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
-            this.repositoryItemCheckEdit5 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.repositoryItemCheckEdit9 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.repositoryItemSpinEdit5 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
+            this.colCB = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gridWarning)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewWarning)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.deleteChitietHD)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.deleteChitietHD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit5)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -149,11 +150,13 @@
             this.gridColumn19,
             this.colCloseRoom,
             this.colReceiptName,
-            this.colContinue});
+            this.colContinue,
+            this.colCB});
             this.gridViewWarning.GridControl = this.gridWarning;
             this.gridViewWarning.Name = "gridViewWarning";
             this.gridViewWarning.NewItemRowText = "Click vào đây để thêm mới";
             this.gridViewWarning.OptionsView.ShowGroupPanel = false;
+            this.gridViewWarning.CellValueChanging += new DevExpress.XtraGrid.Views.Base.CellValueChangedEventHandler(this.gridViewWarning_CellValueChanging);
             // 
             // gridColumn1
             // 
@@ -194,18 +197,6 @@
             this.colBillNum.VisibleIndex = 1;
             this.colBillNum.Width = 82;
             // 
-            // repositoryItemSpinEdit1
-            // 
-            this.repositoryItemSpinEdit1.AutoHeight = false;
-            this.repositoryItemSpinEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.repositoryItemSpinEdit1.MaxValue = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.repositoryItemSpinEdit1.Name = "repositoryItemSpinEdit1";
-            // 
             // gridColumn12
             // 
             this.gridColumn12.Caption = "Tg. còn lại";
@@ -230,17 +221,14 @@
             this.colCloseRoom.Visible = true;
             this.colCloseRoom.VisibleIndex = 3;
             // 
-            // repositoryItemSpinEdit5
+            // repositoryItemCheckEdit1
             // 
-            this.repositoryItemSpinEdit5.AutoHeight = false;
-            this.repositoryItemSpinEdit5.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.repositoryItemSpinEdit5.MaxValue = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.repositoryItemSpinEdit5.Name = "repositoryItemSpinEdit5";
+            this.repositoryItemCheckEdit1.AutoHeight = false;
+            this.repositoryItemCheckEdit1.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.UserDefined;
+            this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
+            this.repositoryItemCheckEdit1.PictureChecked = global::Karaoke.Properties.Resources.Status_user_busy_icon1;
+            this.repositoryItemCheckEdit1.PictureGrayed = global::Karaoke.Properties.Resources.Status_user_busy_icon1;
+            this.repositoryItemCheckEdit1.PictureUnchecked = global::Karaoke.Properties.Resources.Status_user_busy_icon1;
             // 
             // colReceiptName
             // 
@@ -252,6 +240,54 @@
             this.colReceiptName.FieldName = "TenHoadon";
             this.colReceiptName.Name = "colReceiptName";
             this.colReceiptName.Width = 63;
+            // 
+            // colContinue
+            // 
+            this.colContinue.Caption = "Tạo mới";
+            this.colContinue.ColumnEdit = this.repositoryItemCheckEdit5;
+            this.colContinue.FieldName = "Taomoi";
+            this.colContinue.Name = "colContinue";
+            this.colContinue.Visible = true;
+            this.colContinue.VisibleIndex = 4;
+            // 
+            // repositoryItemCheckEdit5
+            // 
+            this.repositoryItemCheckEdit5.AutoWidth = true;
+            this.repositoryItemCheckEdit5.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.UserDefined;
+            this.repositoryItemCheckEdit5.Name = "repositoryItemCheckEdit5";
+            this.repositoryItemCheckEdit5.PictureChecked = global::Karaoke.Properties.Resources.user1;
+            this.repositoryItemCheckEdit5.PictureGrayed = global::Karaoke.Properties.Resources.user1;
+            this.repositoryItemCheckEdit5.PictureUnchecked = global::Karaoke.Properties.Resources.user1;
+            // 
+            // repositoryItemCheckEdit4
+            // 
+            this.repositoryItemCheckEdit4.AutoHeight = false;
+            this.repositoryItemCheckEdit4.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.UserDefined;
+            this.repositoryItemCheckEdit4.Name = "repositoryItemCheckEdit4";
+            this.repositoryItemCheckEdit4.PictureChecked = global::Karaoke.Properties.Resources._1325149327_recycle_bin;
+            this.repositoryItemCheckEdit4.PictureGrayed = global::Karaoke.Properties.Resources._1325149327_recycle_bin;
+            this.repositoryItemCheckEdit4.PictureUnchecked = global::Karaoke.Properties.Resources._1325149282_button_ok;
+            // 
+            // deleteChitietHD
+            // 
+            this.deleteChitietHD.AutoHeight = false;
+            this.deleteChitietHD.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.UserDefined;
+            this.deleteChitietHD.Name = "deleteChitietHD";
+            this.deleteChitietHD.PictureChecked = global::Karaoke.Properties.Resources._1325149327_recycle_bin;
+            this.deleteChitietHD.PictureGrayed = global::Karaoke.Properties.Resources._1325149327_recycle_bin;
+            this.deleteChitietHD.PictureUnchecked = global::Karaoke.Properties.Resources._1325149327_recycle_bin;
+            // 
+            // repositoryItemSpinEdit1
+            // 
+            this.repositoryItemSpinEdit1.AutoHeight = false;
+            this.repositoryItemSpinEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.repositoryItemSpinEdit1.MaxValue = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.repositoryItemSpinEdit1.Name = "repositoryItemSpinEdit1";
             // 
             // repositoryItemSpinEdit2
             // 
@@ -273,42 +309,6 @@
             0});
             this.repositoryItemSpinEdit2.Name = "repositoryItemSpinEdit2";
             // 
-            // colContinue
-            // 
-            this.colContinue.Caption = "Tạo mới";
-            this.colContinue.ColumnEdit = this.repositoryItemCheckEdit5;
-            this.colContinue.FieldName = "Taomoi";
-            this.colContinue.Name = "colContinue";
-            this.colContinue.Visible = true;
-            this.colContinue.VisibleIndex = 4;
-            // 
-            // repositoryItemCheckEdit9
-            // 
-            this.repositoryItemCheckEdit9.AutoHeight = false;
-            this.repositoryItemCheckEdit9.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.UserDefined;
-            this.repositoryItemCheckEdit9.Name = "repositoryItemCheckEdit9";
-            this.repositoryItemCheckEdit9.PictureChecked = global::Karaoke.Properties.Resources.Actions_arrow_down_double_icon_small;
-            this.repositoryItemCheckEdit9.PictureGrayed = global::Karaoke.Properties.Resources.Actions_arrow_down_double_icon_small;
-            this.repositoryItemCheckEdit9.PictureUnchecked = global::Karaoke.Properties.Resources.Actions_arrow_down_double_icon_small;
-            // 
-            // repositoryItemCheckEdit4
-            // 
-            this.repositoryItemCheckEdit4.AutoHeight = false;
-            this.repositoryItemCheckEdit4.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.UserDefined;
-            this.repositoryItemCheckEdit4.Name = "repositoryItemCheckEdit4";
-            this.repositoryItemCheckEdit4.PictureChecked = global::Karaoke.Properties.Resources._1325149327_recycle_bin;
-            this.repositoryItemCheckEdit4.PictureGrayed = global::Karaoke.Properties.Resources._1325149327_recycle_bin;
-            this.repositoryItemCheckEdit4.PictureUnchecked = global::Karaoke.Properties.Resources._1325149282_button_ok;
-            // 
-            // deleteChitietHD
-            // 
-            this.deleteChitietHD.AutoHeight = false;
-            this.deleteChitietHD.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.UserDefined;
-            this.deleteChitietHD.Name = "deleteChitietHD";
-            this.deleteChitietHD.PictureChecked = global::Karaoke.Properties.Resources._1325149327_recycle_bin;
-            this.deleteChitietHD.PictureGrayed = global::Karaoke.Properties.Resources._1325149327_recycle_bin;
-            this.deleteChitietHD.PictureUnchecked = global::Karaoke.Properties.Resources._1325149327_recycle_bin;
-            // 
             // repositoryItemCheckEdit2
             // 
             this.repositoryItemCheckEdit2.AutoHeight = false;
@@ -322,23 +322,32 @@
             this.repositoryItemCheckEdit3.PictureGrayed = global::Karaoke.Properties.Resources.Actions_go_next_icon;
             this.repositoryItemCheckEdit3.PictureUnchecked = global::Karaoke.Properties.Resources.Actions_go_next_icon;
             // 
-            // repositoryItemCheckEdit1
+            // repositoryItemCheckEdit9
             // 
-            this.repositoryItemCheckEdit1.AutoHeight = false;
-            this.repositoryItemCheckEdit1.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.UserDefined;
-            this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
-            this.repositoryItemCheckEdit1.PictureChecked = global::Karaoke.Properties.Resources.Status_user_busy_icon1;
-            this.repositoryItemCheckEdit1.PictureGrayed = global::Karaoke.Properties.Resources.Status_user_busy_icon1;
-            this.repositoryItemCheckEdit1.PictureUnchecked = global::Karaoke.Properties.Resources.Status_user_busy_icon1;
+            this.repositoryItemCheckEdit9.AutoHeight = false;
+            this.repositoryItemCheckEdit9.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.UserDefined;
+            this.repositoryItemCheckEdit9.Name = "repositoryItemCheckEdit9";
+            this.repositoryItemCheckEdit9.PictureChecked = global::Karaoke.Properties.Resources.Actions_arrow_down_double_icon_small;
+            this.repositoryItemCheckEdit9.PictureGrayed = global::Karaoke.Properties.Resources.Actions_arrow_down_double_icon_small;
+            this.repositoryItemCheckEdit9.PictureUnchecked = global::Karaoke.Properties.Resources.Actions_arrow_down_double_icon_small;
             // 
-            // repositoryItemCheckEdit5
+            // repositoryItemSpinEdit5
             // 
-            this.repositoryItemCheckEdit5.AutoWidth = true;
-            this.repositoryItemCheckEdit5.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.UserDefined;
-            this.repositoryItemCheckEdit5.Name = "repositoryItemCheckEdit5";
-            this.repositoryItemCheckEdit5.PictureChecked = global::Karaoke.Properties.Resources.user1;
-            this.repositoryItemCheckEdit5.PictureGrayed = global::Karaoke.Properties.Resources.user1;
-            this.repositoryItemCheckEdit5.PictureUnchecked = global::Karaoke.Properties.Resources.user1;
+            this.repositoryItemSpinEdit5.AutoHeight = false;
+            this.repositoryItemSpinEdit5.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.repositoryItemSpinEdit5.MaxValue = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.repositoryItemSpinEdit5.Name = "repositoryItemSpinEdit5";
+            // 
+            // colCB
+            // 
+            this.colCB.Caption = "CB";
+            this.colCB.FieldName = "Congtac";
+            this.colCB.Name = "colCB";
             // 
             // frmWarningRoom
             // 
@@ -355,16 +364,16 @@
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmReturnProduct_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.gridWarning)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewWarning)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.deleteChitietHD)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.deleteChitietHD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -394,5 +403,6 @@
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit3;
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit5;
+        private DevExpress.XtraGrid.Columns.GridColumn colCB;
     }
 }

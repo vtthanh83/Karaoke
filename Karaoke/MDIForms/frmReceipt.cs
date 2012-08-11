@@ -447,7 +447,7 @@ namespace Karaoke.MDIForms
             DataSet ds = new DataAccess().getAllWarningOpenningHoadonxuat();
             if (ds == null) return;
             if (ds.Tables[0].Rows.Count <= 0) return;
-            frmWarningRoom fa = new frmWarningRoom(roomList);
+            frmWarningRoom fa = new frmWarningRoom();
             fa.ShowDialog();
             //string roomList = "";
             //for (i = 0; i < ds.Tables[0].Rows.Count; i++)
@@ -896,7 +896,7 @@ namespace Karaoke.MDIForms
                 TimeSpan ts = Convert.ToDateTime(dsHD.Tables[0].Rows[0]["GioKT"]).Subtract(Convert.ToDateTime(dsHD.Tables[0].Rows[0]["GioBD"]));
                 //add extra 10 minutes to open receipt
                 if((Convert.ToBoolean(dsHD.Tables[0].Rows[0]["Nhacnho"])==false) && (receiptStat == (int)ReceiptStatus.Open))
-                    ts.Add(new TimeSpan(0,10,0));
+                    ts = (DateTime.Now.Subtract(Convert.ToDateTime(dsHD.Tables[0].Rows[0]["GioBD"]))).Add(new TimeSpan(0,10,0));
                 //double playmin = ts.Hours + Convert.ToDouble(ts.Minutes) / 60;
                 dr2["Soluong"] = ts.Hours.ToString()+"h"+ts.Minutes.ToString();
                 dr2["ThanhTien"] = txtHourMoney.Text;
@@ -973,7 +973,10 @@ namespace Karaoke.MDIForms
                 dr["TenHoadon"] = dsHD.Tables[0].Rows[0]["TenHoadon"].ToString();
                 dr["HoadonID"] = iCurrentReceiptID.ToString();
                 dr["GioBD"] = Convert.ToDateTime(dsHD.Tables[0].Rows[0]["GioBD"]).ToShortTimeString();
-                dr["GioKT"] = Convert.ToDateTime(dsHD.Tables[0].Rows[0]["GioKT"]).ToShortTimeString();
+                if ((Convert.ToBoolean(dsHD.Tables[0].Rows[0]["Nhacnho"]) == false) && (receiptStat == (int)ReceiptStatus.Open))
+                    dr["GioKT"] = (Convert.ToDateTime(dsHD.Tables[0].Rows[0]["GioKT"]).AddMinutes(10)).ToShortTimeString();
+                else
+                    dr["GioKT"] = Convert.ToDateTime(dsHD.Tables[0].Rows[0]["GioKT"]);
                 dr["Nhanvien"] = cboEmployee.Text;
                 dr["NhanvienHD"] = Program.userFullName;
                 dr["Thue"] = numTax.Value.ToString();
@@ -1029,11 +1032,11 @@ namespace Karaoke.MDIForms
                         {
                             if (Convert.ToBoolean(dsHD.Tables[0].Rows[0]["Nhacnho"]) == false)
                             {
-                                currentReceipt.GioKT.AddMinutes(10);
+                                currentReceipt.GioKT = DateTime.Now.AddMinutes(10);
                                 //add to list to turn off CB after 10 minutes
                                 DataSet dsPhong = new DataAccess().getPhongByIDPhong(iCurrentRoomID);
-                                CBReq req = new CBReq(Convert.ToInt32(dsPhong.Tables[0].Rows[0]["Congtac"]), 10);
-                                listCBtoTurnOff.Add(req);
+                               // CBReq req = new CBReq(Convert.ToInt32(dsPhong.Tables[0].Rows[0]["Congtac"]), 10);
+                               // listCBtoTurnOff.Add(req);
                             }
                             
                             currentReceipt.Trangthai = (int)ReceiptStatus.Printed;
@@ -1607,7 +1610,7 @@ namespace Karaoke.MDIForms
             currentReceipt.IDKhachhang = Convert.ToInt32(dsBill.Tables[0].Rows[0]["IDKhachhang"]);
             dateReceipt.Value = Convert.ToDateTime(dsBill.Tables[0].Rows[0]["Ngayxuat"]);
             int roomMoney = 0;
-            if (status == 0)
+            if ((status == (int)ReceiptStatus.Open) ||(status == (int)ReceiptStatus.Printed))
             {
                 //new bill
                 checkBox1.Enabled = true;
@@ -1621,7 +1624,16 @@ namespace Karaoke.MDIForms
                 txtRoomPrice.Text = currentReceipt.IDGiaLoaiphong.ToString("###,###,###");
                 numDeposit.Value = currentReceipt.Tratruoc;
                 checkBox1.Checked = currentReceipt.Nhacnho;
-                if (currentReceipt.Nhacnho)
+                if(status>0)
+                {
+                    if(Program.userLevel==Level.Admin)
+                        timeDeposit.Enabled = true;
+                    else
+                        timeDeposit.Enabled = false;
+                    isTimedepositChange = false;
+                    timeDeposit.Value = currentReceipt.GioKT;
+                }
+                else if ((currentReceipt.Nhacnho)&&(status==(int)ReceiptStatus.Open))
                 {
                     timeDeposit.Enabled = true;
                     isTimedepositChange = false;
@@ -2198,7 +2210,7 @@ namespace Karaoke.MDIForms
                 MessageBox.Show("Lỗi cơ sở dữ liệu!", "Lỗi");
             }
             else
-            {
+            { 
                 TimeSpan ts = currentReceipt.GioKT.Subtract(currentReceipt.GioBD);
                 int playmin = ts.Hours * 60 + ts.Minutes;
                 int roomMoney = playmin * (currentReceipt.IDGiaLoaiphong * (100 - currentReceipt.Giam) / 6000); 

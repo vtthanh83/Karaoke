@@ -264,7 +264,9 @@ namespace BKIT.Model.DataService
         public System.Data.DataSet getAllWarningOpenningHoadonxuat()
         {
             Database db = DatabaseFactory.CreateDatabase();
-            string sqlCommand = "SELECT * FROM Hoadonxuat WHERE ((Trangthai = 0 AND Nhacnho = true) OR Trangthai = 3)";
+            string sqlCommand = "SELECT Phong.IDPhong as IDPhong, Phong.TenPhong as TenPhong, Phong.Congtac as Congtac, Hoadonxuat.IDHoadonXuat as IDHoadonXuat, Hoadonxuat.TenHoadon as TenHoadon, Hoadonxuat.GioBD as GioBD, Hoadonxuat.GioKT as GioKT, Hoadonxuat.Trangthai as Trangthai, Hoadonxuat.Nhacnho as Nhacnho "+
+                                "FROM Phong INNER JOIN Hoadonxuat ON Phong.IDPhong = Hoadonxuat.IDPhong "+
+                                "WHERE (((Hoadonxuat.Trangthai)=3)) OR (((Hoadonxuat.Trangthai)=0) AND ((Hoadonxuat.Nhacnho)=True));";
             try
             {
                 DbCommand dbCommand = db.GetSqlStringCommand(sqlCommand);
