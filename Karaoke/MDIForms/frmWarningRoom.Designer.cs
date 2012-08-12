@@ -28,10 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblTitle = new System.Windows.Forms.Label();
             this.btnReturn = new DevExpress.XtraEditors.SimpleButton();
             this.gridWarning = new DevExpress.XtraGrid.GridControl();
             this.gridViewWarning = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.colStatus = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colRoomName = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colBillNum = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -51,7 +53,7 @@
             this.repositoryItemCheckEdit3 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.repositoryItemCheckEdit9 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.repositoryItemSpinEdit5 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
-            this.colStatus = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.gridWarning)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewWarning)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
@@ -160,6 +162,12 @@
             this.gridViewWarning.OptionsView.ShowGroupPanel = false;
             this.gridViewWarning.CellValueChanging += new DevExpress.XtraGrid.Views.Base.CellValueChangedEventHandler(this.gridViewWarning_CellValueChanging);
             // 
+            // colStatus
+            // 
+            this.colStatus.Caption = "Trangthai";
+            this.colStatus.FieldName = "Trangthai";
+            this.colStatus.Name = "colStatus";
+            // 
             // gridColumn1
             // 
             this.gridColumn1.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
@@ -181,6 +189,7 @@
             this.colRoomName.FieldName = "TenPhong";
             this.colRoomName.GroupInterval = DevExpress.XtraGrid.ColumnGroupInterval.Value;
             this.colRoomName.Name = "colRoomName";
+            this.colRoomName.OptionsColumn.AllowEdit = false;
             this.colRoomName.OptionsColumn.ReadOnly = true;
             this.colRoomName.Visible = true;
             this.colRoomName.VisibleIndex = 0;
@@ -195,6 +204,7 @@
             this.colBillNum.Caption = "Tình trạng";
             this.colBillNum.FieldName = "Tinhtrang";
             this.colBillNum.Name = "colBillNum";
+            this.colBillNum.OptionsColumn.AllowEdit = false;
             this.colBillNum.OptionsColumn.ReadOnly = true;
             this.colBillNum.Visible = true;
             this.colBillNum.VisibleIndex = 1;
@@ -205,6 +215,8 @@
             this.gridColumn12.Caption = "Tg. còn lại";
             this.gridColumn12.FieldName = "TgConlai";
             this.gridColumn12.Name = "gridColumn12";
+            this.gridColumn12.OptionsColumn.AllowEdit = false;
+            this.gridColumn12.OptionsColumn.ReadOnly = true;
             this.gridColumn12.Visible = true;
             this.gridColumn12.VisibleIndex = 2;
             // 
@@ -242,6 +254,7 @@
             this.colReceiptName.Caption = "Hóa đơn";
             this.colReceiptName.FieldName = "TenHoadon";
             this.colReceiptName.Name = "colReceiptName";
+            this.colReceiptName.OptionsColumn.ReadOnly = true;
             this.colReceiptName.Width = 63;
             // 
             // colContinue
@@ -267,6 +280,7 @@
             this.colCB.Caption = "CB";
             this.colCB.FieldName = "Congtac";
             this.colCB.Name = "colCB";
+            this.colCB.OptionsColumn.ReadOnly = true;
             // 
             // repositoryItemCheckEdit4
             // 
@@ -352,11 +366,11 @@
             0});
             this.repositoryItemSpinEdit5.Name = "repositoryItemSpinEdit5";
             // 
-            // colStatus
+            // timer1
             // 
-            this.colStatus.Caption = "Trangthai";
-            this.colStatus.FieldName = "Trangthai";
-            this.colStatus.Name = "colStatus";
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 60000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // frmWarningRoom
             // 
@@ -414,5 +428,6 @@
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit5;
         private DevExpress.XtraGrid.Columns.GridColumn colCB;
         private DevExpress.XtraGrid.Columns.GridColumn colStatus;
+        private System.Windows.Forms.Timer timer1;
     }
 }

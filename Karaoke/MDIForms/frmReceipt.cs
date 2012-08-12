@@ -308,7 +308,7 @@ namespace Karaoke.MDIForms
                     return;
                 if (currentReceipt.Trangthai > 1)
                     return;
-                currentReceipt.Giam = Convert.ToInt32(numExtra.Value);
+                currentReceipt.Tanggio = Convert.ToInt32(numReduce.Value);
                 //update DB
                 bool res = new DataAccess().updateHoadonxuat(currentReceipt);
                 if (!res)
@@ -347,7 +347,7 @@ namespace Karaoke.MDIForms
         {
             if (e.RowHandle >= 0)
             {
-                if ((currentReceipt.Trangthai < 1) || (Program.userLevel == Level.Admin))
+                if ((currentReceipt.Trangthai == (int)ReceiptStatus.Open) || (Program.userLevel == Level.Admin))
                 {
                     if (e.Column == colDeleteCTHD)
                     {
@@ -392,7 +392,7 @@ namespace Karaoke.MDIForms
                 }
                 else
                 {
-                    MessageBox.Show(this, "Hóa đơn đã khóa sổ, không thay đổi được. Liên hệ quản lý để thay đổi", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    MessageBox.Show(this, "Hóa đơn không được thay đổi. Liên hệ quản lý để thay đổi", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 }
 
             }
@@ -448,6 +448,7 @@ namespace Karaoke.MDIForms
             if (ds == null) return;
             if (ds.Tables[0].Rows.Count <= 0) return;
             frmWarningRoom fa = new frmWarningRoom();
+            timer1.Stop();
             fa.ShowDialog();
             if (fa.closeReceipt.Count > 0) //close some receipt
             {
@@ -548,20 +549,37 @@ namespace Karaoke.MDIForms
                 }
             }
             fa.Close();
+            timer1.Start();
             updateBillDisplay(iCurrentReceiptID, false);
             
         }
-
+        //Xac nhan thu tien
         private void btnCloseBill_Click(object sender, EventArgs e)
         {
             if (iCurrentReceiptID > -1)
             {
-                if (MessageBox.Show("Bạn có muốn kết thúc việc thay đổi nội dung hóa đơn (bạn sẽ không được phép thay đổi nội dung Hóa đơn này)?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                if (currentReceipt.Trangthai != (int)ReceiptStatus.Printed)
                 {
-                    currentReceipt.Trangthai = 2;
-                    if (new DataAccess().updateHoadonxuat(currentReceipt))
-                        MessageBox.Show("Bạn đã kết thúc việc thay đổi hóa đơn", "Thông báo");
-                    displayLastRoomReceipt();
+                    if (Program.userLevel != Level.Admin)
+                    {
+                        MessageBox.Show("Hóa đơn chưa được in. Yêu cầu in hóa đơn trước khi xác nhận thu tiền!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                        return;
+                    }
+                    else
+                    {
+                        if (MessageBox.Show("Hóa đơn chưa được in. Bạn có muốn tiếp tục xác nhận đã thu tiền?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                        {
+                            currentReceipt.Trangthai = (int)ReceiptStatus.Paid;
+                            if (new DataAccess().updateHoadonxuat(currentReceipt) != true)
+                                MessageBox.Show("Không thể cập nhật hóa đơn", "Lỗi dữ liệu");
+                        }
+                    }
+                }
+                else
+                {
+                    currentReceipt.Trangthai = (int)ReceiptStatus.Paid;
+                    if (new DataAccess().updateHoadonxuat(currentReceipt) != true)
+                        MessageBox.Show("Không thể cập nhật hóa đơn", "Lỗi dữ liệu");
                 }
             }
         }
@@ -1177,6 +1195,7 @@ namespace Karaoke.MDIForms
                     }
                 }
             }
+            this.cboRoom.SelectedIndexChanged += new System.EventHandler(this.cboRoom_SelectedIndexChanged);
         }
         /*
         private void updateRoomGrid(int IDPhong)
@@ -1236,9 +1255,8 @@ namespace Karaoke.MDIForms
                 {
                     //in case of the room has been openned
                     //ask to open room and create new receipt for this room
-                    if (MessageBox.Show("Bạn có muốn đóng phòng " + Convert.ToString(ds.Tables[0].Rows[0]["TenPhong"]) + "?", "Thông báo mở phòng", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.Cancel)
-                        return;
-                    ContactAction(0xfb, Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]));
+                    
+                    
                     //CBReq req = new CBReq(Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]), 10);
                     //listCBtoTurnOff.Add(req);
                     //get the last opening receipt of this rom
@@ -1248,7 +1266,7 @@ namespace Karaoke.MDIForms
                     currentReceipt.IDHoadonXuat = Convert.ToInt32(lastBill.Tables[0].Rows[0]["IDHoadonXuat"]);
                     currentReceipt.Giam = Convert.ToInt32(lastBill.Tables[0].Rows[0]["Giam"]);
                     currentReceipt.GioBD = Convert.ToDateTime(lastBill.Tables[0].Rows[0]["GioBD"]);
-                    //currentReceipt.GioKT = DateTime.Now.TimeOfDay;
+                    currentReceipt.GioKT = Convert.ToDateTime(lastBill.Tables[0].Rows[0]["GioKT"]); ;
                     currentReceipt.IDPhong = iCurrentRoomID;
                     currentReceipt.Ngayxuat = Convert.ToDateTime(lastBill.Tables[0].Rows[0]["Ngayxuat"]).Date;
                     currentReceipt.Phuthu = Convert.ToInt32(lastBill.Tables[0].Rows[0]["Phuthu"]);
@@ -1260,39 +1278,39 @@ namespace Karaoke.MDIForms
                     currentReceipt.Nhacnho = Convert.ToBoolean(lastBill.Tables[0].Rows[0]["Nhacnho"]);
                     currentReceipt.IDKhachhang = Convert.ToInt32(lastBill.Tables[0].Rows[0]["IDKhachhang"]);
                     currentReceipt.Ghichu = Convert.ToString(lastBill.Tables[0].Rows[0]["Ghichu"]);
-
+                    currentReceipt.Tanggio = Convert.ToInt32(lastBill.Tables[0].Rows[0]["Tanggio"]);
                     currentReceipt.Suco = Convert.ToInt32(lastBill.Tables[0].Rows[0]["Suco"]);
-                    currentReceipt.Trangthai = 1;
+                    currentReceipt.Trangthai = Convert.ToInt32(lastBill.Tables[0].Rows[0]["Trangthai"]);
+                    if (currentReceipt.Trangthai != (int)ReceiptStatus.Paid)
+                    {
+                        if (MessageBox.Show("Hóa đơn chưa xác nhận thu tiền. Bạn có muốn tiếp tục đóng phòng " + Convert.ToString(ds.Tables[0].Rows[0]["TenPhong"]) + "?", "Thông báo đóng phòng", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.No)
+                            return;
+                        currentReceipt.Trangthai = (int)ReceiptStatus.ClosingNotPaid;
+                    }
+                    else
+                        currentReceipt.Trangthai = (int)ReceiptStatus.Closing;
+                    ContactAction(0xfb, Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]));
                     bool res = new DataAccess().updateHoadonxuat(currentReceipt);
                     if (res)
                     {
                         //wait for databa is update
-
-                        //open electric cb
-                        // MessageBox.Show("Đóng Phòng " + Convert.ToInt32(gridViewRoom.GetRowCellValue(gridViewRoom.FocusedRowHandle, "TenPhong")) +
-                        //     " thành công", "Thông báo");
-                        iCurrentReceiptID = currentReceipt.IDHoadonXuat;
-
-                        //update Hoadon group display
-                        if (updateBillDisplay(iCurrentReceiptID,false))
+                        //update status for this Room
+                        Phong updateRoom = new Phong();
+                        updateRoom.IDPhong = Convert.ToInt32(ds.Tables[0].Rows[0]["IDPhong"]);
+                        updateRoom.IDLoaiPhong = Convert.ToInt32(ds.Tables[0].Rows[0]["IDLoaiPhong"]);
+                        updateRoom.Congtac = Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]);
+                        updateRoom.TenPhong = Convert.ToString(ds.Tables[0].Rows[0]["TenPhong"]);
+                        updateRoom.Ghichu = Convert.ToString(ds.Tables[0].Rows[0]["Ghichu"]);
+                        updateRoom.Trangthai = false;
+                        bool a = new DataAccess().updatePhong(updateRoom);
+                        if (!a)
                         {
-                            //update status for this Room
-                            Phong updateRoom = new Phong();
-                            updateRoom.IDPhong = Convert.ToInt32(ds.Tables[0].Rows[0]["IDPhong"]);
-                            updateRoom.IDLoaiPhong = Convert.ToInt32(ds.Tables[0].Rows[0]["IDLoaiPhong"]);
-                            updateRoom.TenPhong = Convert.ToString(ds.Tables[0].Rows[0]["TenPhong"]);
-                            updateRoom.Ghichu = Convert.ToString(ds.Tables[0].Rows[0]["Ghichu"]);
-                            updateRoom.Trangthai = false;
-                            bool a = new DataAccess().updatePhong(updateRoom);
-                            if (!a)
-                            {
-                                MessageBox.Show("Không cập nhật được trạng thái cho phòng " + updateRoom.TenPhong, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-                                return;
-                            }
-                            //update current status gridview
-                            //gridViewRoom.SetFocusedRowCellValue(colRoomStatus, false);
+                            MessageBox.Show("Không cập nhật được trạng thái cho phòng " + updateRoom.TenPhong, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                            return;
                         }
 
+                        //close display
+                        updateBillDisplay(-1, false);
                     }
                     else
                     {
@@ -1326,6 +1344,7 @@ namespace Karaoke.MDIForms
                     currentReceipt.Ngayxuat = DateTime.Now.Date;
                     currentReceipt.Phuthu = 0;
                     currentReceipt.Thue = 0;
+                    currentReceipt.Tanggio = 0;
                     currentReceipt.Trangthai = 0;
                     currentReceipt.Thue = 0;
                     currentReceipt.Phuthu = 0;
@@ -1392,6 +1411,7 @@ namespace Karaoke.MDIForms
                         Phong updateRoom = new Phong();
                         updateRoom.IDPhong = Convert.ToInt32(ds.Tables[0].Rows[0]["IDPhong"]);
                         updateRoom.IDLoaiPhong = Convert.ToInt32(ds.Tables[0].Rows[0]["IDLoaiPhong"]);
+                        updateRoom.Congtac = Convert.ToInt32(ds.Tables[0].Rows[0]["Congtac"]);
                         updateRoom.TenPhong = Convert.ToString(ds.Tables[0].Rows[0]["TenPhong"]);
                         updateRoom.Ghichu = Convert.ToString(ds.Tables[0].Rows[0]["Ghichu"]);
                         updateRoom.Trangthai = true;
@@ -1596,7 +1616,14 @@ namespace Karaoke.MDIForms
                 cboRoom.SelectedValue = iCurrentRoomID;
             }
             listRoom.Close();
-            displayLastRoomReceipt();
+            //displayLastRoomReceipt();
+        }
+        private void cboRoom_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+                iCurrentRoomID = Convert.ToInt32(cboRoom.SelectedValue);
+                displayLastRoomReceipt();
+            
         }
         private int getTotalValueOfBill(int IDHoadon)
         {
@@ -1612,17 +1639,8 @@ namespace Karaoke.MDIForms
             //iCurrentReceiptID = IDHoadon;
             int timeout = 0;
             DataSet dsBill = new DataAccess().getHoadonxuatByIDHoadonXuat(IDHoadon);
-            for (timeout = 0; timeout < 20; timeout++)
-            {
-                if (dsBill.Tables[0].Rows.Count <= 0)
-                {
-                    System.Threading.Thread.Sleep(500);
-                    dsBill = new DataAccess().getLastHoadonxuatByIDPhong(IDHoadon);
-                }
-                else
-                    break;
-            }
-            if (timeout >= 9)
+
+            if (dsBill.Tables[0].Rows.Count<=0)
             {
                 //MessageBox.Show("Không có Hóa đơn mã số " + IDHoadon.ToString(), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return -1;
@@ -1644,29 +1662,16 @@ namespace Karaoke.MDIForms
 
             int giam = Convert.ToInt32(dsBill.Tables[0].Rows[0]["Giam"]);
             int thue = Convert.ToInt32(dsBill.Tables[0].Rows[0]["Thue"]);
+            int KM = Convert.ToInt32(dsBill.Tables[0].Rows[0]["Tanggio"]);
             int phuthu = Convert.ToInt32(dsBill.Tables[0].Rows[0]["Phuthu"]);
             int tratruoc = Convert.ToInt32(dsBill.Tables[0].Rows[0]["Tratruoc"]);
             bool nhacnho = Convert.ToBoolean(dsBill.Tables[0].Rows[0]["Nhacnho"]);
             int roomMoney = 0;
-            if (status == 0)
-            {
-                //new bill
-
-
                 TimeSpan ts = (Convert.ToDateTime(dsBill.Tables[0].Rows[0]["GioKT"])).Subtract(Convert.ToDateTime(dsBill.Tables[0].Rows[0]["GioBD"]));
                 int playmin = ts.Hours * 60 + ts.Minutes;
                 roomMoney = (price * playmin * (100 - giam) / 6000);
                 txtTotalHour.Text = ts.Hours.ToString("#0") + "g" + ts.Minutes.ToString("#0") + "p";
-            }
-            else
-            {
-                //old bill
 
-                TimeSpan ts = Convert.ToDateTime(dsBill.Tables[0].Rows[0]["GioKT"]).Subtract(Convert.ToDateTime(dsBill.Tables[0].Rows[0]["GioBD"]));
-                int playmin = ts.Hours * 60 + ts.Minutes;
-                roomMoney = playmin * ((price * (100 - giam)) / 6000);
-                txtTotalHour.Text = ts.Hours.ToString("#0") + "g" + ts.Minutes.ToString("#0") + "p";
-            }
             txtHourMoney.Text = roomMoney.ToString();
             
             //get all product with this bill
@@ -1679,7 +1684,7 @@ namespace Karaoke.MDIForms
                 productMoney = productMoney + Convert.ToInt32(dsBillProduct.Tables[0].Rows[i]["Thanhtien"]);
             txtProductMoney.Text = productMoney.ToString("###,###,###,##0");
             int totalBill = 0;
-            totalBill = roomMoney + productMoney + Convert.ToInt32(phuthu - giam);
+            totalBill = roomMoney + productMoney + phuthu+KM;
             totalBill = Convert.ToInt32(totalBill + totalBill * thue / 100);
 
             return totalBill;
@@ -1703,10 +1708,12 @@ namespace Karaoke.MDIForms
                     txtHourMoney.Text = "0";
                     txtProductMoney.Text = "0";
                     numExtra.Value = 0;
+                    numReduce.Value = 0;
                     numTax.Value = 0;
                     txtReduce.Text = "0";
                     checkBox1.Checked = false;
                     numDeposit.Value = 0;
+                    numReduce.Value = 0;
                     txtReturnMoney.Text = "0";
                     gridBillProduct.DataSource = null;
                     txtReturnMoney.Text = "0";
@@ -1734,6 +1741,7 @@ namespace Karaoke.MDIForms
                 txtHourMoney.Text = "0";
                 txtProductMoney.Text = "0";
                 numExtra.Value = 0;
+                numReduce.Value = 0;
                 numTax.Value = 0;
                 txtReduce.Text = "0";
                 checkBox1.Checked = false;
@@ -1751,17 +1759,7 @@ namespace Karaoke.MDIForms
             iCurrentReceiptID = IDHoadon;
             int timeout = 0;
             DataSet dsBill = new DataAccess().getHoadonxuatByIDHoadonXuat(IDHoadon);
-            for (timeout = 0; timeout < 20; timeout++)
-            {
-                if (dsBill.Tables[0].Rows.Count <= 0)
-                {
-                    System.Threading.Thread.Sleep(500);
-                    dsBill = new DataAccess().getLastHoadonxuatByIDPhong(IDHoadon);
-                }
-                else
-                    break;
-            }
-            if (timeout >= 9)
+            if (dsBill.Tables[0].Rows.Count<=0)
             {
                 MessageBox.Show("Không có Hóa đơn mã số " + IDHoadon.ToString(), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
@@ -1801,22 +1799,23 @@ namespace Karaoke.MDIForms
             currentReceipt.IDNhanvienXuatHD = Convert.ToInt32(dsBill.Tables[0].Rows[0]["IDNhanvienXuatHD"]);
             currentReceipt.Nhacnho = Convert.ToBoolean(dsBill.Tables[0].Rows[0]["Nhacnho"]);
             currentReceipt.IDKhachhang = Convert.ToInt32(dsBill.Tables[0].Rows[0]["IDKhachhang"]);
+            currentReceipt.Tanggio = Convert.ToInt32(dsBill.Tables[0].Rows[0]["Tanggio"]);
             dateReceipt.Value = Convert.ToDateTime(dsBill.Tables[0].Rows[0]["Ngayxuat"]);
             int roomMoney = 0;
             if ((status == (int)ReceiptStatus.Open) || (status == (int)ReceiptStatus.Printed) || (status == (int)ReceiptStatus.Paid))
             {
                 //new bill
-                checkBox1.Enabled = true;
                 cboEmployee.SelectedValue = currentReceipt.IDNhanvien;
                 cboCustomer.SelectedValue = currentReceipt.IDKhachhang;
                 cboRoom.SelectedValue = currentReceipt.IDPhong;
-                txtReduce.Text = currentReceipt.Giam.ToString();
+                txtReduce.Text = currentReceipt.Giam.ToString()+"%";
                 numTax.Value = currentReceipt.Thue;
                 numExtra.Value = currentReceipt.Phuthu;
                 //txtRoom.Text = Convert.ToString(dsRoom.Tables[0].Rows[0]["TenPhong"]);
                 txtRoomPrice.Text = currentReceipt.IDGiaLoaiphong.ToString("###,###,###");
                 numDeposit.Value = currentReceipt.Tratruoc;
                 checkBox1.Checked = currentReceipt.Nhacnho;
+                checkBox1.Enabled = true;
                 if(status>0)
                 {
                     if(Program.userLevel==Level.Admin)
@@ -1825,6 +1824,7 @@ namespace Karaoke.MDIForms
                         timeDeposit.Enabled = false;
                     isTimedepositChange = false;
                     timeDeposit.Value = currentReceipt.GioKT;
+                    checkBox1.Enabled = false;
                 }
                 else if ((currentReceipt.Nhacnho)&&(status==(int)ReceiptStatus.Open))
                 {
@@ -1887,7 +1887,7 @@ namespace Karaoke.MDIForms
                 productMoney = productMoney + Convert.ToInt32(dsBillProduct.Tables[0].Rows[i]["Thanhtien"]);
             txtProductMoney.Text = productMoney.ToString("###,###,###,##0");
             int totalBill = 0;
-            totalBill = roomMoney + productMoney + Convert.ToInt32(numExtra.Value);
+            totalBill = roomMoney + productMoney + Convert.ToInt32(numExtra.Value) + Convert.ToInt32(numReduce.Value);
             totalBill = Convert.ToInt32(totalBill + totalBill * numTax.Value / 100);
             txtBilltotal.Text = totalBill.ToString("###,###,###,##0");
             txtReturnMoney.Text = (totalBill - Convert.ToInt32(dsBill.Tables[0].Rows[0]["Tratruoc"])).ToString("###,###,##0");
@@ -2498,36 +2498,7 @@ namespace Karaoke.MDIForms
             else if (e.KeyCode == Keys.F3) // choose room by code
             {
                 OpenListRoom();
-                /*
-                if (groupControlDanhSachPhong.Visible == false)
-                {
-                    groupControlDanhSachPhong.Visible = true;
-
-                    groupControlDanhSachPhong.Width = 250;
-                    groupControlRoomAndProduct.Width = 250 + 52;
-                    groupControlDanhSachPhong.Location = new Point(xtraTabControl1.Width, xtraTabControl1.Location.Y);
-                    groupControlDanhSachPhong.Height = groupControlRoomAndProduct.Height - 5;
-                    if (groupControlSanPham.Visible == true)
-                    {
-                        groupControlRoomAndProduct.Width += 300;
-                        groupControlSanPham.Width = 300;
-                        groupControlSanPham.Location = new Point(xtraTabControl1.Width + groupControlDanhSachPhong.Width, xtraTabControl1.Location.Y);
-
-                    }
-                }
-                else
-                {
-                    groupControlDanhSachPhong.Visible = false;
-                    groupControlRoomAndProduct.Width = 52;
-                    if (groupControlSanPham.Visible == true)
-                    {
-                        groupControlRoomAndProduct.Width += 300;
-                        groupControlSanPham.Width = 300;
-                        groupControlSanPham.Location = new Point(xtraTabControl1.Width, xtraTabControl1.Location.Y);
-
-                    }
-                } 
-                 */
+                
             }
             else if (e.KeyCode == Keys.F4) // choose san pham by code
             {
@@ -2562,15 +2533,15 @@ namespace Karaoke.MDIForms
             }
             else if (e.KeyCode == Keys.F10) // dong phong
             {
-
+                Start(0);
             }
             else if (e.KeyCode == Keys.F11)// in phieu tinh tien
             {
-
+                printReceipt();
             }
             else if (e.KeyCode == Keys.F12) // xac nhan thu tien
             {
-
+                btnCloseBill_Click(null, null);
             }
             redrawGroupControlRoomAndProduct();
         }
@@ -2584,6 +2555,11 @@ namespace Karaoke.MDIForms
         }
         
         #endregion HOT_KEY
+
+        
+
+
+        
 
         
 

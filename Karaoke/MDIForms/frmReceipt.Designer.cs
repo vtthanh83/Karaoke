@@ -83,7 +83,7 @@
             this.dateReceipt = new System.Windows.Forms.DateTimePicker();
             this.txtProductMoney = new System.Windows.Forms.TextBox();
             this.checkDateReceipt = new System.Windows.Forms.CheckBox();
-            this.btnCloseBill = new DevExpress.XtraEditors.SimpleButton();
+            this.btnPaid = new DevExpress.XtraEditors.SimpleButton();
             this.btnPrintBill = new DevExpress.XtraEditors.SimpleButton();
             this.gridBillProduct = new DevExpress.XtraGrid.GridControl();
             this.gridViewBillProduct = new DevExpress.XtraGrid.Views.Grid.GridView();
@@ -128,10 +128,11 @@
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
             this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
             this.groupControl6 = new DevExpress.XtraEditors.GroupControl();
+            this.label7 = new System.Windows.Forms.Label();
+            this.numReduce = new System.Windows.Forms.NumericUpDown();
             this.cboRoom = new System.Windows.Forms.ComboBox();
             this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
             this.xtraTabPageRoom = new DevExpress.XtraTab.XtraTabPage();
-            this.numReduce = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.gridControlSanPham)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewSanPham)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).BeginInit();
@@ -161,9 +162,9 @@
             this.groupControl4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).BeginInit();
             this.groupControl6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numReduce)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).BeginInit();
             this.groupControl5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numReduce)).BeginInit();
             this.SuspendLayout();
             // 
             // gridControlSanPham
@@ -367,7 +368,7 @@
             this.btnIssueProcessing.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
             this.btnIssueProcessing.Image = global::Karaoke.Properties.Resources._1338111760_Modify;
             this.btnIssueProcessing.ImageLocation = DevExpress.XtraEditors.ImageLocation.TopCenter;
-            this.btnIssueProcessing.Location = new System.Drawing.Point(6, 258);
+            this.btnIssueProcessing.Location = new System.Drawing.Point(7, 455);
             this.btnIssueProcessing.Name = "btnIssueProcessing";
             this.btnIssueProcessing.Size = new System.Drawing.Size(88, 85);
             this.btnIssueProcessing.TabIndex = 77;
@@ -503,7 +504,7 @@
             // 
             this.numDeposit.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numDeposit.ForeColor = System.Drawing.Color.Blue;
-            this.numDeposit.Location = new System.Drawing.Point(183, 417);
+            this.numDeposit.Location = new System.Drawing.Point(204, 507);
             this.numDeposit.Maximum = new decimal(new int[] {
             10000000,
             0,
@@ -521,7 +522,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label15.ForeColor = System.Drawing.Color.Blue;
-            this.label15.Location = new System.Drawing.Point(107, 419);
+            this.label15.Location = new System.Drawing.Point(128, 509);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(73, 17);
             this.label15.TabIndex = 66;
@@ -547,7 +548,7 @@
             this.btnDivideRoom.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
             this.btnDivideRoom.Image = global::Karaoke.Properties.Resources.rightleft2red;
             this.btnDivideRoom.ImageLocation = DevExpress.XtraEditors.ImageLocation.TopCenter;
-            this.btnDivideRoom.Location = new System.Drawing.Point(5, 171);
+            this.btnDivideRoom.Location = new System.Drawing.Point(7, 273);
             this.btnDivideRoom.Name = "btnDivideRoom";
             this.btnDivideRoom.Size = new System.Drawing.Size(88, 85);
             this.btnDivideRoom.TabIndex = 63;
@@ -561,7 +562,7 @@
             this.btnPrintCooking.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
             this.btnPrintCooking.Image = global::Karaoke.Properties.Resources.chef_icon;
             this.btnPrintCooking.ImageLocation = DevExpress.XtraEditors.ImageLocation.TopCenter;
-            this.btnPrintCooking.Location = new System.Drawing.Point(6, 343);
+            this.btnPrintCooking.Location = new System.Drawing.Point(7, 364);
             this.btnPrintCooking.Name = "btnPrintCooking";
             this.btnPrintCooking.Size = new System.Drawing.Size(88, 85);
             this.btnPrintCooking.TabIndex = 62;
@@ -799,19 +800,19 @@
             this.checkDateReceipt.Visible = false;
             this.checkDateReceipt.CheckedChanged += new System.EventHandler(this.checkDateReceipt_CheckedChanged);
             // 
-            // btnCloseBill
+            // btnPaid
             // 
-            this.btnCloseBill.Appearance.Options.UseTextOptions = true;
-            this.btnCloseBill.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
-            this.btnCloseBill.Image = global::Karaoke.Properties.Resources.cabinet_icon__1_;
-            this.btnCloseBill.ImageLocation = DevExpress.XtraEditors.ImageLocation.TopCenter;
-            this.btnCloseBill.Location = new System.Drawing.Point(6, 85);
-            this.btnCloseBill.Name = "btnCloseBill";
-            this.btnCloseBill.Size = new System.Drawing.Size(88, 85);
-            this.btnCloseBill.TabIndex = 46;
-            this.btnCloseBill.Text = "Đóng hóa đơn";
-            this.toolTip1.SetToolTip(this.btnCloseBill, "Kết thúc thay đổi hóa đơn");
-            this.btnCloseBill.Click += new System.EventHandler(this.btnCloseBill_Click);
+            this.btnPaid.Appearance.Options.UseTextOptions = true;
+            this.btnPaid.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
+            this.btnPaid.Image = ((System.Drawing.Image)(resources.GetObject("btnPaid.Image")));
+            this.btnPaid.ImageLocation = DevExpress.XtraEditors.ImageLocation.TopCenter;
+            this.btnPaid.Location = new System.Drawing.Point(7, 182);
+            this.btnPaid.Name = "btnPaid";
+            this.btnPaid.Size = new System.Drawing.Size(88, 85);
+            this.btnPaid.TabIndex = 46;
+            this.btnPaid.Text = "Đã thu tiền";
+            this.toolTip1.SetToolTip(this.btnPaid, "Kết thúc thay đổi hóa đơn");
+            this.btnPaid.Click += new System.EventHandler(this.btnCloseBill_Click);
             // 
             // btnPrintBill
             // 
@@ -819,7 +820,7 @@
             this.btnPrintBill.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
             this.btnPrintBill.Image = global::Karaoke.Properties.Resources._2_Hot_Printer1;
             this.btnPrintBill.ImageLocation = DevExpress.XtraEditors.ImageLocation.TopCenter;
-            this.btnPrintBill.Location = new System.Drawing.Point(6, 428);
+            this.btnPrintBill.Location = new System.Drawing.Point(7, 91);
             this.btnPrintBill.Name = "btnPrintBill";
             this.btnPrintBill.Size = new System.Drawing.Size(88, 85);
             this.btnPrintBill.TabIndex = 45;
@@ -1346,6 +1347,7 @@
             // 
             this.groupControl6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
             this.groupControl6.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.groupControl6.Controls.Add(this.label7);
             this.groupControl6.Controls.Add(this.numReduce);
             this.groupControl6.Controls.Add(this.txtHourMoney);
             this.groupControl6.Controls.Add(this.txtProductMoney);
@@ -1390,6 +1392,42 @@
             this.groupControl6.Size = new System.Drawing.Size(744, 540);
             this.groupControl6.TabIndex = 1;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label7.Location = new System.Drawing.Point(324, 411);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(80, 17);
+            this.label7.TabIndex = 79;
+            this.label7.Text = "Khuyến mãi";
+            // 
+            // numReduce
+            // 
+            this.numReduce.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numReduce.Increment = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numReduce.Location = new System.Drawing.Point(412, 409);
+            this.numReduce.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
+            this.numReduce.Minimum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            -2147483648});
+            this.numReduce.Name = "numReduce";
+            this.numReduce.Size = new System.Drawing.Size(138, 23);
+            this.numReduce.TabIndex = 78;
+            this.numReduce.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.numReduce.ThousandsSeparator = true;
+            this.numReduce.ValueChanged += new System.EventHandler(this.numReduce_ValueChanged);
+            // 
             // cboRoom
             // 
             this.cboRoom.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1398,6 +1436,7 @@
             this.cboRoom.Name = "cboRoom";
             this.cboRoom.Size = new System.Drawing.Size(108, 24);
             this.cboRoom.TabIndex = 77;
+            
             // 
             // groupControl5
             // 
@@ -1408,7 +1447,7 @@
             this.groupControl5.Controls.Add(this.bntOpenCloseRoom);
             this.groupControl5.Controls.Add(this.btnIssueProcessing);
             this.groupControl5.Controls.Add(this.btnPrintBill);
-            this.groupControl5.Controls.Add(this.btnCloseBill);
+            this.groupControl5.Controls.Add(this.btnPaid);
             this.groupControl5.Controls.Add(this.btnPrintCooking);
             this.groupControl5.Controls.Add(this.btnDivideRoom);
             this.groupControl5.Dock = System.Windows.Forms.DockStyle.Right;
@@ -1423,31 +1462,6 @@
             this.xtraTabPageRoom.Image = global::Karaoke.Properties.Resources._1343236634_Hospital;
             this.xtraTabPageRoom.Name = "xtraTabPageRoom";
             this.xtraTabPageRoom.Size = new System.Drawing.Size(0, 452);
-            // 
-            // numReduce
-            // 
-            this.numReduce.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numReduce.Increment = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numReduce.Location = new System.Drawing.Point(412, 409);
-            this.numReduce.Maximum = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.numReduce.Minimum = new decimal(new int[] {
-            1000000,
-            0,
-            0,
-            -2147483648});
-            this.numReduce.Name = "numReduce";
-            this.numReduce.Size = new System.Drawing.Size(138, 23);
-            this.numReduce.TabIndex = 78;
-            this.numReduce.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.numReduce.ThousandsSeparator = true;
             // 
             // frmReceipt
             // 
@@ -1498,9 +1512,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).EndInit();
             this.groupControl6.ResumeLayout(false);
             this.groupControl6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numReduce)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).EndInit();
             this.groupControl5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numReduce)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1544,7 +1558,7 @@
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit deleteChitietHD;
         private System.Windows.Forms.Timer timer1;
         private DevExpress.XtraEditors.SimpleButton btnPrintBill;
-        private DevExpress.XtraEditors.SimpleButton btnCloseBill;
+        private DevExpress.XtraEditors.SimpleButton btnPaid;
         private System.Windows.Forms.DateTimePicker dateReceipt;
         private System.Windows.Forms.CheckBox checkDateReceipt;
         private DevExpress.XtraEditors.SimpleButton btnNextBill;
@@ -1609,5 +1623,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
         private System.Windows.Forms.NumericUpDown numReduce;
+        private System.Windows.Forms.Label label7;
     }
 }

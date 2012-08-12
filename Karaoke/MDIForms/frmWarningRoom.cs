@@ -91,8 +91,20 @@ namespace Karaoke.MDIForms
 
                 if (isNeedAction())
                 {
-                    if (MessageBox.Show("Hiện tại còn phòng đã hết thời gian vẫn hoạt động. Bạn có muốn thoát khỏi cửa sổ cảnh báo này?", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                    if (MessageBox.Show("Hiện tại còn phòng đã hết thời gian vẫn hoạt động. Bạn có muốn mở hóa đơn mới cho những phòng này và thoát khỏi cửa sổ này?", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                    {
+                        //search for end room 
+                        int i;
+                        for (i = 0; i < gridViewWarning.RowCount; i++)
+                        {
+                            if ((Convert.ToInt32(gridViewWarning.GetRowCellValue(i, "TgConlai")) == 0)&&(Convert.ToInt32(gridViewWarning.GetRowCellValue(i, "Trangthai")) >= 3))
+                            {
+                                continueReceipt.Add(Convert.ToInt32(gridViewWarning.GetRowCellValue(i, "IDHoadonXuat")));
+                                
+                            }
+                        }
                         this.Hide();
+                    }
                 }
                 else
                     this.Hide();
@@ -103,8 +115,20 @@ namespace Karaoke.MDIForms
         {
             if (isNeedAction())
             {
-                if (MessageBox.Show("Hiện tại còn phòng đã hết thời gian vẫn hoạt động. Bạn có muốn thoát khỏi cửa sổ cảnh báo này?", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show("Hiện tại còn phòng đã hết thời gian vẫn hoạt động. Bạn có muốn mở hóa đơn mới cho những phòng này và thoát khỏi cửa sổ này?", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    //search for end room 
+                    int i;
+                    for (i = 0; i < gridViewWarning.RowCount; i++)
+                    {
+                        if ((Convert.ToInt32(gridViewWarning.GetRowCellValue(i, "TgConlai")) == 0) && (Convert.ToInt32(gridViewWarning.GetRowCellValue(i, "Trangthai")) >= 3))
+                        {
+                            continueReceipt.Add(Convert.ToInt32(gridViewWarning.GetRowCellValue(i, "IDHoadonXuat")));
+
+                        }
+                    }
                     this.Hide();
+                }
             }
             else
                 this.Hide();
@@ -131,6 +155,11 @@ namespace Karaoke.MDIForms
                    gridViewWarning.DeleteRow(e.RowHandle);
                }
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            InitData();
         }
 
         

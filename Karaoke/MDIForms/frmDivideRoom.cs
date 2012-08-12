@@ -483,9 +483,11 @@ namespace Karaoke.MDIForms
                 currentReceipt.TenHoadon = newRoomName + " " + DateTime.Now.ToString("dd/MM/yy-hh:mm");
                 currentReceipt.Thue = 0;
                 currentReceipt.Trangthai = 0;
+                currentReceipt.Tanggio = 0;
                 currentReceipt.Thue = 0;
                 currentReceipt.Phuthu = 0;
-                currentReceipt.IDNhanvien = 0;
+                currentReceipt.IDNhanvien = Program.IDNhanvien;
+                currentReceipt.IDNhanvienXuatHD = Program.IDNhanvien;
                 currentReceipt.IDKhachhang = 0;
                 currentReceipt.Ghichu = "Chuyen tu phong "+oldRoomName;
                 currentReceipt.Suco = 1;
@@ -757,10 +759,13 @@ namespace Karaoke.MDIForms
                 currentReceipt.Phuthu = 0;
                 currentReceipt.Thue = 0;
                 currentReceipt.Trangthai = 0;
+                currentReceipt.Tanggio = 0;
                 currentReceipt.Thue = 0;
                 currentReceipt.TenHoadon = newRoomName + " " + DateTime.Now.ToString("dd/MM/yy-hh:mm");
                 currentReceipt.Phuthu = 0;
-                currentReceipt.IDNhanvien = 0; 
+
+                currentReceipt.IDNhanvien = Program.IDNhanvien;
+                currentReceipt.IDNhanvienXuatHD = Program.IDNhanvien;
                 currentReceipt.IDKhachhang = 0;
                 currentReceipt.Ghichu = "Chuyen toan bo tu phong "+oldRoomName;
                 currentReceipt.Suco = 1;
@@ -822,6 +827,7 @@ namespace Karaoke.MDIForms
                     Phong updateRoom = new Phong();
                     updateRoom.IDPhong = newRoom;
                     updateRoom.IDLoaiPhong = Convert.ToInt32(gridViewRoom.GetRowCellValue(gridViewRoom.FocusedRowHandle, "IDLoaiPhong"));
+                    updateRoom.Congtac = Convert.ToInt32(gridViewRoom.GetRowCellValue(gridViewRoom.FocusedRowHandle, colCB));
                     updateRoom.TenPhong = Convert.ToString(gridViewRoom.GetRowCellValue(gridViewRoom.FocusedRowHandle, "TenPhong"));
                     updateRoom.Ghichu = Convert.ToString(gridViewRoom.GetRowCellValue(gridViewRoom.FocusedRowHandle, "Ghichu"));
                     updateRoom.Trangthai = true;
