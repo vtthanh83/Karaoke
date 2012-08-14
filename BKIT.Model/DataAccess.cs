@@ -305,6 +305,10 @@ namespace BKIT.Model
         {
             return new HoadonxuatService().getAllHoadonxuatSanpham();
         }
+        public System.Data.DataSet getAllOpeningHoadonxuatSanpham()
+        {
+            return new HoadonxuatService().getAllOpeningHoadonxuatSanpham();
+        }
         public System.Data.DataSet getAllHoadonxuatPhong()
         {
             return new HoadonxuatService().getAllHoadonxuatPhong();

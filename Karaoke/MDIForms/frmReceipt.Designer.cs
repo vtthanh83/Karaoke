@@ -59,7 +59,6 @@
             this.txtReturnMoney = new System.Windows.Forms.TextBox();
             this.numDeposit = new System.Windows.Forms.NumericUpDown();
             this.label15 = new System.Windows.Forms.Label();
-            this.btnJoinRoom = new DevExpress.XtraEditors.SimpleButton();
             this.btnDivideRoom = new DevExpress.XtraEditors.SimpleButton();
             this.btnPrintCooking = new DevExpress.XtraEditors.SimpleButton();
             this.label14 = new System.Windows.Forms.Label();
@@ -179,7 +178,7 @@
             this.gridControlSanPham.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.chkDeleteSanPham,
             this.repositoryItemCheckEdit3});
-            this.gridControlSanPham.Size = new System.Drawing.Size(274, 413);
+            this.gridControlSanPham.Size = new System.Drawing.Size(274, 488);
             this.gridControlSanPham.TabIndex = 3;
             this.gridControlSanPham.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridViewSanPham});
@@ -527,20 +526,6 @@
             this.label15.Size = new System.Drawing.Size(73, 17);
             this.label15.TabIndex = 66;
             this.label15.Text = "Trả trước";
-            // 
-            // btnJoinRoom
-            // 
-            this.btnJoinRoom.Appearance.Options.UseTextOptions = true;
-            this.btnJoinRoom.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
-            this.btnJoinRoom.Image = global::Karaoke.Properties.Resources.rotate270anticlockwise3green;
-            this.btnJoinRoom.ImageLocation = DevExpress.XtraEditors.ImageLocation.TopCenter;
-            this.btnJoinRoom.Location = new System.Drawing.Point(631, 421);
-            this.btnJoinRoom.Name = "btnJoinRoom";
-            this.btnJoinRoom.Size = new System.Drawing.Size(88, 85);
-            this.btnJoinRoom.TabIndex = 64;
-            this.btnJoinRoom.Text = "In Xuất Kho";
-            this.toolTip1.SetToolTip(this.btnJoinRoom, "Cập nhật Hóa đơn");
-            this.btnJoinRoom.Click += new System.EventHandler(this.btnJoinRoom_Click);
             // 
             // btnDivideRoom
             // 
@@ -1236,7 +1221,7 @@
             this.groupControlSanPham.Controls.Add(this.checkDateReceipt);
             this.groupControlSanPham.Location = new System.Drawing.Point(50, 20);
             this.groupControlSanPham.Name = "groupControlSanPham";
-            this.groupControlSanPham.Size = new System.Drawing.Size(282, 465);
+            this.groupControlSanPham.Size = new System.Drawing.Size(282, 540);
             this.groupControlSanPham.TabIndex = 1;
             this.groupControlSanPham.Text = "Sản phẩm";
             this.groupControlSanPham.Visible = false;
@@ -1248,7 +1233,7 @@
             this.panelControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelControl2.Location = new System.Drawing.Point(2, 46);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(278, 417);
+            this.panelControl2.Size = new System.Drawing.Size(278, 492);
             this.panelControl2.TabIndex = 56;
             // 
             // panelControl1
@@ -1352,7 +1337,6 @@
             this.groupControl6.Controls.Add(this.txtHourMoney);
             this.groupControl6.Controls.Add(this.txtProductMoney);
             this.groupControl6.Controls.Add(this.cboRoom);
-            this.groupControl6.Controls.Add(this.btnJoinRoom);
             this.groupControl6.Controls.Add(this.timeDeposit);
             this.groupControl6.Controls.Add(this.label16);
             this.groupControl6.Controls.Add(this.txtReturnMoney);
@@ -1436,7 +1420,6 @@
             this.cboRoom.Name = "cboRoom";
             this.cboRoom.Size = new System.Drawing.Size(108, 24);
             this.cboRoom.TabIndex = 77;
-            
             // 
             // groupControl5
             // 
@@ -1584,7 +1567,6 @@
         private System.Windows.Forms.Label label13;
         private DevExpress.XtraEditors.SimpleButton btnPrintCooking;
         private DevExpress.XtraEditors.SimpleButton btnDivideRoom;
-        private DevExpress.XtraEditors.SimpleButton btnJoinRoom;
         private DevExpress.XtraGrid.Columns.GridColumn colAddSP;
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit3;
         private System.Windows.Forms.Label label15;

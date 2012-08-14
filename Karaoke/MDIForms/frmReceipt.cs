@@ -149,7 +149,7 @@ namespace Karaoke.MDIForms
                 }
                 else
                 {
-                    if (gridViewBillProduct.RowCount > 0)
+                    if (gridViewSanPham.RowCount > 0)
                         rowHandle = 0;
                     else
                         return;
@@ -722,7 +722,7 @@ namespace Karaoke.MDIForms
                 DataSet dsSP = new DataAccess().getChitietHDXuatByID(iCurrentReceiptID);
                 DataSet dsHD = new DataAccess().getHoadonxuatByIDHoadonXuat(iCurrentReceiptID);
                 ChitietHDXuat obj = new ChitietHDXuat();
-
+                int num = 0;
                 for (i = 0; i < dsSP.Tables[0].Rows.Count; i++)
                 {
                     if ((Convert.ToBoolean(dsSP.Tables[0].Rows[i]["Trangthai"]) == false) &&
@@ -737,10 +737,10 @@ namespace Karaoke.MDIForms
                         dr1["ThanhTien"] = Convert.ToDecimal(dsSP.Tables[0].Rows[i]["Thanhtien"]).ToString("###,###,###,###");
 
                         dsBill.Tables["RDatadetail"].Rows.Add(dr1);
-
+                        num = num + 1;
                     }
                 }
-
+                if (num == 0) return;
                 //read Company Information 
                 string strCompanyName = "";
                 string strCompanyAddress = "";
@@ -846,7 +846,7 @@ namespace Karaoke.MDIForms
                 DataSet dsSP = new DataAccess().getChitietHDXuatByID(iCurrentReceiptID);
                 DataSet dsHD = new DataAccess().getHoadonxuatByIDHoadonXuat(iCurrentReceiptID);
                 ChitietHDXuat obj = new ChitietHDXuat();
-
+                int num = 0;
                 for (i = 0; i < dsSP.Tables[0].Rows.Count; i++)
                 {
                     if ((Convert.ToBoolean(dsSP.Tables[0].Rows[i]["Trangthai"]) == false) &&
@@ -862,10 +862,10 @@ namespace Karaoke.MDIForms
                         dr1["ThanhTien"] = Convert.ToDecimal(dsSP.Tables[0].Rows[i]["Thanhtien"]).ToString("###,###,###,###");
 
                         dsBill.Tables["RDatadetail"].Rows.Add(dr1);
-
+                        num = num + 1;
                     }
                 }
-
+                if (num == 0) return;
                 //read Company Information 
                 string strCompanyName = "";
                 string strCompanyAddress = "";
@@ -1020,7 +1020,7 @@ namespace Karaoke.MDIForms
                 dr31["STT"] = (i + 3).ToString();
                 dr31["TenSanPham"] = "KM Đặc biệt";
                 //dr3["DVT"] = ("").ToString();
-                dr31["DonGia"] = numExtra.Value.ToString();
+                dr31["DonGia"] = numReduce.Value.ToString();
                 dr31["Soluong"] = "1";
                 dr31["ThanhTien"] = numReduce.Value.ToString();
                 dr31["Giam"] = "0%";
@@ -1719,6 +1719,12 @@ namespace Karaoke.MDIForms
                     txtReturnMoney.Text = "0";
                     lbGioMP.Text = "00:00";
                     checkBox1.Enabled = false;
+                    cboEmployee.Enabled = false;
+                    cboCustomer.Enabled = false;
+                    numTax.ReadOnly = true;
+                    numExtra.ReadOnly = true;
+                    numReduce.ReadOnly = true;
+                    numDeposit.ReadOnly = true;
                     timeDeposit.Value = new DateTime(DateTime.Now.Year, DateTime.Now.Month,
                             DateTime.Now.Day, 0, 0, 0);
                     timeDeposit.Enabled = false;
@@ -1751,6 +1757,12 @@ namespace Karaoke.MDIForms
                 txtReturnMoney.Text = "0";
                 lbGioMP.Text = "00:00";
                 checkBox1.Enabled = false;
+                cboEmployee.Enabled = false;
+                cboCustomer.Enabled = false;
+                numTax.ReadOnly = true;
+                numExtra.ReadOnly = true;
+                numReduce.ReadOnly = true;
+                numDeposit.ReadOnly = true;
                 timeDeposit.Value = new DateTime(DateTime.Now.Year, DateTime.Now.Month,
                         DateTime.Now.Day, 0, 0, 0);
                 timeDeposit.Enabled = false;
@@ -1841,13 +1853,51 @@ namespace Karaoke.MDIForms
                 }
                 string strtime = "Ngày " + Convert.ToDateTime(dsBill.Tables[0].Rows[0]["Ngayxuat"]).ToShortDateString();
                 strtime = strtime + " - Bắt đầu lúc " + Convert.ToDateTime(dsBill.Tables[0].Rows[0]["GioBD"]).ToShortTimeString();
-                lbStatus.Text = strtime;
+                
+                switch (status)
+                {
+                    case (int)ReceiptStatus.Open:
+                        lbStatus.BackColor = Color.Yellow;
+                        lbStatus.Text = "Phòng đang vận hành - "+strtime;
+                        break;
+                    case (int)ReceiptStatus.Printed:
+                        lbStatus.BackColor = Color.Cyan;
+                        lbStatus.Text = "Đã in hóa đơn - " + strtime;
+                        break;
+                    case (int)ReceiptStatus.Paid:
+                        lbStatus.BackColor = Color.Aqua;
+                        lbStatus.Text = "Đã thanh toán - " + strtime;
+                        break;
+                    default:
+                        lbStatus.BackColor = Color.Pink;
+                        lbStatus.Text = "Trạng thái phòng không hợp lệ";
+                        break;
+                }
                 lbGioMP.Text = currentReceipt.GioBD.ToString("hh:mm");
                 TimeSpan ts = currentReceipt.GioKT.Subtract(Convert.ToDateTime(dsBill.Tables[0].Rows[0]["GioBD"]));
                 int playmin = ts.Hours * 60 + ts.Minutes;
                 roomMoney = playmin * (currentReceipt.IDGiaLoaiphong * (100 - Convert.ToInt32(dsBill.Tables[0].Rows[0]["Giam"])) / 6000);
                 txtHourMoney.Text = roomMoney.ToString("###,###,###,##0");
                 txtTotalHour.Text = ts.Hours.ToString("00") + "g" + ts.Minutes.ToString("00") + "p";
+                //enable/disable control
+                if ((status == (int)ReceiptStatus.Open) || (Program.userLevel == Level.Admin))
+                {
+                    cboEmployee.Enabled = true;
+                    cboCustomer.Enabled = true;
+                    numTax.ReadOnly = false;
+                    numExtra.ReadOnly = false;
+                    numReduce.ReadOnly = false;
+                    numDeposit.ReadOnly = false;
+                }
+                else
+                {
+                    cboEmployee.Enabled = false;
+                    cboCustomer.Enabled = false;
+                    numTax.ReadOnly = true;
+                    numExtra.ReadOnly = true;
+                    numReduce.ReadOnly = true;
+                    numDeposit.ReadOnly = true;
+                }
             }/*
             else
             {

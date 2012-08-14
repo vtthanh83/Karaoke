@@ -75,6 +75,7 @@ namespace BKIT.Model
         System.Data.DataSet getSoLuongSPBanRa();
 		System.Data.DataSet getAllHoadonxuatSanpham();
         System.Data.DataSet getAllHoadonxuatPhong();
+        System.Data.DataSet getAllOpeningHoadonxuatSanpham();
         Hoadonxuat getHoadonxuatByID(int ID);
 
         int insertNhanvien(Nhanvien objNhanvien);

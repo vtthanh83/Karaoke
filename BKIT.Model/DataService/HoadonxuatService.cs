@@ -144,6 +144,25 @@ namespace BKIT.Model.DataService
                 return null;
             }
         }
+        public System.Data.DataSet getAllOpeningHoadonxuatSanpham()
+        {
+            Database db = DatabaseFactory.CreateDatabase();
+            string sqlCommand = "SELECT Hoadonxuat.IDHoadonXuat, Hoadonxuat.TenHoadon, Hoadonxuat.Ngayxuat, Hoadonxuat.IDNhanvien, Hoadonxuat.GioBD, Hoadonxuat.GioKT, Hoadonxuat.Tratruoc, Hoadonxuat.Phuthu, Hoadonxuat.Thue, IIf([Trangthai]=0,'Mở',IIf([Trangthai]=3,'Ðã in HÐ','Đã thu tiền')) AS Tinhtrang, Hoadonxuat.IDKhachhang, Hoadonxuat.Suco, 1 AS DeleteHDXuat, Hoadonxuat.Trangthai " +
+                                "FROM Hoadonxuat " +
+                                "WHERE (((Hoadonxuat.[IDPhong])<0) AND ((Hoadonxuat.Trangthai)=0)) OR (((Hoadonxuat.Trangthai)=3)) OR (((Hoadonxuat.Trangthai)=4));";
+
+            try
+            {
+                DbCommand dbCommand = db.GetSqlStringCommand(sqlCommand);
+                DataSet ds = db.ExecuteDataSet(dbCommand);
+                dbCommand.Connection.Close();
+                return ds;
+            }
+            catch
+            {
+                return null;
+            }
+        }
         public System.Data.DataSet getAllHoadonxuatPhong()
         {
             Database db = DatabaseFactory.CreateDatabase();
